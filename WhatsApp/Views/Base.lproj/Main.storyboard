@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="CZ3-cV-dff">
-    <device id="retina4_7" orientation="portrait" appearance="dark"/>
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
@@ -84,8 +84,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to WhatsApp" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f2i-kf-0VN">
-                                <rect key="frame" x="28" y="315.5" width="319.5" height="36"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <rect key="frame" x="32" y="315.5" width="311" height="36"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -183,45 +183,86 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fNO-rx-Hoa" userLabel="CodeView">
-                                <rect key="frame" x="62.5" y="277" width="250" height="50"/>
+                                <rect key="frame" x="47.5" y="277" width="280" height="50"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kA8-GY-FIZ" customClass="FPNTextField" customModule="FlagPhoneNumber">
-                                        <rect key="frame" x="0.0" y="-54" width="250" height="34"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kA8-GY-FIZ" customClass="FPNTextField" customModule="FlagPhoneNumber">
+                                        <rect key="frame" x="0.0" y="0.0" width="280" height="50"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
+                                    <constraint firstItem="kA8-GY-FIZ" firstAttribute="top" secondItem="fNO-rx-Hoa" secondAttribute="top" id="1p8-gS-EPm"/>
                                     <constraint firstAttribute="height" constant="50" id="4a0-dc-LVd"/>
                                     <constraint firstAttribute="trailing" secondItem="kA8-GY-FIZ" secondAttribute="trailing" id="641-Eb-W9r"/>
-                                    <constraint firstAttribute="width" constant="250" id="VHH-4s-Wtw"/>
+                                    <constraint firstAttribute="width" constant="280" id="VHH-4s-Wtw"/>
                                     <constraint firstItem="kA8-GY-FIZ" firstAttribute="leading" secondItem="fNO-rx-Hoa" secondAttribute="leading" id="ZoV-hA-xd1"/>
+                                    <constraint firstAttribute="bottom" secondItem="kA8-GY-FIZ" secondAttribute="bottom" id="dm7-2c-eTC"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wb5-Nr-3gt">
+                                <rect key="frame" x="20" y="407" width="335" height="50"/>
+                                <color key="backgroundColor" name="GREEN"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="vWk-AY-oXO"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Verify">
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="18"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="verifyBtn:" destination="fER-gH-xLn" eventType="touchUpInside" id="j0X-Pp-t9A"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cgO-ZD-ynX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="fNO-rx-Hoa" firstAttribute="top" secondItem="Uns-fg-3xz" secondAttribute="bottom" constant="30" id="2g3-w6-9eU"/>
                             <constraint firstItem="Uns-fg-3xz" firstAttribute="top" secondItem="OkK-8w-FbK" secondAttribute="bottom" constant="50" id="8wd-sN-JFi"/>
+                            <constraint firstAttribute="trailing" secondItem="wb5-Nr-3gt" secondAttribute="trailing" constant="20" id="Enj-ss-snb"/>
                             <constraint firstItem="fNO-rx-Hoa" firstAttribute="centerX" secondItem="zEL-qX-4fd" secondAttribute="centerX" id="KGJ-pP-AcH"/>
+                            <constraint firstItem="wb5-Nr-3gt" firstAttribute="top" secondItem="fNO-rx-Hoa" secondAttribute="bottom" constant="80" id="VPO-qv-kut"/>
                             <constraint firstItem="cgO-ZD-ynX" firstAttribute="trailing" secondItem="OkK-8w-FbK" secondAttribute="trailing" constant="25" id="cZW-1j-wID"/>
                             <constraint firstItem="OkK-8w-FbK" firstAttribute="top" secondItem="cgO-ZD-ynX" secondAttribute="top" constant="50" id="chr-7U-ItH"/>
                             <constraint firstItem="Uns-fg-3xz" firstAttribute="centerX" secondItem="zEL-qX-4fd" secondAttribute="centerX" id="fUR-ZS-fmA"/>
                             <constraint firstItem="OkK-8w-FbK" firstAttribute="centerX" secondItem="zEL-qX-4fd" secondAttribute="centerX" id="nx1-3p-a0g"/>
+                            <constraint firstItem="wb5-Nr-3gt" firstAttribute="leading" secondItem="cgO-ZD-ynX" secondAttribute="leading" constant="20" id="qw4-Jw-igR"/>
                             <constraint firstItem="OkK-8w-FbK" firstAttribute="leading" secondItem="cgO-ZD-ynX" secondAttribute="leading" constant="25" id="tCZ-ij-W8a"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Enter Phone Number" id="4jj-dz-CGf"/>
                     <connections>
-                        <outlet property="countryCodeTF" destination="kA8-GY-FIZ" id="1ZM-je-ZoG"/>
                         <outlet property="countryPV" destination="Uns-fg-3xz" id="zg4-Ah-xWJ"/>
+                        <outlet property="phoneNoTF" destination="kA8-GY-FIZ" id="1ZM-je-ZoG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aHZ-g3-D5N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3612" y="-19.340329835082461"/>
+        </scene>
+        <!--Otp VerificationVC-->
+        <scene sceneID="i6z-cx-hTY">
+            <objects>
+                <viewController storyboardIdentifier="OtpVerificationVC" id="hoV-T4-k09" customClass="OtpVerificationVC" customModule="WhatsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kmk-AQ-m0m">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="BTZ-uW-FBe"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QFS-Yi-HCG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XPM-EZ-8YW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5372" y="-19.340329835082461"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="9dc-4J-zui">
@@ -262,6 +303,28 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JV5-9b-yVb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2672.8000000000002" y="-19.340329835082461"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="8MR-yc-HP8">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Tzu-gs-qlh" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Gm7-02-Ib2">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                            <color key="textColor" name="GREEN"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="hoV-T4-k09" kind="relationship" relationship="rootViewController" id="Cqy-0H-Q4e"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CND-SJ-ZNp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4432.8000000000002" y="-19.340329835082461"/>
         </scene>
     </scenes>
     <resources>

@@ -28,5 +28,15 @@ extension UITextField {
    self.borderStyle = .none
    self.layer.addSublayer(bottomline)
  }
-
 }
+
+
+extension UIViewController {
+  func alertMessage(message: String) {
+    let alert = UIAlertController(title: "WhatsApp", message: message, preferredStyle: .alert)
+    alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+    present(alert, animated: true, completion: nil)
+  }
+}
+
+
