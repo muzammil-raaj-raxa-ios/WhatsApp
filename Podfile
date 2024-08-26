@@ -8,6 +8,7 @@ target 'WhatsApp' do
 pod 'CountryPickerView'
 pod 'FlagPhoneNumber'
 pod 'IQKeyboardManager'
+pod 'OTPTextField'
 
   # Pods for WhatsApp
 

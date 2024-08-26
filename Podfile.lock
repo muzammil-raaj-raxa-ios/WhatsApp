@@ -4,23 +4,27 @@ PODS:
     - FlagPhoneNumber/libPhoneNumberiOS (= 0.8.0)
   - FlagPhoneNumber/libPhoneNumberiOS (0.8.0)
   - IQKeyboardManager (6.5.18)
+  - OTPTextField (1.1.5)
 
 DEPENDENCIES:
   - CountryPickerView
   - FlagPhoneNumber
   - IQKeyboardManager
+  - OTPTextField
 
 SPEC REPOS:
   trunk:
     - CountryPickerView
     - FlagPhoneNumber
     - IQKeyboardManager
+    - OTPTextField
 
 SPEC CHECKSUMS:
   CountryPickerView: 6322ada32a80b0cd721b0267282a5c24f406f263
   FlagPhoneNumber: 3712455b95f66cb0f2016fef7d9e34cddf8c7f9a
   IQKeyboardManager: 67f92bb29b650c094c40bd11c0545b47bdd25c5b
+  OTPTextField: 9d35010a6356972471298aea37bf8d6d5f9974f7
 
-PODFILE CHECKSUM: ae02a20325cbbc88ef0252a19e200e51008aa12f
+PODFILE CHECKSUM: 86d16e913038d9aed781e5c1c17a0399dd4220f7
 
 COCOAPODS: 1.15.2

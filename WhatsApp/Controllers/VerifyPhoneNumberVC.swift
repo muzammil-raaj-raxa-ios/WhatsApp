@@ -14,19 +14,20 @@ protocol getPhoneNumberDelegate: AnyObject {
 }
 
 class VerifyPhoneNumberVC: UIViewController {
-
+  
   @IBOutlet weak var phoneNoTF: FPNTextField!
   @IBOutlet weak var countryPV: CountryPickerView!
   
   weak var delegate: getPhoneNumberDelegate?
   
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-      self.navigationItem.setHidesBackButton(true, animated: true)
-      setupCountryPickerView()
-      setupPhoneNoTF()
-    }
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    
+    self.navigationItem.setHidesBackButton(true, animated: true)
+    setupCountryPickerView()
+    setupPhoneNoTF()
+    countryPV.setCountryByCode("PK")
+  }
   
   
   @IBAction func verifyBtn(_ sender: Any) {
@@ -47,12 +48,12 @@ class VerifyPhoneNumberVC: UIViewController {
   }
   
   func setupCountryPickerView() {
-    countryPV.setCountryByName("PAK")
+    countryPV.setCountryByCode("PK")
     countryPV.showCountryNameInView = true
     countryPV.showPhoneCodeInView = false
     countryPV.textColor = UIColor.label
     countryPV.countryDetailsLabel.textAlignment = .center
-    countryPV.addBottomBorderView()
+    countryPV.addBottomBorderView(color: UIColor.GREEN)
     countryPV.delegate = self
   }
   
@@ -61,8 +62,9 @@ class VerifyPhoneNumberVC: UIViewController {
     phoneNoTF.textColor = .label
     phoneNoTF.addBottomBorderTF()
     phoneNoTF.placeholder = "Enter you mobile number"
+    phoneNoTF.becomeFirstResponder()
   }
-
+  
 }
 
 extension VerifyPhoneNumberVC: CountryPickerViewDelegate {

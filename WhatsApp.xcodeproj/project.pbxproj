@@ -16,6 +16,7 @@
 		369926842C79F29A00A96177 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 369926832C79F29A00A96177 /* Base */; };
 		3699268C2C79FB6900A96177 /* TermsAndServicesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3699268B2C79FB6900A96177 /* TermsAndServicesVC.swift */; };
 		369926902C7A3D2D00A96177 /* VerifyPhoneNumberVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3699268F2C7A3D2D00A96177 /* VerifyPhoneNumberVC.swift */; };
+		369AE1112C7C97170034EFC4 /* ProfileInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369AE1102C7C97170034EFC4 /* ProfileInfoVC.swift */; };
 		36B9C0032C7B15F000F71E99 /* OtpVerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B9C0022C7B15F000F71E99 /* OtpVerificationVC.swift */; };
 		551FC33DE16517EF9075D8E6 /* Pods_WhatsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75ABEC09B88C52B26B13BC1B /* Pods_WhatsApp.framework */; };
 /* End PBXBuildFile section */
@@ -32,6 +33,7 @@
 		369926852C79F29A00A96177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3699268B2C79FB6900A96177 /* TermsAndServicesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndServicesVC.swift; sourceTree = "<group>"; };
 		3699268F2C7A3D2D00A96177 /* VerifyPhoneNumberVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyPhoneNumberVC.swift; sourceTree = "<group>"; };
+		369AE1102C7C97170034EFC4 /* ProfileInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoVC.swift; sourceTree = "<group>"; };
 		36B9C0022C7B15F000F71E99 /* OtpVerificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpVerificationVC.swift; sourceTree = "<group>"; };
 		40490AE675ADE55622B30738 /* Pods-WhatsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsApp.release.xcconfig"; path = "Target Support Files/Pods-WhatsApp/Pods-WhatsApp.release.xcconfig"; sourceTree = "<group>"; };
 		75ABEC09B88C52B26B13BC1B /* Pods_WhatsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,10 +95,11 @@
 		3699268D2C79FB7200A96177 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3699268B2C79FB6900A96177 /* TermsAndServicesVC.swift */,
 				3699267B2C79F29800A96177 /* ViewController.swift */,
+				3699268B2C79FB6900A96177 /* TermsAndServicesVC.swift */,
 				3699268F2C7A3D2D00A96177 /* VerifyPhoneNumberVC.swift */,
 				36B9C0022C7B15F000F71E99 /* OtpVerificationVC.swift */,
+				369AE1102C7C97170034EFC4 /* ProfileInfoVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 				369224562C7A4F6800951AA2 /* Constants.swift in Sources */,
 				3699267C2C79F29800A96177 /* ViewController.swift in Sources */,
 				369926782C79F29800A96177 /* AppDelegate.swift in Sources */,
+				369AE1112C7C97170034EFC4 /* ProfileInfoVC.swift in Sources */,
 				3699268C2C79FB6900A96177 /* TermsAndServicesVC.swift in Sources */,
 				36B9C0032C7B15F000F71E99 /* OtpVerificationVC.swift in Sources */,
 				3699267A2C79F29800A96177 /* SceneDelegate.swift in Sources */,
@@ -400,8 +404,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -431,8 +435,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

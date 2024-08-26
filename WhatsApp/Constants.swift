@@ -10,10 +10,10 @@ import UIKit
 
 extension UIView {
 
- func addBottomBorderView() {
+  func addBottomBorderView(color: UIColor) {
    let bottomline = CALayer()
-   bottomline.frame = CGRect(x: 0, y: self.frame.size.height-1, width: self.frame.size.width, height: 1)
-   bottomline.backgroundColor = UIColor.GREEN.cgColor
+   bottomline.frame = CGRect(x: 0, y: self.frame.size.height - 1, width: self.frame.size.width, height: 1)
+    bottomline.backgroundColor = color.cgColor
    self.layer.addSublayer(bottomline)
  }
 

@@ -7,279 +7,301 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		014014F78C4B1EC4431614CFBF3F429A /* IQKeyboardReturnKeyHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = F499D1D464D58DAA4CD9A2C67D827B53 /* IQKeyboardReturnKeyHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		02B1C78D251F083443456460670FED57 /* IQToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = C151460BA24B6F4F3A4289B44E4DF15C /* IQToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		014014F78C4B1EC4431614CFBF3F429A /* IQKeyboardReturnKeyHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C7674EB84CB4419215A20D1AC24509E /* IQKeyboardReturnKeyHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02B1C78D251F083443456460670FED57 /* IQToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 716CD1AA6FD2AB9D9CD01EFBA1D7ECB9 /* IQToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07199742C0CD92146BBB55F18D84268B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
-		082BECFB2F0529EF02FDDD6EBC1D7D8C /* NBRegularExpressionCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 89623A56057AB67AB1E56514688625B6 /* NBRegularExpressionCache.m */; };
-		09BA80F935D6433F052A87E853F0CC7B /* FPNCountryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91764821B6EF3341585EB4EB8E7C970 /* FPNCountryCode.swift */; };
-		0AB30E1947C9594A8E16CB500329AF62 /* NBPhoneNumberUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C737EE3D33FFE09B4886728CDC132BB /* NBPhoneNumberUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D295095DB64E6D4983ADF2F454DE573 /* NBPhoneNumberUtil+ShortNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 96B32B64C81DC2675321AD8AE59CE00F /* NBPhoneNumberUtil+ShortNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0FD5DE6B7A2434084A12E1FEF5D69435 /* NBAsYouTypeFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = FFA1EAF0AF25E3A6145459557C6F99A8 /* NBAsYouTypeFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		082BECFB2F0529EF02FDDD6EBC1D7D8C /* NBRegularExpressionCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA697A115ACCADBEEC7FD743FFE515C /* NBRegularExpressionCache.m */; };
+		09BA80F935D6433F052A87E853F0CC7B /* FPNCountryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A75F1E1F142B2B66701138A865BEAD2 /* FPNCountryCode.swift */; };
+		0AB30E1947C9594A8E16CB500329AF62 /* NBPhoneNumberUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F82149D971D36564BDC56A10AF1ADEF6 /* NBPhoneNumberUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D295095DB64E6D4983ADF2F454DE573 /* NBPhoneNumberUtil+ShortNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F8B038C5B2B9C8E1A9386245B076C1B /* NBPhoneNumberUtil+ShortNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FD5DE6B7A2434084A12E1FEF5D69435 /* NBAsYouTypeFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 24D623E63D8D0E8D82C81C2970F12EF8 /* NBAsYouTypeFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15D3E2CA3E7BC6AE263A9D80622318B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
-		16CEB28A545C8568FC889BCA2A3689EF /* NBMetadataHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2860C425FFB2ED4495D1BE791CD289FD /* NBMetadataHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2071C1BF1EF3595212294FBFABCFAB5E /* IQUIScrollView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 39F57B65C20178333C9FCD90517A21F1 /* IQUIScrollView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		235753E1964888C68DA0D95861369860 /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3BE5F7FA3745167321980CB882293C /* NibView.swift */; };
-		2405A5A86B88DBAC3EC6EC20E20B246A /* NBPhoneNumberDesc.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E91DFA989CBE796CD6981A894A30454 /* NBPhoneNumberDesc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24A85FAB3EAD323E80F849B0E77DACEA /* FPNFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96ED60F9300B94F7640166C02AE8F /* FPNFormat.swift */; };
-		25535EF5C82FB16868360CB8D8C91470 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 254EBE74A244D39D408BD4CEB0D03F99 /* IQKeyboardManager.m */; };
+		16CEB28A545C8568FC889BCA2A3689EF /* NBMetadataHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0D81812A5A66728D3181B4C57EBDF9 /* NBMetadataHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FEAA32CC10E7F96D85796A1651A5381 /* CountryPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC1CCA10E4E77AF1D2DE8A0894F97E9E /* CountryPickerView.xib */; };
+		2071C1BF1EF3595212294FBFABCFAB5E /* IQUIScrollView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 62E518A609CA23DCFCAB0F5B2147A4E8 /* IQUIScrollView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		235753E1964888C68DA0D95861369860 /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9088F1CC91061D39C978978DEE062AF2 /* NibView.swift */; };
+		2405A5A86B88DBAC3EC6EC20E20B246A /* NBPhoneNumberDesc.h in Headers */ = {isa = PBXBuildFile; fileRef = 34FFF33F90270E1839644DB732B57FEE /* NBPhoneNumberDesc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24A85FAB3EAD323E80F849B0E77DACEA /* FPNFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74ABA0BE7949395F1B0F2B2D77921A1 /* FPNFormat.swift */; };
+		25535EF5C82FB16868360CB8D8C91470 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4D4AA0FCDDC50F75560A3822067AA3 /* IQKeyboardManager.m */; };
 		26666110EDDA244F2FCDAD126BD9DB13 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42DBD2F42D55606EEBA514009498B87 /* QuartzCore.framework */; };
-		26726C36F077800D0DFFAB54C882DE9D /* IQUIViewController+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ED8B03E876A988EFAB3CCE476FA7A87 /* IQUIViewController+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CBE1394306698672011D93CBCC1A30B /* NBPhoneMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = 573715C30B43B732E9B35A01E0B4CA6E /* NBPhoneMetaData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30527ED48ADA9326648216F95C7D8363 /* IQKeyboardManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DF2F90F8AE0923D3584AF758573CF2 /* IQKeyboardManager-dummy.m */; };
-		306B5C828E365AE9CAE31879BFA51404 /* NBPhoneNumberUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D128DE1780BD491420C39C8163DF8F65 /* NBPhoneNumberUtil.m */; };
-		36769219812863352EAD9A023D7CD110 /* NBNumberFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C9C89614E1BD53B7B24506E8D5EABE /* NBNumberFormat.m */; };
-		374C513A7B1D0CA1EC30CB219255924A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 41474259B73057B6CCB6F3575A7E9251 /* PrivacyInfo.xcprivacy */; };
-		3DE53F0AAF6AC0F1649F5557D005E94A /* Pods-WhatsApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C6E489DACC2E169F6DDCF831717DC /* Pods-WhatsApp-dummy.m */; };
-		3DF543DA392092E8AF0D537C00BB9291 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
-		3F1EEB44A05489A1956820CA6153E14F /* IQKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B25F6D58718C95FCA6DFEBF5673CC447 /* IQKeyboardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FDCB355346F9831636DE0992226FD83 /* IQUITextFieldView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = C5249082B21D321F11150593870B1A07 /* IQUITextFieldView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4086DD1C562716BEEC66AD025A22F94D /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFA399CBD38A7C2752770B8926D995D /* IQUIViewController+Additions.m */; };
-		47857B9C99D27CA560A780D28D4A8D47 /* IQNSArray+Sort.h in Headers */ = {isa = PBXBuildFile; fileRef = C47FDE5E53E108A4F115354799C314C5 /* IQNSArray+Sort.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4A5A6CC7A589811F5DB4DA32B8C6F52D /* NBPhoneNumberUtil+ShortNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A9F7147B31CFDAF166AC2E924D2357 /* NBPhoneNumberUtil+ShortNumber.m */; };
-		4D926C48BB6F30E0377E125CBD4E6CFB /* FPNCountryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 628D38F5F4833224958F38B8B81B755A /* FPNCountryView.xib */; };
-		5202A415ECA7DD269C6A13521D00C465 /* FPNUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CBA194C8EA41F73B1C784E9BEE95A6 /* FPNUtils.swift */; };
-		52AAFAE075BE27ECA0ADF781A9A2E351 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AF182E94606B9C272ACE90B43A585D /* Bundle.swift */; };
-		52E27DD1EB9069FE32F07DC519501016 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0442247DED07620162440C726713BBC4 /* IQTextView.m */; };
-		532685419365EAACAF8A3386E5CFF35F /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B07FCF3882BBBC84B3EE70EFC27560 /* IQUITextFieldView+Additions.m */; };
-		5374FFA7AE077E2998600B5EB9995224 /* FPNOBJCCountryKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1949F00B3263459082EB229B5DADC3 /* FPNOBJCCountryKey.swift */; };
-		5A36EC9DDB56E7F0367C19DCB4156AF2 /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC22F755256E29046C3F47AA231CFE3 /* IQPreviousNextView.m */; };
-		60A20CA162F4C986ECCBC795C6BA6998 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3434C0221F960D9EA765B29E25628F73 /* IQBarButtonItem.m */; };
+		26726C36F077800D0DFFAB54C882DE9D /* IQUIViewController+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 335D4FC83D92E9BA96EE80C68F6717D1 /* IQUIViewController+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29C993BD9B155907CAE1CE5AED061ED0 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 80FBED95CEF730C9EFBB1C04CDE91F08 /* Images */; };
+		2CBE1394306698672011D93CBCC1A30B /* NBPhoneMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A32BF1B7A3D02844123C4C43577DBA2 /* NBPhoneMetaData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30527ED48ADA9326648216F95C7D8363 /* IQKeyboardManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0474A052C9BD1F73B1BE229E479D678E /* IQKeyboardManager-dummy.m */; };
+		306B5C828E365AE9CAE31879BFA51404 /* NBPhoneNumberUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F67273AC7F8794530B4704E490E61D4 /* NBPhoneNumberUtil.m */; };
+		36769219812863352EAD9A023D7CD110 /* NBNumberFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 642FC29752DC56EC287894BC3996C582 /* NBNumberFormat.m */; };
+		3F1EEB44A05489A1956820CA6153E14F /* IQKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B4A644CCAA9BF334936EF15ACCC8DBC /* IQKeyboardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F3441917A9B37B7D440C595427DE043 /* Pods-WhatsApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F564FDF3C092A0A1373C38CFE29686F4 /* Pods-WhatsApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FDCB355346F9831636DE0992226FD83 /* IQUITextFieldView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 447AC14ED969E1C6A8915F59A110882B /* IQUITextFieldView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4086DD1C562716BEEC66AD025A22F94D /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E615F8C99ED1BAF42C90DEBC608F34 /* IQUIViewController+Additions.m */; };
+		47857B9C99D27CA560A780D28D4A8D47 /* IQNSArray+Sort.h in Headers */ = {isa = PBXBuildFile; fileRef = E656324252A5FDEE79E9291BF5438A9A /* IQNSArray+Sort.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4A5A6CC7A589811F5DB4DA32B8C6F52D /* NBPhoneNumberUtil+ShortNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B89217DF62EA287175BDA8968CE015 /* NBPhoneNumberUtil+ShortNumber.m */; };
+		5202A415ECA7DD269C6A13521D00C465 /* FPNUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D80B8F626EE26BAE1D53EDD28C6AF3 /* FPNUtils.swift */; };
+		52AAFAE075BE27ECA0ADF781A9A2E351 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A524FD88C95E8B38DC30A382D2D8FB /* Bundle.swift */; };
+		52E27DD1EB9069FE32F07DC519501016 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F0AFF694E336E781CC7459F05F79A3 /* IQTextView.m */; };
+		532685419365EAACAF8A3386E5CFF35F /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = A07F711D03C40FC6567E2983EE55232C /* IQUITextFieldView+Additions.m */; };
+		5374FFA7AE077E2998600B5EB9995224 /* FPNOBJCCountryKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BE09BE464FEE0271E204C9A2CA6FB4 /* FPNOBJCCountryKey.swift */; };
+		58966C48D625526B0D77C55023DD2634 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
+		5A36EC9DDB56E7F0367C19DCB4156AF2 /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F8253F0EC789474B166A150AC237D7 /* IQPreviousNextView.m */; };
+		60A20CA162F4C986ECCBC795C6BA6998 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D37F6ECB47186D4AEACAE90B6A0D4F /* IQBarButtonItem.m */; };
+		676A3FDBA5D16D756912F0B1D5A98931 /* OTPTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB742BC5E80719837A8FF11E5B247316 /* OTPTextField-dummy.m */; };
 		67A9FEA243EAA11139BEA6208D7AFB6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D60AC13D33197690A05C641925DDDA /* UIKit.framework */; };
-		687CE862203646EA92B2733BB8159202 /* IQUIView+IQKeyboardToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = FBFB3E31D457AF345A115DAC9AFD9C2A /* IQUIView+IQKeyboardToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69BE2AFC237F2F3D8287572E4799ED8C /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F4F70909AA3355988C365C80B6C0DE /* IQKeyboardReturnKeyHandler.m */; };
-		6BB8C251E05FFFCE63EDE1B332052525 /* NBPhoneNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 656B91CA308DB6AE05CCF81C0B5C34E4 /* NBPhoneNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6EE511CAC3880DE45AAA93C26A93F90F /* FPNCountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684C5052B9D6EAA134A8DA7899A1200C /* FPNCountryPicker.swift */; };
-		7085A7CD455216302F74525F066665C9 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 14D6C91CD7A921BC74A41D789C9A3907 /* Images */; };
-		7230FB44D9926187534CCED4102120A0 /* NBPhoneMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = D226B199D629F99E8545235229CDDA62 /* NBPhoneMetaData.m */; };
+		687CE862203646EA92B2733BB8159202 /* IQUIView+IQKeyboardToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = A40027E670B0C2B724E63C787DDB13C2 /* IQUIView+IQKeyboardToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69BE2AFC237F2F3D8287572E4799ED8C /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FB99DE9EFC8ABBBC4C99C9A8456A4561 /* IQKeyboardReturnKeyHandler.m */; };
+		6BB8C251E05FFFCE63EDE1B332052525 /* NBPhoneNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = FC8C1F6EF71368657FDD1E5DD5447227 /* NBPhoneNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EE511CAC3880DE45AAA93C26A93F90F /* FPNCountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9ACC1F03D9E89034E000E909437C26 /* FPNCountryPicker.swift */; };
+		7230FB44D9926187534CCED4102120A0 /* NBPhoneMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9F22F170004A75D32702187AECC707 /* NBPhoneMetaData.m */; };
 		775ECDB2DD1386B1C5DDDF5EFF4FDCF0 /* FlagPhoneNumber-FlagPhoneNumber in Resources */ = {isa = PBXBuildFile; fileRef = 371C108BF7353BAC24E9BF93EE2E499C /* FlagPhoneNumber-FlagPhoneNumber */; };
-		7ADEAC1BFEBFCF1CADF1C253537F1394 /* CountryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CBA04774FF1386F93B9E66527BF0C3 /* CountryPickerView.swift */; };
-		7BAE99FA1D2E2C7D903587E67BC9B593 /* CountryPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAACD13BA47E65901E3347D5D2ED30C /* CountryPickerViewController.swift */; };
-		7E590628DC0665E96E360681A440CCE7 /* CountryPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB639FAB0990C5CB921FC941CE4A36E2 /* CountryPickerView.xib */; };
-		7F37541B413DB0BC2F271BF4153837FC /* IQKeyboardManagerConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = DABD271522CB80B56E9B92B141675DCF /* IQKeyboardManagerConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		81A18089AB8026183CB27BD0F4CFDBF3 /* CountryPickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75ACDE24491F18C4F311103A9088F6D9 /* CountryPickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ADEAC1BFEBFCF1CADF1C253537F1394 /* CountryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CEE11E22F07242122AA26E1D2A5C98 /* CountryPickerView.swift */; };
+		7BAE99FA1D2E2C7D903587E67BC9B593 /* CountryPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54696E00ECFB9B7782633028955842E /* CountryPickerViewController.swift */; };
+		7C8EB9674CCB8121351D9B946A2F4413 /* OTPTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CBFBD4EAAF8C6FE2886EFFF63ABCC4 /* OTPTextField.m */; };
+		7F37541B413DB0BC2F271BF4153837FC /* IQKeyboardManagerConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 430EDFEEA18EC37A572F326ECAD00C99 /* IQKeyboardManagerConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81A18089AB8026183CB27BD0F4CFDBF3 /* CountryPickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D3034C41D2E36410550371E5FFB898D /* CountryPickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		827542C01CF865F134E74BEFDA513C96 /* CountryPickerView-CountryPickerView_CountryPickerView in Resources */ = {isa = PBXBuildFile; fileRef = 920624790A09310F9E506BCF1D4CC9E7 /* CountryPickerView-CountryPickerView_CountryPickerView */; };
-		8FB40C7A9CEA90D4EA2B1FF3522B69BA /* NBGeneratedPhoneNumberMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = 64CD29351D8546F5CFFF66BCA9175D99 /* NBGeneratedPhoneNumberMetaData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90D71380492E142AB371E6E30B2A489F /* NSArray+NBAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD68CD340647CCFB213AC5E14E708C9 /* NSArray+NBAdditions.m */; };
-		92C09FA45CFD5BFB8C384A3269207A95 /* FPNCountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20EB1D4193645BC17F55A6762A38352 /* FPNCountryView.swift */; };
-		93832DC881CFE16EA78BFAE0175FF6A5 /* FPNCountryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BA5BB87A4866189BB376EBC758D518 /* FPNCountryListViewController.swift */; };
-		93C7C0DDF3CE010D3F891DBBA4275F98 /* FPNCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1589E9B2A699DC83EDADBB0192AD07 /* FPNCountry.swift */; };
-		941B70D1D9818C99819B990A685F5DA9 /* Delegate+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116F32BC0BEC329712066EE14BB1FD8B /* Delegate+DataSource.swift */; };
+		8FB40C7A9CEA90D4EA2B1FF3522B69BA /* NBGeneratedPhoneNumberMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = 7841C3E82E6EE69390C3614A43735C97 /* NBGeneratedPhoneNumberMetaData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90D71380492E142AB371E6E30B2A489F /* NSArray+NBAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA9E74CC6BA6303B45B8A0E9037B65D /* NSArray+NBAdditions.m */; };
+		92C09FA45CFD5BFB8C384A3269207A95 /* FPNCountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EE20AFCCDD489A28835B1B534162AE /* FPNCountryView.swift */; };
+		93832DC881CFE16EA78BFAE0175FF6A5 /* FPNCountryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC8293D0DA9E2A6229E1E20AD0BA8E /* FPNCountryListViewController.swift */; };
+		93C7C0DDF3CE010D3F891DBBA4275F98 /* FPNCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D856010E2BCE88578818FB1AA5223C3 /* FPNCountry.swift */; };
+		941B70D1D9818C99819B990A685F5DA9 /* Delegate+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A9562938316FCA09434A11C342CFFE /* Delegate+DataSource.swift */; };
 		964FD3739E0AD429574C8CD23FB92027 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
-		9853AA203CC30AD5C36E609A5AFFFB91 /* IQKeyboardManagerConstantsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 15ACF66FDC1DC6FDA649D8AB09CC2A3D /* IQKeyboardManagerConstantsInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A00993110AB4A59FB2C48FB3ACABD7AF /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A49845F06587E92C2724AAF432DB97D /* IQUIView+IQKeyboardToolbar.m */; };
-		A10D9C3BFF5548E082065AE59F923E10 /* countryCodes.json in Resources */ = {isa = PBXBuildFile; fileRef = 5360DF9CA0831D7105B41AE20F21DB1F /* countryCodes.json */; };
-		A59D379D21A2352A9665371A3B49B83A /* IQTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 04892852A26D060FF978B42CD520B8E7 /* IQTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96743F67C99C55A4C64C32FF35731646 /* OTPTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 0273B8DDB2D5C0F2D4AA8B70F6D1B632 /* OTPTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9841C2C65826B781F0ED973DF9139869 /* FPNCountryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57332D2DC29CEA9EC73905E5F8D4E15E /* FPNCountryView.xib */; };
+		9853AA203CC30AD5C36E609A5AFFFB91 /* IQKeyboardManagerConstantsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 61D0D09B12440C5A0D18B9911A0F5A75 /* IQKeyboardManagerConstantsInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		98E9C252097C29FF7328808D386829E0 /* FlagKit.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42D726BB9BE3DBF5F18AC31D59B35238 /* FlagKit.xcassets */; };
+		A00993110AB4A59FB2C48FB3ACABD7AF /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7730CA2F41E8B7978AC5221D0D012C /* IQUIView+IQKeyboardToolbar.m */; };
+		A41F07C51847F3E279EEFD240C075004 /* OTPTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 660F692CDCBA0D3B04CC1F74E52761DA /* OTPTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A59D379D21A2352A9665371A3B49B83A /* IQTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FFDB1414B7099DF9A345E8867BFDE3C /* IQTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA88AECD3DD41CB4A264A9E2BD4AC5E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840FA0B75AF62912A30DDC66B647ED98 /* CoreGraphics.framework */; };
-		AD677B4BE46DE9F6FF3C5FEC9A11D4E4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDAFA33C9FBF5811CCC6C56102FFBA /* Extensions.swift */; };
-		AEAAB4325621CC879CCC1239B17DA86E /* FPNCountryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B5956EC9221677E013893906E93BBA /* FPNCountryRepository.swift */; };
-		AEC370B686F6A7FA53958F8F261E972D /* NBAsYouTypeFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A855BA5125B5C78793462B070482D01 /* NBAsYouTypeFormatter.m */; };
-		B3146B3F1B81DE0D8AEA1AAC719D7768 /* IQTitleBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = BCB932954AB29452D5E6232728E3A951 /* IQTitleBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B612A38F74073DE1407C7B50253177A5 /* NBNumberFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D20CF2C1C9A6B9FEC93F83E4EE8CE0F /* NBNumberFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6CE6D909F3C5430CF6B4DFBF38173BC /* IQPreviousNextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A88FD235BF88DDF2EC47397871873CA /* IQPreviousNextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD677B4BE46DE9F6FF3C5FEC9A11D4E4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03DF581DED9E38157D9FBACBE6BEA5A /* Extensions.swift */; };
+		AEAAB4325621CC879CCC1239B17DA86E /* FPNCountryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21770C3DAA2C46971511A7A16324A48D /* FPNCountryRepository.swift */; };
+		AEC370B686F6A7FA53958F8F261E972D /* NBAsYouTypeFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8B875905EC60CC0CCD634AD14D1250 /* NBAsYouTypeFormatter.m */; };
+		B3146B3F1B81DE0D8AEA1AAC719D7768 /* IQTitleBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = AA60A6C5F67EAB3E1A34599E1AB7A3D3 /* IQTitleBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B612A38F74073DE1407C7B50253177A5 /* NBNumberFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 9141A0E3984D4E6ABE1C39C8FAABE68B /* NBNumberFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6CE6D909F3C5430CF6B4DFBF38173BC /* IQPreviousNextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 65F08CAE961BE3ECD7161C0F597F61BC /* IQPreviousNextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB29DE47D5DBB278F6DA9173105F0A87 /* IQKeyboardManager-IQKeyboardManager in Resources */ = {isa = PBXBuildFile; fileRef = A5B2838E4866923F3DA717B058EBFF5D /* IQKeyboardManager-IQKeyboardManager */; };
-		BDA6686CAAF262A77287EA22AD37E38F /* IQKeyboardManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C366EF2CD9EA4EE5F1DAC174C47E54 /* IQKeyboardManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE7E885A14BDD5C6A2674241D20330CD /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 88B51813F3E99707E7400E544CE2F301 /* Data */; };
-		BECFA91B45D866C5081400F8D1EAA609 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FAF30737609656E67B7FB94F4703C44 /* IQUIView+Hierarchy.m */; };
-		C664A46F4D1768653DB866730431E230 /* Pods-WhatsApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F564FDF3C092A0A1373C38CFE29686F4 /* Pods-WhatsApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C74044BF8687B9ACEFA4A18FC68B017B /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E90AF3B732EFBA9255C55345BDE924 /* IQNSArray+Sort.m */; };
-		CC7C96CF59D76614AFEE2E9388D4D313 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E656A150883B79B4AFFC542A61CB5A9 /* IQTitleBarButtonItem.m */; };
-		CE946CC6BAACD99711BB7D53EB52B09B /* NBPhoneNumberDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = A029ADE27667C172FF2E493A6220D581 /* NBPhoneNumberDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CFC507DC1F25BA3618E4C49831C5E199 /* FlagKit.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59CC76A019F5021041FD2979CB8B6499 /* FlagKit.xcassets */; };
-		D11F97E48838E6CA6ED6BCF05C77D7AB /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 642F93A1E89489DD3220BD981E20C236 /* IQUIScrollView+Additions.m */; };
-		D65981DC4BBBBF07D6766F062FA3AED2 /* FPNTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA38A562F4FE71E19E092A9FD7896156 /* FPNTextField.swift */; };
-		DD0695954F7429D57107E63A3C90DED3 /* NBRegularExpressionCache.h in Headers */ = {isa = PBXBuildFile; fileRef = BE13477ABA22553A465CDFC03F182276 /* NBRegularExpressionCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDD965A21E3C4FBE8CE0CC1C768E331A /* NBMetadataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F40547EFA419B9676705FBC48E272E /* NBMetadataHelper.m */; };
-		DF2D69AAD6AA394C171E8BE866B474AA /* CountryPickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 629D20DE86BBB5305045047E3CBE5100 /* CountryPickerView-dummy.m */; };
-		E12E181E70D5F9E82C7400C8ED38AA81 /* FPNNibLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585F53E0486ED6FD0121C27945CA03AA /* FPNNibLoadingView.swift */; };
-		E5E266B61F07E7294FF8B56C7CDF2B19 /* NBRegExMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CABB22ED448AFE030CA5C2938AF41DA /* NBRegExMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6005A42CCB3ACA46906012F1FB26C31 /* NSArray+NBAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B42D6B037CC2C98953F4D919CEAEFBE /* NSArray+NBAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6DD4FC9AE63C958A2A4FFC401057B77 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F81FFB740CFFA9BD21AC668B74105B2 /* Bundle+Extension.swift */; };
-		EBAA6F4E1A2E1122FF30594B48A414B3 /* FlagPhoneNumber-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56640B4AF6B104BA45CBBF2CFD59432B /* FlagPhoneNumber-dummy.m */; };
-		EDADE1C75CAD43FC538B5A830677BD9D /* NBPhoneNumberDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B2F343652A0DD54DAF6696692DC90A /* NBPhoneNumberDefines.m */; };
-		EDF69927DA88ACD04A1A024E50DAA9AA /* NBPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0439B8EF3B86A9188DA0A1C0330D7E /* NBPhoneNumber.m */; };
-		F1A0C4C171E15A63FC9D1724BB9EEA7C /* IQUIView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 83D264CE9F9CA7AA7D30AACC0A9B3879 /* IQUIView+Hierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3E47993486905FF897BA03AA95FF324 /* NBPhoneNumberDesc.m in Sources */ = {isa = PBXBuildFile; fileRef = E6322980524E862EA8A8503058CC9188 /* NBPhoneNumberDesc.m */; };
-		F6FBCC71F6D6E4FB7E3510B56FD185E3 /* FPNTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578517305CB9F0A2D11955318B51E1F2 /* FPNTextFieldDelegate.swift */; };
-		F7A2F3B3693DCB6EFE02BC10B8FC4DC0 /* NBRegExMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAF4CCD97BC19233479C636A4E6E3B2 /* NBRegExMatcher.m */; };
-		F8F3DA03BA18E15BF539D477A6EE697C /* IQBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 30D253F74B47BBC98B9DBC2EDB5D8A6C /* IQBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FCB2571FCBAF799FD83077DD907823A5 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = C419ACEC3928CAC7B106F0245E400ECF /* IQToolbar.m */; };
-		FD5270A4176D5EAE624BBF3F087D468C /* FlagPhoneNumber-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F86143E702A58303343BCA0910A6199 /* FlagPhoneNumber-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDA6686CAAF262A77287EA22AD37E38F /* IQKeyboardManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFCCA1B426A023E29D412EBECAB3696C /* IQKeyboardManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BECFA91B45D866C5081400F8D1EAA609 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E8EE37A9B6272AF035C5B3145926A9 /* IQUIView+Hierarchy.m */; };
+		C74044BF8687B9ACEFA4A18FC68B017B /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 448A79DE6FE373E2A7D9C036D9D16944 /* IQNSArray+Sort.m */; };
+		CC7C96CF59D76614AFEE2E9388D4D313 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487472F007C83DD258FAB0CCF58411A /* IQTitleBarButtonItem.m */; };
+		CE946CC6BAACD99711BB7D53EB52B09B /* NBPhoneNumberDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 177173139F48C2FC54AACC5CC87708A1 /* NBPhoneNumberDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D11F97E48838E6CA6ED6BCF05C77D7AB /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C122842516616DE58BE2C72F186FF3B7 /* IQUIScrollView+Additions.m */; };
+		D65981DC4BBBBF07D6766F062FA3AED2 /* FPNTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C3BEB6F6FAC76D0AB1F85199EE261 /* FPNTextField.swift */; };
+		DD0695954F7429D57107E63A3C90DED3 /* NBRegularExpressionCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 700A4488E42B06320F8F50FB93FE9059 /* NBRegularExpressionCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDD965A21E3C4FBE8CE0CC1C768E331A /* NBMetadataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDCED95A6FF65A8DC31B3BEA6219752 /* NBMetadataHelper.m */; };
+		DF2D69AAD6AA394C171E8BE866B474AA /* CountryPickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE0332E2D8F3C0BB290D031997412A0 /* CountryPickerView-dummy.m */; };
+		E12E181E70D5F9E82C7400C8ED38AA81 /* FPNNibLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F597079483D283322CBD351C5F5B875D /* FPNNibLoadingView.swift */; };
+		E5E266B61F07E7294FF8B56C7CDF2B19 /* NBRegExMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D4A570160081A751F6F31262A77974A /* NBRegExMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6005A42CCB3ACA46906012F1FB26C31 /* NSArray+NBAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C0F80AE7560C50E36C1FDDA9CE1FC274 /* NSArray+NBAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6DD4FC9AE63C958A2A4FFC401057B77 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5D8592B382390640106E0FB325517 /* Bundle+Extension.swift */; };
+		EBAA6F4E1A2E1122FF30594B48A414B3 /* FlagPhoneNumber-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 740B567AAFFC888805DE958207AC20CE /* FlagPhoneNumber-dummy.m */; };
+		EDADE1C75CAD43FC538B5A830677BD9D /* NBPhoneNumberDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E58B404EDBFF023D9AF3400070F78BD /* NBPhoneNumberDefines.m */; };
+		EDF69927DA88ACD04A1A024E50DAA9AA /* NBPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 115625F2B9856DFE664AD25848291683 /* NBPhoneNumber.m */; };
+		F1A0C4C171E15A63FC9D1724BB9EEA7C /* IQUIView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 371F549ADB980A690E48189575948815 /* IQUIView+Hierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F27717FCD2F8D39F45B2F6F021EB3EAB /* Pods-WhatsApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C6E489DACC2E169F6DDCF831717DC /* Pods-WhatsApp-dummy.m */; };
+		F3E47993486905FF897BA03AA95FF324 /* NBPhoneNumberDesc.m in Sources */ = {isa = PBXBuildFile; fileRef = F609C40E522ECA12521C7B4274000C4C /* NBPhoneNumberDesc.m */; };
+		F4982BB3416E9CC1CF0A4E8771C646D5 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = C22D65FF745F13025DDB91BCD149484D /* Data */; };
+		F59919FC881E6B019DF5667BDD53F522 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 8BA452742DC4A98CE69C56B97D5ECF33 /* PrivacyInfo.xcprivacy */; };
+		F6FBCC71F6D6E4FB7E3510B56FD185E3 /* FPNTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFA206EFEA91BFD04C1B0CD665BB3C9 /* FPNTextFieldDelegate.swift */; };
+		F7A2F3B3693DCB6EFE02BC10B8FC4DC0 /* NBRegExMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 46413B3ED529028067E2A27CDB99AAB1 /* NBRegExMatcher.m */; };
+		F7EFFC85F7A8CCF1878AFA03D45B531A /* countryCodes.json in Resources */ = {isa = PBXBuildFile; fileRef = DC2751EE1AD09945CA8058060733EE65 /* countryCodes.json */; };
+		F8F3DA03BA18E15BF539D477A6EE697C /* IQBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 51D93DF41540CDC9524AEB32B87FF458 /* IQBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCB2571FCBAF799FD83077DD907823A5 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 37092C72B92EC78A1123787466687250 /* IQToolbar.m */; };
+		FD5270A4176D5EAE624BBF3F087D468C /* FlagPhoneNumber-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DD2A5E5EF511E36AFF394D0D7CC47E /* FlagPhoneNumber-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE355EB7F867FC0A8CEAAB2357BD9153 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		38ECBE2C05506B4014416771EF07C2BC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AB3438FA9F70920ABECB5EF04F606134;
-			remoteInfo = FlagPhoneNumber;
-		};
-		54EB0601AFFAC1DC6DDF26DC693B7AD9 /* PBXContainerItemProxy */ = {
+		0CF737033FDAF3F9C65570713E676938 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FBA456CB50E371584C11231929A0971E;
 			remoteInfo = IQKeyboardManager;
 		};
-		5F8FD8D73D8FEE0EC5413D55E190E621 /* PBXContainerItemProxy */ = {
+		232390541928087D7BD1CC77C0A7E91D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB3438FA9F70920ABECB5EF04F606134;
+			remoteInfo = FlagPhoneNumber;
+		};
+		32A809300609E6097E897676E0C617C2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 05B2A835D60F78761395189914B88047;
 			remoteInfo = "IQKeyboardManager-IQKeyboardManager";
 		};
-		7E098994DF4895A1C99DED26FD264762 /* PBXContainerItemProxy */ = {
+		8A6464415C2C1897A5C26C52DA6DE528 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 43E53E03FD1BE73C8433078A971781F1;
-			remoteInfo = "CountryPickerView-CountryPickerView_CountryPickerView";
+			remoteGlobalIDString = EA60B2566ADC33112DEDA99A3BE0F7AD;
+			remoteInfo = OTPTextField;
 		};
-		9112B70EAEBF6E6E5CE37CA5E2B732E4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BE34A30F721FDBE1399B802E0A95F2C7;
-			remoteInfo = "FlagPhoneNumber-FlagPhoneNumber";
-		};
-		A6E50C9A507A380215FD2BAAB2D99A1C /* PBXContainerItemProxy */ = {
+		8B0CB8ACEE5A74A215D8AD6396A46D06 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 81AA88F2453B4A0E544BF0FB08E13D87;
 			remoteInfo = CountryPickerView;
 		};
+		BB0455C21785AC160E6FA3A331986063 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE34A30F721FDBE1399B802E0A95F2C7;
+			remoteInfo = "FlagPhoneNumber-FlagPhoneNumber";
+		};
+		FDC0FA32D77D3EC9AEB9049290F363A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43E53E03FD1BE73C8433078A971781F1;
+			remoteInfo = "CountryPickerView-CountryPickerView_CountryPickerView";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0442247DED07620162440C726713BBC4 /* IQTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTextView.m; path = IQKeyboardManager/IQTextView/IQTextView.m; sourceTree = "<group>"; };
-		04892852A26D060FF978B42CD520B8E7 /* IQTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTextView.h; path = IQKeyboardManager/IQTextView/IQTextView.h; sourceTree = "<group>"; };
-		04B07FCF3882BBBC84B3EE70EFC27560 /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUITextFieldView+Additions.m"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		0273B8DDB2D5C0F2D4AA8B70F6D1B632 /* OTPTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OTPTextField.h; path = OTPTextField/OTPTextField.h; sourceTree = "<group>"; };
+		02E5940CA9C1ED01BD4EE75D067C49F5 /* CountryPickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CountryPickerView-prefix.pch"; sourceTree = "<group>"; };
+		031C4A0B9CBAA03E84ADF9C42BD5F0D9 /* OTPTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OTPTextField.modulemap; sourceTree = "<group>"; };
+		0474A052C9BD1F73B1BE229E479D678E /* IQKeyboardManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManager-dummy.m"; sourceTree = "<group>"; };
 		04D60AC13D33197690A05C641925DDDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		08CBA04774FF1386F93B9E66527BF0C3 /* CountryPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountryPickerView.swift; path = CountryPickerView/CountryPickerView.swift; sourceTree = "<group>"; };
-		08DF2F90F8AE0923D3584AF758573CF2 /* IQKeyboardManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManager-dummy.m"; sourceTree = "<group>"; };
-		0A3BE5F7FA3745167321980CB882293C /* NibView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibView.swift; path = CountryPickerView/NibView.swift; sourceTree = "<group>"; };
-		0CABB22ED448AFE030CA5C2938AF41DA /* NBRegExMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBRegExMatcher.h; path = Sources/libPhoneNumber/Internal/NBRegExMatcher.h; sourceTree = "<group>"; };
-		0E656A150883B79B4AFFC542A61CB5A9 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTitleBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.m; sourceTree = "<group>"; };
-		0EE96ED60F9300B94F7640166C02AE8F /* FPNFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPNFormat.swift; path = Sources/Helpers/FPNFormat.swift; sourceTree = "<group>"; };
-		0F87375BAFB9F13E8BB5B096C508A055 /* CountryPickerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CountryPickerView.debug.xcconfig; sourceTree = "<group>"; };
-		114A95A03B12FFE3FC82ADEAC2C4CAD5 /* FlagPhoneNumber-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FlagPhoneNumber-Info.plist"; sourceTree = "<group>"; };
-		116F32BC0BEC329712066EE14BB1FD8B /* Delegate+DataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Delegate+DataSource.swift"; path = "CountryPickerView/Delegate+DataSource.swift"; sourceTree = "<group>"; };
-		12CBA194C8EA41F73B1C784E9BEE95A6 /* FPNUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPNUtils.swift; path = Sources/Helpers/FPNUtils.swift; sourceTree = "<group>"; };
-		14D6C91CD7A921BC74A41D789C9A3907 /* Images */ = {isa = PBXFileReference; includeInIndex = 1; name = Images; path = CountryPickerView/Resources/Images; sourceTree = "<group>"; };
-		15ACF66FDC1DC6FDA649D8AB09CC2A3D /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstantsInternal.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
-		1BD68CD340647CCFB213AC5E14E708C9 /* NSArray+NBAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+NBAdditions.m"; path = "Sources/libPhoneNumber/NSArray+NBAdditions.m"; sourceTree = "<group>"; };
-		1D20CF2C1C9A6B9FEC93F83E4EE8CE0F /* NBNumberFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBNumberFormat.h; path = Sources/libPhoneNumber/NBNumberFormat.h; sourceTree = "<group>"; };
-		1EAF4CCD97BC19233479C636A4E6E3B2 /* NBRegExMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBRegExMatcher.m; path = Sources/libPhoneNumber/Internal/NBRegExMatcher.m; sourceTree = "<group>"; };
-		254EBE74A244D39D408BD4CEB0D03F99 /* IQKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardManager.m; path = IQKeyboardManager/IQKeyboardManager.m; sourceTree = "<group>"; };
+		0A75F1E1F142B2B66701138A865BEAD2 /* FPNCountryCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPNCountryCode.swift; path = Sources/Helpers/FPNCountryCode.swift; sourceTree = "<group>"; };
+		0D856010E2BCE88578818FB1AA5223C3 /* FPNCountry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPNCountry.swift; path = Sources/FPNCountry.swift; sourceTree = "<group>"; };
+		115625F2B9856DFE664AD25848291683 /* NBPhoneNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneNumber.m; path = Sources/libPhoneNumber/NBPhoneNumber.m; sourceTree = "<group>"; };
+		14BE09BE464FEE0271E204C9A2CA6FB4 /* FPNOBJCCountryKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPNOBJCCountryKey.swift; path = Sources/Helpers/FPNOBJCCountryKey.swift; sourceTree = "<group>"; };
+		177173139F48C2FC54AACC5CC87708A1 /* NBPhoneNumberDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneNumberDefines.h; path = Sources/libPhoneNumber/NBPhoneNumberDefines.h; sourceTree = "<group>"; };
+		17E31F3FA67BD9AA4F16D001FA5EB108 /* CountryPickerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CountryPickerView.debug.xcconfig; sourceTree = "<group>"; };
+		19E142EAFD4DDAB5D6DCEEEE8C7E72F3 /* IQKeyboardManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManager.debug.xcconfig; sourceTree = "<group>"; };
+		1A32BF1B7A3D02844123C4C43577DBA2 /* NBPhoneMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneMetaData.h; path = Sources/libPhoneNumber/NBPhoneMetaData.h; sourceTree = "<group>"; };
+		1D4D4AA0FCDDC50F75560A3822067AA3 /* IQKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardManager.m; path = IQKeyboardManager/IQKeyboardManager.m; sourceTree = "<group>"; };
+		1F9ACC1F03D9E89034E000E909437C26 /* FPNCountryPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPNCountryPicker.swift; path = Sources/FPNCountryPicker/FPNCountryPicker.swift; sourceTree = "<group>"; };
+		21770C3DAA2C46971511A7A16324A48D /* FPNCountryRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPNCountryRepository.swift; path = Sources/FPNCountryRepository.swift; sourceTree = "<group>"; };
+		24D23593F38526ED22AF8540D2A283AE /* OTPTextField */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OTPTextField; path = OTPTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D623E63D8D0E8D82C81C2970F12EF8 /* NBAsYouTypeFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBAsYouTypeFormatter.h; path = Sources/libPhoneNumber/NBAsYouTypeFormatter.h; sourceTree = "<group>"; };
+		25A524FD88C95E8B38DC30A382D2D8FB /* Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bundle.swift; path = CountryPickerView/Bundle.swift; sourceTree = "<group>"; };
 		25B38B76BD48B4D843940A9667A3D194 /* Pods-WhatsApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WhatsApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		25BA5BB87A4866189BB376EBC758D518 /* FPNCountryListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPNCountryListViewController.swift; path = Sources/FPNCountryListViewController.swift; sourceTree = "<group>"; };
-		2860C425FFB2ED4495D1BE791CD289FD /* NBMetadataHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBMetadataHelper.h; path = Sources/libPhoneNumber/NBMetadataHelper.h; sourceTree = "<group>"; };
-		299AF1CC56B9646EBCACC4280C679B6A /* ResourceBundle-CountryPickerView_CountryPickerView-CountryPickerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CountryPickerView_CountryPickerView-CountryPickerView-Info.plist"; sourceTree = "<group>"; };
-		2A88FD235BF88DDF2EC47397871873CA /* IQPreviousNextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQPreviousNextView.h; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.h; sourceTree = "<group>"; };
-		2AFA399CBD38A7C2752770B8926D995D /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIViewController+Additions.m"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		2857037F5820F97D4CA7AFCB01D2E934 /* ResourceBundle-FlagPhoneNumber-FlagPhoneNumber-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FlagPhoneNumber-FlagPhoneNumber-Info.plist"; sourceTree = "<group>"; };
+		29CEE11E22F07242122AA26E1D2A5C98 /* CountryPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountryPickerView.swift; path = CountryPickerView/CountryPickerView.swift; sourceTree = "<group>"; };
+		2D4A570160081A751F6F31262A77974A /* NBRegExMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBRegExMatcher.h; path = Sources/libPhoneNumber/Internal/NBRegExMatcher.h; sourceTree = "<group>"; };
 		2E417C8F7048643FF130C068109FE00B /* Pods-WhatsApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WhatsApp"; path = Pods_WhatsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2ED8B03E876A988EFAB3CCE476FA7A87 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIViewController+Additions.h"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		2F8B038C5B2B9C8E1A9386245B076C1B /* NBPhoneNumberUtil+ShortNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NBPhoneNumberUtil+ShortNumber.h"; path = "Sources/libPhoneNumber/NBPhoneNumberUtil+ShortNumber.h"; sourceTree = "<group>"; };
 		2FAEBEE063AE6003B42B8D2298C4013A /* Pods-WhatsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhatsApp.release.xcconfig"; sourceTree = "<group>"; };
-		30D253F74B47BBC98B9DBC2EDB5D8A6C /* IQBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.h; sourceTree = "<group>"; };
-		3434C0221F960D9EA765B29E25628F73 /* IQBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.m; sourceTree = "<group>"; };
+		2FDCED95A6FF65A8DC31B3BEA6219752 /* NBMetadataHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBMetadataHelper.m; path = Sources/libPhoneNumber/NBMetadataHelper.m; sourceTree = "<group>"; };
+		31CBFBD4EAAF8C6FE2886EFFF63ABCC4 /* OTPTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OTPTextField.m; path = OTPTextField/OTPTextField.m; sourceTree = "<group>"; };
+		335D4FC83D92E9BA96EE80C68F6717D1 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIViewController+Additions.h"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		34FFF33F90270E1839644DB732B57FEE /* NBPhoneNumberDesc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneNumberDesc.h; path = Sources/libPhoneNumber/NBPhoneNumberDesc.h; sourceTree = "<group>"; };
+		37092C72B92EC78A1123787466687250 /* IQToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQToolbar.m; path = IQKeyboardManager/IQToolbar/IQToolbar.m; sourceTree = "<group>"; };
 		371C108BF7353BAC24E9BF93EE2E499C /* FlagPhoneNumber-FlagPhoneNumber */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "FlagPhoneNumber-FlagPhoneNumber"; path = FlagPhoneNumber.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		39F57B65C20178333C9FCD90517A21F1 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIScrollView+Additions.h"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		371F549ADB980A690E48189575948815 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+Hierarchy.h"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
 		3A1CB700DDB3A7997ADE2C93A30DC204 /* Pods-WhatsApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhatsApp-Info.plist"; sourceTree = "<group>"; };
-		3A855BA5125B5C78793462B070482D01 /* NBAsYouTypeFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBAsYouTypeFormatter.m; path = Sources/libPhoneNumber/NBAsYouTypeFormatter.m; sourceTree = "<group>"; };
-		3E91DFA989CBE796CD6981A894A30454 /* NBPhoneNumberDesc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneNumberDesc.h; path = Sources/libPhoneNumber/NBPhoneNumberDesc.h; sourceTree = "<group>"; };
-		3F81FFB740CFFA9BD21AC668B74105B2 /* Bundle+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Extension.swift"; path = "Sources/Helpers/Bundle+Extension.swift"; sourceTree = "<group>"; };
-		41474259B73057B6CCB6F3575A7E9251 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = IQKeyboardManager/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		4BCF6E7EE8BBE4CA7E74B75745B59706 /* ResourceBundle-IQKeyboardManager-IQKeyboardManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-IQKeyboardManager-IQKeyboardManager-Info.plist"; sourceTree = "<group>"; };
-		4C143335D61EFF2D5B54F2F0F6A77BB8 /* FlagPhoneNumber.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlagPhoneNumber.modulemap; sourceTree = "<group>"; };
-		4EE8F0A0C6E9CFC6E69CF100C3091A32 /* IQKeyboardManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IQKeyboardManager-Info.plist"; sourceTree = "<group>"; };
-		50FBBDEE0EA62D87D3D754A9BDE70FB0 /* CountryPickerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CountryPickerView-Info.plist"; sourceTree = "<group>"; };
-		52C83BDB70078972A9CFE0D3E3BAB52C /* ResourceBundle-FlagPhoneNumber-FlagPhoneNumber-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FlagPhoneNumber-FlagPhoneNumber-Info.plist"; sourceTree = "<group>"; };
-		5360DF9CA0831D7105B41AE20F21DB1F /* countryCodes.json */ = {isa = PBXFileReference; includeInIndex = 1; name = countryCodes.json; path = Sources/Resources/countryCodes.json; sourceTree = "<group>"; };
-		56640B4AF6B104BA45CBBF2CFD59432B /* FlagPhoneNumber-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlagPhoneNumber-dummy.m"; sourceTree = "<group>"; };
-		573715C30B43B732E9B35A01E0B4CA6E /* NBPhoneMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneMetaData.h; path = Sources/libPhoneNumber/NBPhoneMetaData.h; sourceTree = "<group>"; };
-		578517305CB9F0A2D11955318B51E1F2 /* FPNTextFieldDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPNTextFieldDelegate.swift; path = Sources/Helpers/FPNTextFieldDelegate.swift; sourceTree = "<group>"; };
-		585F53E0486ED6FD0121C27945CA03AA /* FPNNibLoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPNNibLoadingView.swift; path = Sources/FPNCountryPicker/FPNNibLoadingView.swift; sourceTree = "<group>"; };
-		59CC76A019F5021041FD2979CB8B6499 /* FlagKit.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = FlagKit.xcassets; path = Sources/Resources/FlagKit.xcassets; sourceTree = "<group>"; };
-		5FAF30737609656E67B7FB94F4703C44 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+Hierarchy.m"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
-		60BC0A13D89EA6B55EFCDBEF4ED2B9A0 /* FlagPhoneNumber-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlagPhoneNumber-prefix.pch"; sourceTree = "<group>"; };
+		3D3034C41D2E36410550371E5FFB898D /* CountryPickerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CountryPickerView-umbrella.h"; sourceTree = "<group>"; };
+		3F9F22F170004A75D32702187AECC707 /* NBPhoneMetaData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneMetaData.m; path = Sources/libPhoneNumber/NBPhoneMetaData.m; sourceTree = "<group>"; };
+		42339CDE0D622AABDD9CB0CED8DF2F1E /* OTPTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTPTextField.release.xcconfig; sourceTree = "<group>"; };
+		42D726BB9BE3DBF5F18AC31D59B35238 /* FlagKit.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = FlagKit.xcassets; path = Sources/Resources/FlagKit.xcassets; sourceTree = "<group>"; };
+		430EDFEEA18EC37A572F326ECAD00C99 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstants.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		447AC14ED969E1C6A8915F59A110882B /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUITextFieldView+Additions.h"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		448A79DE6FE373E2A7D9C036D9D16944 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQNSArray+Sort.m"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		46413B3ED529028067E2A27CDB99AAB1 /* NBRegExMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBRegExMatcher.m; path = Sources/libPhoneNumber/Internal/NBRegExMatcher.m; sourceTree = "<group>"; };
+		51D93DF41540CDC9524AEB32B87FF458 /* IQBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.h; sourceTree = "<group>"; };
+		53B89217DF62EA287175BDA8968CE015 /* NBPhoneNumberUtil+ShortNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NBPhoneNumberUtil+ShortNumber.m"; path = "Sources/libPhoneNumber/NBPhoneNumberUtil+ShortNumber.m"; sourceTree = "<group>"; };
+		5693474CCCD7279DB22330ECCC39198C /* CountryPickerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CountryPickerView.release.xcconfig; sourceTree = "<group>"; };
+		56FB1305787749BB5124433E8F822188 /* OTPTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTPTextField-prefix.pch"; sourceTree = "<group>"; };
+		57332D2DC29CEA9EC73905E5F8D4E15E /* FPNCountryView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FPNCountryView.xib; path = Sources/Resources/FPNCountryView.xib; sourceTree = "<group>"; };
+		5C7674EB84CB4419215A20D1AC24509E /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardReturnKeyHandler.h; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		5F67273AC7F8794530B4704E490E61D4 /* NBPhoneNumberUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneNumberUtil.m; path = Sources/libPhoneNumber/NBPhoneNumberUtil.m; sourceTree = "<group>"; };
 		611C93D75DA5C0C7C3492FC8592D6F9C /* FlagPhoneNumber */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlagPhoneNumber; path = FlagPhoneNumber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		61A8C7AC5411BD844036595321AF8F8F /* FlagPhoneNumber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlagPhoneNumber.debug.xcconfig; sourceTree = "<group>"; };
-		628D38F5F4833224958F38B8B81B755A /* FPNCountryView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FPNCountryView.xib; path = Sources/Resources/FPNCountryView.xib; sourceTree = "<group>"; };
-		629D20DE86BBB5305045047E3CBE5100 /* CountryPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CountryPickerView-dummy.m"; sourceTree = "<group>"; };
-		642F93A1E89489DD3220BD981E20C236 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIScrollView+Additions.m"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
-		64CD29351D8546F5CFFF66BCA9175D99 /* NBGeneratedPhoneNumberMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBGeneratedPhoneNumberMetaData.h; path = Sources/libPhoneNumber/NBGeneratedPhoneNumberMetaData.h; sourceTree = "<group>"; };
-		656B91CA308DB6AE05CCF81C0B5C34E4 /* NBPhoneNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneNumber.h; path = Sources/libPhoneNumber/NBPhoneNumber.h; sourceTree = "<group>"; };
-		67C9C89614E1BD53B7B24506E8D5EABE /* NBNumberFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBNumberFormat.m; path = Sources/libPhoneNumber/NBNumberFormat.m; sourceTree = "<group>"; };
-		684C5052B9D6EAA134A8DA7899A1200C /* FPNCountryPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPNCountryPicker.swift; path = Sources/FPNCountryPicker/FPNCountryPicker.swift; sourceTree = "<group>"; };
+		61D0D09B12440C5A0D18B9911A0F5A75 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstantsInternal.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		62E518A609CA23DCFCAB0F5B2147A4E8 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIScrollView+Additions.h"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		63E8EE37A9B6272AF035C5B3145926A9 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+Hierarchy.m"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		642FC29752DC56EC287894BC3996C582 /* NBNumberFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBNumberFormat.m; path = Sources/libPhoneNumber/NBNumberFormat.m; sourceTree = "<group>"; };
+		64C5D8592B382390640106E0FB325517 /* Bundle+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Extension.swift"; path = "Sources/Helpers/Bundle+Extension.swift"; sourceTree = "<group>"; };
+		65F08CAE961BE3ECD7161C0F597F61BC /* IQPreviousNextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQPreviousNextView.h; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.h; sourceTree = "<group>"; };
+		660F692CDCBA0D3B04CC1F74E52761DA /* OTPTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTPTextField-umbrella.h"; sourceTree = "<group>"; };
+		68F0AFF694E336E781CC7459F05F79A3 /* IQTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTextView.m; path = IQKeyboardManager/IQTextView/IQTextView.m; sourceTree = "<group>"; };
+		6F18528C5176B1094322F54B09B90D9D /* IQKeyboardManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-prefix.pch"; sourceTree = "<group>"; };
 		6F9A1434C0770AA272AE71351AECF93B /* Pods-WhatsApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WhatsApp-frameworks.sh"; sourceTree = "<group>"; };
-		73F40547EFA419B9676705FBC48E272E /* NBMetadataHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBMetadataHelper.m; path = Sources/libPhoneNumber/NBMetadataHelper.m; sourceTree = "<group>"; };
-		75ACDE24491F18C4F311103A9088F6D9 /* CountryPickerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CountryPickerView-umbrella.h"; sourceTree = "<group>"; };
+		6FFDB1414B7099DF9A345E8867BFDE3C /* IQTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTextView.h; path = IQKeyboardManager/IQTextView/IQTextView.h; sourceTree = "<group>"; };
+		700A4488E42B06320F8F50FB93FE9059 /* NBRegularExpressionCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBRegularExpressionCache.h; path = Sources/libPhoneNumber/Internal/NBRegularExpressionCache.h; sourceTree = "<group>"; };
+		716CD1AA6FD2AB9D9CD01EFBA1D7ECB9 /* IQToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQToolbar.h; path = IQKeyboardManager/IQToolbar/IQToolbar.h; sourceTree = "<group>"; };
+		740B567AAFFC888805DE958207AC20CE /* FlagPhoneNumber-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlagPhoneNumber-dummy.m"; sourceTree = "<group>"; };
+		76F8253F0EC789474B166A150AC237D7 /* IQPreviousNextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQPreviousNextView.m; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.m; sourceTree = "<group>"; };
+		77EE20AFCCDD489A28835B1B534162AE /* FPNCountryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPNCountryView.swift; path = Sources/FPNCountryPicker/FPNCountryView.swift; sourceTree = "<group>"; };
+		7841C3E82E6EE69390C3614A43735C97 /* NBGeneratedPhoneNumberMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBGeneratedPhoneNumberMetaData.h; path = Sources/libPhoneNumber/NBGeneratedPhoneNumberMetaData.h; sourceTree = "<group>"; };
 		79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7B1589E9B2A699DC83EDADBB0192AD07 /* FPNCountry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPNCountry.swift; path = Sources/FPNCountry.swift; sourceTree = "<group>"; };
-		7C737EE3D33FFE09B4886728CDC132BB /* NBPhoneNumberUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneNumberUtil.h; path = Sources/libPhoneNumber/NBPhoneNumberUtil.h; sourceTree = "<group>"; };
-		7FFDAFA33C9FBF5811CCC6C56102FFBA /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = CountryPickerView/Extensions.swift; sourceTree = "<group>"; };
+		7CB1625C8603E4B3A6F65A618D2B4094 /* FlagPhoneNumber-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FlagPhoneNumber-Info.plist"; sourceTree = "<group>"; };
+		80FBED95CEF730C9EFBB1C04CDE91F08 /* Images */ = {isa = PBXFileReference; includeInIndex = 1; name = Images; path = CountryPickerView/Resources/Images; sourceTree = "<group>"; };
 		82CE4606235C0C18436B12D62713D71E /* Pods-WhatsApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WhatsApp.modulemap"; sourceTree = "<group>"; };
-		83D264CE9F9CA7AA7D30AACC0A9B3879 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+Hierarchy.h"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
 		840FA0B75AF62912A30DDC66B647ED98 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		8487472F007C83DD258FAB0CCF58411A /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTitleBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.m; sourceTree = "<group>"; };
 		849C6E489DACC2E169F6DDCF831717DC /* Pods-WhatsApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WhatsApp-dummy.m"; sourceTree = "<group>"; };
-		86C366EF2CD9EA4EE5F1DAC174C47E54 /* IQKeyboardManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-umbrella.h"; sourceTree = "<group>"; };
-		88280BBFB9C26BC3314C318F7EB927B1 /* CountryPickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CountryPickerView.modulemap; sourceTree = "<group>"; };
-		88B51813F3E99707E7400E544CE2F301 /* Data */ = {isa = PBXFileReference; includeInIndex = 1; name = Data; path = CountryPickerView/Resources/Data; sourceTree = "<group>"; };
-		89623A56057AB67AB1E56514688625B6 /* NBRegularExpressionCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBRegularExpressionCache.m; path = Sources/libPhoneNumber/Internal/NBRegularExpressionCache.m; sourceTree = "<group>"; };
-		8B42D6B037CC2C98953F4D919CEAEFBE /* NSArray+NBAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+NBAdditions.h"; path = "Sources/libPhoneNumber/NSArray+NBAdditions.h"; sourceTree = "<group>"; };
-		8F86143E702A58303343BCA0910A6199 /* FlagPhoneNumber-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlagPhoneNumber-umbrella.h"; sourceTree = "<group>"; };
+		8B4A644CCAA9BF334936EF15ACCC8DBC /* IQKeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManager.h; path = IQKeyboardManager/IQKeyboardManager.h; sourceTree = "<group>"; };
+		8BA452742DC4A98CE69C56B97D5ECF33 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = IQKeyboardManager/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		8E58B404EDBFF023D9AF3400070F78BD /* NBPhoneNumberDefines.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneNumberDefines.m; path = Sources/libPhoneNumber/NBPhoneNumberDefines.m; sourceTree = "<group>"; };
+		9088F1CC91061D39C978978DEE062AF2 /* NibView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibView.swift; path = CountryPickerView/NibView.swift; sourceTree = "<group>"; };
+		9141A0E3984D4E6ABE1C39C8FAABE68B /* NBNumberFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBNumberFormat.h; path = Sources/libPhoneNumber/NBNumberFormat.h; sourceTree = "<group>"; };
 		920624790A09310F9E506BCF1D4CC9E7 /* CountryPickerView-CountryPickerView_CountryPickerView */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "CountryPickerView-CountryPickerView_CountryPickerView"; path = CountryPickerView_CountryPickerView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		94B5956EC9221677E013893906E93BBA /* FPNCountryRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPNCountryRepository.swift; path = Sources/FPNCountryRepository.swift; sourceTree = "<group>"; };
-		96B32B64C81DC2675321AD8AE59CE00F /* NBPhoneNumberUtil+ShortNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NBPhoneNumberUtil+ShortNumber.h"; path = "Sources/libPhoneNumber/NBPhoneNumberUtil+ShortNumber.h"; sourceTree = "<group>"; };
+		96E615F8C99ED1BAF42C90DEBC608F34 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIViewController+Additions.m"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.m"; sourceTree = "<group>"; };
 		98527D7196957AAB07B79E2E2AFDE23E /* IQKeyboardManager */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManager; path = IQKeyboardManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A49845F06587E92C2724AAF432DB97D /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+IQKeyboardToolbar.m"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
-		9A74A90D05F8CE7CB2D206E29C898D27 /* CountryPickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CountryPickerView-prefix.pch"; sourceTree = "<group>"; };
+		9BA9E74CC6BA6303B45B8A0E9037B65D /* NSArray+NBAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+NBAdditions.m"; path = "Sources/libPhoneNumber/NSArray+NBAdditions.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EAACD13BA47E65901E3347D5D2ED30C /* CountryPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountryPickerViewController.swift; path = CountryPickerView/CountryPickerViewController.swift; sourceTree = "<group>"; };
 		9F777F66F21DE964334715AE385F8667 /* Pods-WhatsApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhatsApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		A029ADE27667C172FF2E493A6220D581 /* NBPhoneNumberDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneNumberDefines.h; path = Sources/libPhoneNumber/NBPhoneNumberDefines.h; sourceTree = "<group>"; };
-		A3E90AF3B732EFBA9255C55345BDE924 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQNSArray+Sort.m"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		A07F711D03C40FC6567E2983EE55232C /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUITextFieldView+Additions.m"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		A0AD26B9691EC3037168D7D9EDC482DF /* FlagPhoneNumber.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlagPhoneNumber.modulemap; sourceTree = "<group>"; };
+		A3A9562938316FCA09434A11C342CFFE /* Delegate+DataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Delegate+DataSource.swift"; path = "CountryPickerView/Delegate+DataSource.swift"; sourceTree = "<group>"; };
+		A40027E670B0C2B724E63C787DDB13C2 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+IQKeyboardToolbar.h"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
 		A42DBD2F42D55606EEBA514009498B87 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		A5B2838E4866923F3DA717B058EBFF5D /* IQKeyboardManager-IQKeyboardManager */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "IQKeyboardManager-IQKeyboardManager"; path = IQKeyboardManager.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		A975EB3E981EE1672BBCF22C61D63BE1 /* IQKeyboardManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManager.release.xcconfig; sourceTree = "<group>"; };
-		B20EB1D4193645BC17F55A6762A38352 /* FPNCountryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPNCountryView.swift; path = Sources/FPNCountryPicker/FPNCountryView.swift; sourceTree = "<group>"; };
-		B25F6D58718C95FCA6DFEBF5673CC447 /* IQKeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManager.h; path = IQKeyboardManager/IQKeyboardManager.h; sourceTree = "<group>"; };
-		B91764821B6EF3341585EB4EB8E7C970 /* FPNCountryCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPNCountryCode.swift; path = Sources/Helpers/FPNCountryCode.swift; sourceTree = "<group>"; };
-		BA38A562F4FE71E19E092A9FD7896156 /* FPNTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPNTextField.swift; path = Sources/FPNTextField.swift; sourceTree = "<group>"; };
-		BCB932954AB29452D5E6232728E3A951 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTitleBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.h; sourceTree = "<group>"; };
-		BE13477ABA22553A465CDFC03F182276 /* NBRegularExpressionCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBRegularExpressionCache.h; path = Sources/libPhoneNumber/Internal/NBRegularExpressionCache.h; sourceTree = "<group>"; };
-		C151460BA24B6F4F3A4289B44E4DF15C /* IQToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQToolbar.h; path = IQKeyboardManager/IQToolbar/IQToolbar.h; sourceTree = "<group>"; };
-		C19D531363416BB015EBC93AF46F6088 /* FlagPhoneNumber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlagPhoneNumber.release.xcconfig; sourceTree = "<group>"; };
-		C419ACEC3928CAC7B106F0245E400ECF /* IQToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQToolbar.m; path = IQKeyboardManager/IQToolbar/IQToolbar.m; sourceTree = "<group>"; };
-		C47FDE5E53E108A4F115354799C314C5 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQNSArray+Sort.h"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.h"; sourceTree = "<group>"; };
-		C5249082B21D321F11150593870B1A07 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUITextFieldView+Additions.h"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
-		C7B2F343652A0DD54DAF6696692DC90A /* NBPhoneNumberDefines.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneNumberDefines.m; path = Sources/libPhoneNumber/NBPhoneNumberDefines.m; sourceTree = "<group>"; };
+		A790F8193ABD4F8E6896D06A6A021BC1 /* IQKeyboardManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManager.modulemap; sourceTree = "<group>"; };
+		A7E11B688FD32F6278460F50F95BA632 /* FlagPhoneNumber-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlagPhoneNumber-prefix.pch"; sourceTree = "<group>"; };
+		AA60A6C5F67EAB3E1A34599E1AB7A3D3 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTitleBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		AAFA206EFEA91BFD04C1B0CD665BB3C9 /* FPNTextFieldDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPNTextFieldDelegate.swift; path = Sources/Helpers/FPNTextFieldDelegate.swift; sourceTree = "<group>"; };
+		ACFC8293D0DA9E2A6229E1E20AD0BA8E /* FPNCountryListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPNCountryListViewController.swift; path = Sources/FPNCountryListViewController.swift; sourceTree = "<group>"; };
+		AD98858F9E3301921E2190EE5B0C1EE6 /* IQKeyboardManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IQKeyboardManager-Info.plist"; sourceTree = "<group>"; };
+		B7A446B64ECD87B3254FE3D71AD40277 /* FlagPhoneNumber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlagPhoneNumber.release.xcconfig; sourceTree = "<group>"; };
+		C0F80AE7560C50E36C1FDDA9CE1FC274 /* NSArray+NBAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+NBAdditions.h"; path = "Sources/libPhoneNumber/NSArray+NBAdditions.h"; sourceTree = "<group>"; };
+		C122842516616DE58BE2C72F186FF3B7 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIScrollView+Additions.m"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		C22D65FF745F13025DDB91BCD149484D /* Data */ = {isa = PBXFileReference; includeInIndex = 1; name = Data; path = CountryPickerView/Resources/Data; sourceTree = "<group>"; };
 		C85156710AFD2D50D5DADA2484AD1D5E /* Pods-WhatsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhatsApp.debug.xcconfig"; sourceTree = "<group>"; };
-		D128DE1780BD491420C39C8163DF8F65 /* NBPhoneNumberUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneNumberUtil.m; path = Sources/libPhoneNumber/NBPhoneNumberUtil.m; sourceTree = "<group>"; };
-		D226B199D629F99E8545235229CDDA62 /* NBPhoneMetaData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneMetaData.m; path = Sources/libPhoneNumber/NBPhoneMetaData.m; sourceTree = "<group>"; };
+		CB742BC5E80719837A8FF11E5B247316 /* OTPTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTPTextField-dummy.m"; sourceTree = "<group>"; };
+		D2DD2A5E5EF511E36AFF394D0D7CC47E /* FlagPhoneNumber-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlagPhoneNumber-umbrella.h"; sourceTree = "<group>"; };
 		D58E736356D48E0A1ACAAE5F7489E22B /* CountryPickerView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CountryPickerView; path = CountryPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8154F55DA6BFF7CA993D0F8EFF0CE25 /* CountryPickerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CountryPickerView.release.xcconfig; sourceTree = "<group>"; };
-		DABD271522CB80B56E9B92B141675DCF /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstants.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
-		E0AF182E94606B9C272ACE90B43A585D /* Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bundle.swift; path = CountryPickerView/Bundle.swift; sourceTree = "<group>"; };
-		E6322980524E862EA8A8503058CC9188 /* NBPhoneNumberDesc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneNumberDesc.m; path = Sources/libPhoneNumber/NBPhoneNumberDesc.m; sourceTree = "<group>"; };
-		E6F4F70909AA3355988C365C80B6C0DE /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardReturnKeyHandler.m; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
-		EBC22F755256E29046C3F47AA231CFE3 /* IQPreviousNextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQPreviousNextView.m; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.m; sourceTree = "<group>"; };
-		ED0439B8EF3B86A9188DA0A1C0330D7E /* NBPhoneNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneNumber.m; path = Sources/libPhoneNumber/NBPhoneNumber.m; sourceTree = "<group>"; };
-		F11A038065CAF7E7F1B5BEEE24FD0595 /* IQKeyboardManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManager.modulemap; sourceTree = "<group>"; };
-		F499D1D464D58DAA4CD9A2C67D827B53 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardReturnKeyHandler.h; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
-		F4A9F7147B31CFDAF166AC2E924D2357 /* NBPhoneNumberUtil+ShortNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NBPhoneNumberUtil+ShortNumber.m"; path = "Sources/libPhoneNumber/NBPhoneNumberUtil+ShortNumber.m"; sourceTree = "<group>"; };
-		F4D7C50B1AEECA49B5C5CA3EEAFEC638 /* IQKeyboardManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManager.debug.xcconfig; sourceTree = "<group>"; };
+		D74ABA0BE7949395F1B0F2B2D77921A1 /* FPNFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPNFormat.swift; path = Sources/Helpers/FPNFormat.swift; sourceTree = "<group>"; };
+		D8164A1C8DD9306C09D752DEF465BD4A /* IQKeyboardManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManager.release.xcconfig; sourceTree = "<group>"; };
+		D84C3BEB6F6FAC76D0AB1F85199EE261 /* FPNTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPNTextField.swift; path = Sources/FPNTextField.swift; sourceTree = "<group>"; };
+		DA8B875905EC60CC0CCD634AD14D1250 /* NBAsYouTypeFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBAsYouTypeFormatter.m; path = Sources/libPhoneNumber/NBAsYouTypeFormatter.m; sourceTree = "<group>"; };
+		DC1CCA10E4E77AF1D2DE8A0894F97E9E /* CountryPickerView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CountryPickerView.xib; path = CountryPickerView/Resources/CountryPickerView.xib; sourceTree = "<group>"; };
+		DC2751EE1AD09945CA8058060733EE65 /* countryCodes.json */ = {isa = PBXFileReference; includeInIndex = 1; name = countryCodes.json; path = Sources/Resources/countryCodes.json; sourceTree = "<group>"; };
+		E03DF581DED9E38157D9FBACBE6BEA5A /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = CountryPickerView/Extensions.swift; sourceTree = "<group>"; };
+		E2BBEBA84C3035C69AE7376030550464 /* FlagPhoneNumber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlagPhoneNumber.debug.xcconfig; sourceTree = "<group>"; };
+		E3D80B8F626EE26BAE1D53EDD28C6AF3 /* FPNUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPNUtils.swift; path = Sources/Helpers/FPNUtils.swift; sourceTree = "<group>"; };
+		E560156087A8265E11FD63CA6E1633D4 /* ResourceBundle-CountryPickerView_CountryPickerView-CountryPickerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CountryPickerView_CountryPickerView-CountryPickerView-Info.plist"; sourceTree = "<group>"; };
+		E5B9A02F7D0780BF47DE6222A079DCD9 /* OTPTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OTPTextField-Info.plist"; sourceTree = "<group>"; };
+		E5D37F6ECB47186D4AEACAE90B6A0D4F /* IQBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.m; sourceTree = "<group>"; };
+		E656324252A5FDEE79E9291BF5438A9A /* IQNSArray+Sort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQNSArray+Sort.h"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		EFE0332E2D8F3C0BB290D031997412A0 /* CountryPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CountryPickerView-dummy.m"; sourceTree = "<group>"; };
+		F135C0F41084FB39FA4D616D893EA6DB /* ResourceBundle-IQKeyboardManager-IQKeyboardManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-IQKeyboardManager-IQKeyboardManager-Info.plist"; sourceTree = "<group>"; };
+		F54696E00ECFB9B7782633028955842E /* CountryPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountryPickerViewController.swift; path = CountryPickerView/CountryPickerViewController.swift; sourceTree = "<group>"; };
+		F555C2A1D6F04F1D0E45271F0CFC4197 /* CountryPickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CountryPickerView.modulemap; sourceTree = "<group>"; };
 		F564FDF3C092A0A1373C38CFE29686F4 /* Pods-WhatsApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WhatsApp-umbrella.h"; sourceTree = "<group>"; };
-		FB639FAB0990C5CB921FC941CE4A36E2 /* CountryPickerView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CountryPickerView.xib; path = CountryPickerView/Resources/CountryPickerView.xib; sourceTree = "<group>"; };
-		FBFB3E31D457AF345A115DAC9AFD9C2A /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+IQKeyboardToolbar.h"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
-		FC1949F00B3263459082EB229B5DADC3 /* FPNOBJCCountryKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPNOBJCCountryKey.swift; path = Sources/Helpers/FPNOBJCCountryKey.swift; sourceTree = "<group>"; };
-		FDFD2FA6110891109AAF557A4DA68CEE /* IQKeyboardManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-prefix.pch"; sourceTree = "<group>"; };
-		FFA1EAF0AF25E3A6145459557C6F99A8 /* NBAsYouTypeFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBAsYouTypeFormatter.h; path = Sources/libPhoneNumber/NBAsYouTypeFormatter.h; sourceTree = "<group>"; };
+		F597079483D283322CBD351C5F5B875D /* FPNNibLoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPNNibLoadingView.swift; path = Sources/FPNCountryPicker/FPNNibLoadingView.swift; sourceTree = "<group>"; };
+		F609C40E522ECA12521C7B4274000C4C /* NBPhoneNumberDesc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneNumberDesc.m; path = Sources/libPhoneNumber/NBPhoneNumberDesc.m; sourceTree = "<group>"; };
+		F6F400F87F09FA8B45EFA1A4EA1660C2 /* CountryPickerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CountryPickerView-Info.plist"; sourceTree = "<group>"; };
+		F82149D971D36564BDC56A10AF1ADEF6 /* NBPhoneNumberUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneNumberUtil.h; path = Sources/libPhoneNumber/NBPhoneNumberUtil.h; sourceTree = "<group>"; };
+		F94FF0B8FEADB67B31CADB902DE95AE0 /* OTPTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTPTextField.debug.xcconfig; sourceTree = "<group>"; };
+		FB99DE9EFC8ABBBC4C99C9A8456A4561 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardReturnKeyHandler.m; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		FC8C1F6EF71368657FDD1E5DD5447227 /* NBPhoneNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneNumber.h; path = Sources/libPhoneNumber/NBPhoneNumber.h; sourceTree = "<group>"; };
+		FCA697A115ACCADBEEC7FD743FFE515C /* NBRegularExpressionCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBRegularExpressionCache.m; path = Sources/libPhoneNumber/Internal/NBRegularExpressionCache.m; sourceTree = "<group>"; };
+		FE7730CA2F41E8B7978AC5221D0D012C /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+IQKeyboardToolbar.m"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		FF0D81812A5A66728D3181B4C57EBDF9 /* NBMetadataHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBMetadataHelper.h; path = Sources/libPhoneNumber/NBMetadataHelper.h; sourceTree = "<group>"; };
+		FFCCA1B426A023E29D412EBECAB3696C /* IQKeyboardManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1533333456C679BEE0FE966D69CD4928 /* Frameworks */ = {
+		12721C60E7CD411EFA0C0179F5D123F1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -305,25 +327,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F436B7BF4AE20802C648D22234EB624 /* Frameworks */ = {
+		53A78CB99C04A74D69C15DDCAFBCF4AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7069089D3CDDE6376689F4DBF7F0777B /* Frameworks */ = {
+		60EA15B9EB6579A094094CEDFE81346B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58966C48D625526B0D77C55023DD2634 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8E4218E705D4C74D204351D34DDE40F /* Frameworks */ = {
+		7D081719F3436A588F113F8B4A2EB016 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DF543DA392092E8AF0D537C00BB9291 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,68 +357,109 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C12C704F6D6388CB37EDCFE9D75D1C10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE355EB7F867FC0A8CEAAB2357BD9153 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		080E643767E5DEE23D3414FBAC8A8C82 /* CountryPickerView */ = {
+		0C9123ECEB10BB9A3DB76E3197A1F6C9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E0AF182E94606B9C272ACE90B43A585D /* Bundle.swift */,
-				08CBA04774FF1386F93B9E66527BF0C3 /* CountryPickerView.swift */,
-				9EAACD13BA47E65901E3347D5D2ED30C /* CountryPickerViewController.swift */,
-				116F32BC0BEC329712066EE14BB1FD8B /* Delegate+DataSource.swift */,
-				7FFDAFA33C9FBF5811CCC6C56102FFBA /* Extensions.swift */,
-				0A3BE5F7FA3745167321980CB882293C /* NibView.swift */,
-				58D28CA8E7E1D9C70ACE6F55C333271A /* Resources */,
-				E91BD18A385770BC0E32A6E76BFBA3F8 /* Support Files */,
+				A0AD26B9691EC3037168D7D9EDC482DF /* FlagPhoneNumber.modulemap */,
+				740B567AAFFC888805DE958207AC20CE /* FlagPhoneNumber-dummy.m */,
+				7CB1625C8603E4B3A6F65A618D2B4094 /* FlagPhoneNumber-Info.plist */,
+				A7E11B688FD32F6278460F50F95BA632 /* FlagPhoneNumber-prefix.pch */,
+				D2DD2A5E5EF511E36AFF394D0D7CC47E /* FlagPhoneNumber-umbrella.h */,
+				E2BBEBA84C3035C69AE7376030550464 /* FlagPhoneNumber.debug.xcconfig */,
+				B7A446B64ECD87B3254FE3D71AD40277 /* FlagPhoneNumber.release.xcconfig */,
+				2857037F5820F97D4CA7AFCB01D2E934 /* ResourceBundle-FlagPhoneNumber-FlagPhoneNumber-Info.plist */,
 			);
-			name = CountryPickerView;
-			path = CountryPickerView;
+			name = "Support Files";
+			path = "../Target Support Files/FlagPhoneNumber";
 			sourceTree = "<group>";
 		};
-		0F4FCD1CB02BEB49ECC38E78C21DBDCE /* Pods */ = {
+		15BF92767C69F2C70456332807B525BF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				080E643767E5DEE23D3414FBAC8A8C82 /* CountryPickerView */,
-				5F3AE8771281040144EC4844CFE14435 /* FlagPhoneNumber */,
-				33432CC353317E3F25F2A490635694FC /* IQKeyboardManager */,
+				A790F8193ABD4F8E6896D06A6A021BC1 /* IQKeyboardManager.modulemap */,
+				0474A052C9BD1F73B1BE229E479D678E /* IQKeyboardManager-dummy.m */,
+				AD98858F9E3301921E2190EE5B0C1EE6 /* IQKeyboardManager-Info.plist */,
+				6F18528C5176B1094322F54B09B90D9D /* IQKeyboardManager-prefix.pch */,
+				FFCCA1B426A023E29D412EBECAB3696C /* IQKeyboardManager-umbrella.h */,
+				19E142EAFD4DDAB5D6DCEEEE8C7E72F3 /* IQKeyboardManager.debug.xcconfig */,
+				D8164A1C8DD9306C09D752DEF465BD4A /* IQKeyboardManager.release.xcconfig */,
+				F135C0F41084FB39FA4D616D893EA6DB /* ResourceBundle-IQKeyboardManager-IQKeyboardManager-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IQKeyboardManager";
+			sourceTree = "<group>";
+		};
+		18C1542A9792D5E52FC80CD901F3AE71 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				51D93DF41540CDC9524AEB32B87FF458 /* IQBarButtonItem.h */,
+				E5D37F6ECB47186D4AEACAE90B6A0D4F /* IQBarButtonItem.m */,
+				8B4A644CCAA9BF334936EF15ACCC8DBC /* IQKeyboardManager.h */,
+				1D4D4AA0FCDDC50F75560A3822067AA3 /* IQKeyboardManager.m */,
+				430EDFEEA18EC37A572F326ECAD00C99 /* IQKeyboardManagerConstants.h */,
+				61D0D09B12440C5A0D18B9911A0F5A75 /* IQKeyboardManagerConstantsInternal.h */,
+				5C7674EB84CB4419215A20D1AC24509E /* IQKeyboardReturnKeyHandler.h */,
+				FB99DE9EFC8ABBBC4C99C9A8456A4561 /* IQKeyboardReturnKeyHandler.m */,
+				E656324252A5FDEE79E9291BF5438A9A /* IQNSArray+Sort.h */,
+				448A79DE6FE373E2A7D9C036D9D16944 /* IQNSArray+Sort.m */,
+				65F08CAE961BE3ECD7161C0F597F61BC /* IQPreviousNextView.h */,
+				76F8253F0EC789474B166A150AC237D7 /* IQPreviousNextView.m */,
+				6FFDB1414B7099DF9A345E8867BFDE3C /* IQTextView.h */,
+				68F0AFF694E336E781CC7459F05F79A3 /* IQTextView.m */,
+				AA60A6C5F67EAB3E1A34599E1AB7A3D3 /* IQTitleBarButtonItem.h */,
+				8487472F007C83DD258FAB0CCF58411A /* IQTitleBarButtonItem.m */,
+				716CD1AA6FD2AB9D9CD01EFBA1D7ECB9 /* IQToolbar.h */,
+				37092C72B92EC78A1123787466687250 /* IQToolbar.m */,
+				62E518A609CA23DCFCAB0F5B2147A4E8 /* IQUIScrollView+Additions.h */,
+				C122842516616DE58BE2C72F186FF3B7 /* IQUIScrollView+Additions.m */,
+				447AC14ED969E1C6A8915F59A110882B /* IQUITextFieldView+Additions.h */,
+				A07F711D03C40FC6567E2983EE55232C /* IQUITextFieldView+Additions.m */,
+				371F549ADB980A690E48189575948815 /* IQUIView+Hierarchy.h */,
+				63E8EE37A9B6272AF035C5B3145926A9 /* IQUIView+Hierarchy.m */,
+				A40027E670B0C2B724E63C787DDB13C2 /* IQUIView+IQKeyboardToolbar.h */,
+				FE7730CA2F41E8B7978AC5221D0D012C /* IQUIView+IQKeyboardToolbar.m */,
+				335D4FC83D92E9BA96EE80C68F6717D1 /* IQUIViewController+Additions.h */,
+				96E615F8C99ED1BAF42C90DEBC608F34 /* IQUIViewController+Additions.m */,
+				AE9A5F9A33BC49E5C331315E4A6CD9A8 /* Resources */,
+				15BF92767C69F2C70456332807B525BF /* Support Files */,
+			);
+			name = IQKeyboardManager;
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		337141D58EA80408E724ED2BAE66550E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DC2751EE1AD09945CA8058060733EE65 /* countryCodes.json */,
+				42D726BB9BE3DBF5F18AC31D59B35238 /* FlagKit.xcassets */,
+				57332D2DC29CEA9EC73905E5F8D4E15E /* FPNCountryView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3607800415DBC8D79FC36AB123A6963F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD7D16409B2D18D1B0FB3C4616197ABC /* CountryPickerView */,
+				C0EB3B3236A5029BA6E0F6B2474D2B91 /* FlagPhoneNumber */,
+				18C1542A9792D5E52FC80CD901F3AE71 /* IQKeyboardManager */,
+				5EC5D5A0ABD6BD2079C519DB3D2B1EA6 /* OTPTextField */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		1112CC2B1859807E22499B1177BB6524 /* libPhoneNumberiOS */ = {
-			isa = PBXGroup;
-			children = (
-				FFA1EAF0AF25E3A6145459557C6F99A8 /* NBAsYouTypeFormatter.h */,
-				3A855BA5125B5C78793462B070482D01 /* NBAsYouTypeFormatter.m */,
-				64CD29351D8546F5CFFF66BCA9175D99 /* NBGeneratedPhoneNumberMetaData.h */,
-				2860C425FFB2ED4495D1BE791CD289FD /* NBMetadataHelper.h */,
-				73F40547EFA419B9676705FBC48E272E /* NBMetadataHelper.m */,
-				1D20CF2C1C9A6B9FEC93F83E4EE8CE0F /* NBNumberFormat.h */,
-				67C9C89614E1BD53B7B24506E8D5EABE /* NBNumberFormat.m */,
-				573715C30B43B732E9B35A01E0B4CA6E /* NBPhoneMetaData.h */,
-				D226B199D629F99E8545235229CDDA62 /* NBPhoneMetaData.m */,
-				656B91CA308DB6AE05CCF81C0B5C34E4 /* NBPhoneNumber.h */,
-				ED0439B8EF3B86A9188DA0A1C0330D7E /* NBPhoneNumber.m */,
-				A029ADE27667C172FF2E493A6220D581 /* NBPhoneNumberDefines.h */,
-				C7B2F343652A0DD54DAF6696692DC90A /* NBPhoneNumberDefines.m */,
-				3E91DFA989CBE796CD6981A894A30454 /* NBPhoneNumberDesc.h */,
-				E6322980524E862EA8A8503058CC9188 /* NBPhoneNumberDesc.m */,
-				7C737EE3D33FFE09B4886728CDC132BB /* NBPhoneNumberUtil.h */,
-				D128DE1780BD491420C39C8163DF8F65 /* NBPhoneNumberUtil.m */,
-				96B32B64C81DC2675321AD8AE59CE00F /* NBPhoneNumberUtil+ShortNumber.h */,
-				F4A9F7147B31CFDAF166AC2E924D2357 /* NBPhoneNumberUtil+ShortNumber.m */,
-				0CABB22ED448AFE030CA5C2938AF41DA /* NBRegExMatcher.h */,
-				1EAF4CCD97BC19233479C636A4E6E3B2 /* NBRegExMatcher.m */,
-				BE13477ABA22553A465CDFC03F182276 /* NBRegularExpressionCache.h */,
-				89623A56057AB67AB1E56514688625B6 /* NBRegularExpressionCache.m */,
-				8B42D6B037CC2C98953F4D919CEAEFBE /* NSArray+NBAdditions.h */,
-				1BD68CD340647CCFB213AC5E14E708C9 /* NSArray+NBAdditions.m */,
-			);
-			name = libPhoneNumberiOS;
-			sourceTree = "<group>";
-		};
-		26213746E9637B26B17BC9C11F1DBEAA /* Products */ = {
+		37D360E8A23609AD2086947E625E793F /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				D58E736356D48E0A1ACAAE5F7489E22B /* CountryPickerView */,
@@ -405,97 +468,46 @@
 				371C108BF7353BAC24E9BF93EE2E499C /* FlagPhoneNumber-FlagPhoneNumber */,
 				98527D7196957AAB07B79E2E2AFDE23E /* IQKeyboardManager */,
 				A5B2838E4866923F3DA717B058EBFF5D /* IQKeyboardManager-IQKeyboardManager */,
+				24D23593F38526ED22AF8540D2A283AE /* OTPTextField */,
 				2E417C8F7048643FF130C068109FE00B /* Pods-WhatsApp */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		33432CC353317E3F25F2A490635694FC /* IQKeyboardManager */ = {
+		5EC5D5A0ABD6BD2079C519DB3D2B1EA6 /* OTPTextField */ = {
 			isa = PBXGroup;
 			children = (
-				30D253F74B47BBC98B9DBC2EDB5D8A6C /* IQBarButtonItem.h */,
-				3434C0221F960D9EA765B29E25628F73 /* IQBarButtonItem.m */,
-				B25F6D58718C95FCA6DFEBF5673CC447 /* IQKeyboardManager.h */,
-				254EBE74A244D39D408BD4CEB0D03F99 /* IQKeyboardManager.m */,
-				DABD271522CB80B56E9B92B141675DCF /* IQKeyboardManagerConstants.h */,
-				15ACF66FDC1DC6FDA649D8AB09CC2A3D /* IQKeyboardManagerConstantsInternal.h */,
-				F499D1D464D58DAA4CD9A2C67D827B53 /* IQKeyboardReturnKeyHandler.h */,
-				E6F4F70909AA3355988C365C80B6C0DE /* IQKeyboardReturnKeyHandler.m */,
-				C47FDE5E53E108A4F115354799C314C5 /* IQNSArray+Sort.h */,
-				A3E90AF3B732EFBA9255C55345BDE924 /* IQNSArray+Sort.m */,
-				2A88FD235BF88DDF2EC47397871873CA /* IQPreviousNextView.h */,
-				EBC22F755256E29046C3F47AA231CFE3 /* IQPreviousNextView.m */,
-				04892852A26D060FF978B42CD520B8E7 /* IQTextView.h */,
-				0442247DED07620162440C726713BBC4 /* IQTextView.m */,
-				BCB932954AB29452D5E6232728E3A951 /* IQTitleBarButtonItem.h */,
-				0E656A150883B79B4AFFC542A61CB5A9 /* IQTitleBarButtonItem.m */,
-				C151460BA24B6F4F3A4289B44E4DF15C /* IQToolbar.h */,
-				C419ACEC3928CAC7B106F0245E400ECF /* IQToolbar.m */,
-				39F57B65C20178333C9FCD90517A21F1 /* IQUIScrollView+Additions.h */,
-				642F93A1E89489DD3220BD981E20C236 /* IQUIScrollView+Additions.m */,
-				C5249082B21D321F11150593870B1A07 /* IQUITextFieldView+Additions.h */,
-				04B07FCF3882BBBC84B3EE70EFC27560 /* IQUITextFieldView+Additions.m */,
-				83D264CE9F9CA7AA7D30AACC0A9B3879 /* IQUIView+Hierarchy.h */,
-				5FAF30737609656E67B7FB94F4703C44 /* IQUIView+Hierarchy.m */,
-				FBFB3E31D457AF345A115DAC9AFD9C2A /* IQUIView+IQKeyboardToolbar.h */,
-				9A49845F06587E92C2724AAF432DB97D /* IQUIView+IQKeyboardToolbar.m */,
-				2ED8B03E876A988EFAB3CCE476FA7A87 /* IQUIViewController+Additions.h */,
-				2AFA399CBD38A7C2752770B8926D995D /* IQUIViewController+Additions.m */,
-				A17B53D6874689695D113873D2C18423 /* Resources */,
-				C252C253E18DAC9F25C708C0EAC5F948 /* Support Files */,
+				0273B8DDB2D5C0F2D4AA8B70F6D1B632 /* OTPTextField.h */,
+				31CBFBD4EAAF8C6FE2886EFFF63ABCC4 /* OTPTextField.m */,
+				743C4A35652B04838583CBCEE1A455EF /* Support Files */,
 			);
-			name = IQKeyboardManager;
-			path = IQKeyboardManager;
+			name = OTPTextField;
+			path = OTPTextField;
 			sourceTree = "<group>";
 		};
-		58D28CA8E7E1D9C70ACE6F55C333271A /* Resources */ = {
+		743C4A35652B04838583CBCEE1A455EF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FB639FAB0990C5CB921FC941CE4A36E2 /* CountryPickerView.xib */,
-				88B51813F3E99707E7400E544CE2F301 /* Data */,
-				14D6C91CD7A921BC74A41D789C9A3907 /* Images */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		5F3AE8771281040144EC4844CFE14435 /* FlagPhoneNumber */ = {
-			isa = PBXGroup;
-			children = (
-				3F81FFB740CFFA9BD21AC668B74105B2 /* Bundle+Extension.swift */,
-				7B1589E9B2A699DC83EDADBB0192AD07 /* FPNCountry.swift */,
-				B91764821B6EF3341585EB4EB8E7C970 /* FPNCountryCode.swift */,
-				25BA5BB87A4866189BB376EBC758D518 /* FPNCountryListViewController.swift */,
-				684C5052B9D6EAA134A8DA7899A1200C /* FPNCountryPicker.swift */,
-				94B5956EC9221677E013893906E93BBA /* FPNCountryRepository.swift */,
-				B20EB1D4193645BC17F55A6762A38352 /* FPNCountryView.swift */,
-				0EE96ED60F9300B94F7640166C02AE8F /* FPNFormat.swift */,
-				585F53E0486ED6FD0121C27945CA03AA /* FPNNibLoadingView.swift */,
-				FC1949F00B3263459082EB229B5DADC3 /* FPNOBJCCountryKey.swift */,
-				BA38A562F4FE71E19E092A9FD7896156 /* FPNTextField.swift */,
-				578517305CB9F0A2D11955318B51E1F2 /* FPNTextFieldDelegate.swift */,
-				12CBA194C8EA41F73B1C784E9BEE95A6 /* FPNUtils.swift */,
-				1112CC2B1859807E22499B1177BB6524 /* libPhoneNumberiOS */,
-				B157F2D87C7248FAC3D530612F188705 /* Resources */,
-				5F3D78B75B17358E6D5D73402EE6F269 /* Support Files */,
-			);
-			name = FlagPhoneNumber;
-			path = FlagPhoneNumber;
-			sourceTree = "<group>";
-		};
-		5F3D78B75B17358E6D5D73402EE6F269 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4C143335D61EFF2D5B54F2F0F6A77BB8 /* FlagPhoneNumber.modulemap */,
-				56640B4AF6B104BA45CBBF2CFD59432B /* FlagPhoneNumber-dummy.m */,
-				114A95A03B12FFE3FC82ADEAC2C4CAD5 /* FlagPhoneNumber-Info.plist */,
-				60BC0A13D89EA6B55EFCDBEF4ED2B9A0 /* FlagPhoneNumber-prefix.pch */,
-				8F86143E702A58303343BCA0910A6199 /* FlagPhoneNumber-umbrella.h */,
-				61A8C7AC5411BD844036595321AF8F8F /* FlagPhoneNumber.debug.xcconfig */,
-				C19D531363416BB015EBC93AF46F6088 /* FlagPhoneNumber.release.xcconfig */,
-				52C83BDB70078972A9CFE0D3E3BAB52C /* ResourceBundle-FlagPhoneNumber-FlagPhoneNumber-Info.plist */,
+				031C4A0B9CBAA03E84ADF9C42BD5F0D9 /* OTPTextField.modulemap */,
+				CB742BC5E80719837A8FF11E5B247316 /* OTPTextField-dummy.m */,
+				E5B9A02F7D0780BF47DE6222A079DCD9 /* OTPTextField-Info.plist */,
+				56FB1305787749BB5124433E8F822188 /* OTPTextField-prefix.pch */,
+				660F692CDCBA0D3B04CC1F74E52761DA /* OTPTextField-umbrella.h */,
+				F94FF0B8FEADB67B31CADB902DE95AE0 /* OTPTextField.debug.xcconfig */,
+				42339CDE0D622AABDD9CB0CED8DF2F1E /* OTPTextField.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/FlagPhoneNumber";
+			path = "../Target Support Files/OTPTextField";
+			sourceTree = "<group>";
+		};
+		767236CF0653D92C7F188EFF35F4037D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DC1CCA10E4E77AF1D2DE8A0894F97E9E /* CountryPickerView.xib */,
+				C22D65FF745F13025DDB91BCD149484D /* Data */,
+				80FBED95CEF730C9EFBB1C04CDE91F08 /* Images */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		8C52B4FB447ABEB2BED93AC9129D1055 /* Pods-WhatsApp */ = {
@@ -515,20 +527,26 @@
 			path = "Target Support Files/Pods-WhatsApp";
 			sourceTree = "<group>";
 		};
-		A17B53D6874689695D113873D2C18423 /* Resources */ = {
+		91AE575E1DBE0126479D8A03BCAE6F92 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				41474259B73057B6CCB6F3575A7E9251 /* PrivacyInfo.xcprivacy */,
+				F555C2A1D6F04F1D0E45271F0CFC4197 /* CountryPickerView.modulemap */,
+				EFE0332E2D8F3C0BB290D031997412A0 /* CountryPickerView-dummy.m */,
+				F6F400F87F09FA8B45EFA1A4EA1660C2 /* CountryPickerView-Info.plist */,
+				02E5940CA9C1ED01BD4EE75D067C49F5 /* CountryPickerView-prefix.pch */,
+				3D3034C41D2E36410550371E5FFB898D /* CountryPickerView-umbrella.h */,
+				17E31F3FA67BD9AA4F16D001FA5EB108 /* CountryPickerView.debug.xcconfig */,
+				5693474CCCD7279DB22330ECCC39198C /* CountryPickerView.release.xcconfig */,
+				E560156087A8265E11FD63CA6E1633D4 /* ResourceBundle-CountryPickerView_CountryPickerView-CountryPickerView-Info.plist */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "../Target Support Files/CountryPickerView";
 			sourceTree = "<group>";
 		};
-		B157F2D87C7248FAC3D530612F188705 /* Resources */ = {
+		AE9A5F9A33BC49E5C331315E4A6CD9A8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5360DF9CA0831D7105B41AE20F21DB1F /* countryCodes.json */,
-				59CC76A019F5021041FD2979CB8B6499 /* FlagKit.xcassets */,
-				628D38F5F4833224958F38B8B81B755A /* FPNCountryView.xib */,
+				8BA452742DC4A98CE69C56B97D5ECF33 /* PrivacyInfo.xcprivacy */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -541,20 +559,44 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C252C253E18DAC9F25C708C0EAC5F948 /* Support Files */ = {
+		C0EB3B3236A5029BA6E0F6B2474D2B91 /* FlagPhoneNumber */ = {
 			isa = PBXGroup;
 			children = (
-				F11A038065CAF7E7F1B5BEEE24FD0595 /* IQKeyboardManager.modulemap */,
-				08DF2F90F8AE0923D3584AF758573CF2 /* IQKeyboardManager-dummy.m */,
-				4EE8F0A0C6E9CFC6E69CF100C3091A32 /* IQKeyboardManager-Info.plist */,
-				FDFD2FA6110891109AAF557A4DA68CEE /* IQKeyboardManager-prefix.pch */,
-				86C366EF2CD9EA4EE5F1DAC174C47E54 /* IQKeyboardManager-umbrella.h */,
-				F4D7C50B1AEECA49B5C5CA3EEAFEC638 /* IQKeyboardManager.debug.xcconfig */,
-				A975EB3E981EE1672BBCF22C61D63BE1 /* IQKeyboardManager.release.xcconfig */,
-				4BCF6E7EE8BBE4CA7E74B75745B59706 /* ResourceBundle-IQKeyboardManager-IQKeyboardManager-Info.plist */,
+				64C5D8592B382390640106E0FB325517 /* Bundle+Extension.swift */,
+				0D856010E2BCE88578818FB1AA5223C3 /* FPNCountry.swift */,
+				0A75F1E1F142B2B66701138A865BEAD2 /* FPNCountryCode.swift */,
+				ACFC8293D0DA9E2A6229E1E20AD0BA8E /* FPNCountryListViewController.swift */,
+				1F9ACC1F03D9E89034E000E909437C26 /* FPNCountryPicker.swift */,
+				21770C3DAA2C46971511A7A16324A48D /* FPNCountryRepository.swift */,
+				77EE20AFCCDD489A28835B1B534162AE /* FPNCountryView.swift */,
+				D74ABA0BE7949395F1B0F2B2D77921A1 /* FPNFormat.swift */,
+				F597079483D283322CBD351C5F5B875D /* FPNNibLoadingView.swift */,
+				14BE09BE464FEE0271E204C9A2CA6FB4 /* FPNOBJCCountryKey.swift */,
+				D84C3BEB6F6FAC76D0AB1F85199EE261 /* FPNTextField.swift */,
+				AAFA206EFEA91BFD04C1B0CD665BB3C9 /* FPNTextFieldDelegate.swift */,
+				E3D80B8F626EE26BAE1D53EDD28C6AF3 /* FPNUtils.swift */,
+				D4C95DAD6AE0EE0B9B3657D12DF67D3C /* libPhoneNumberiOS */,
+				337141D58EA80408E724ED2BAE66550E /* Resources */,
+				0C9123ECEB10BB9A3DB76E3197A1F6C9 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/IQKeyboardManager";
+			name = FlagPhoneNumber;
+			path = FlagPhoneNumber;
+			sourceTree = "<group>";
+		};
+		CD7D16409B2D18D1B0FB3C4616197ABC /* CountryPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				25A524FD88C95E8B38DC30A382D2D8FB /* Bundle.swift */,
+				29CEE11E22F07242122AA26E1D2A5C98 /* CountryPickerView.swift */,
+				F54696E00ECFB9B7782633028955842E /* CountryPickerViewController.swift */,
+				A3A9562938316FCA09434A11C342CFFE /* Delegate+DataSource.swift */,
+				E03DF581DED9E38157D9FBACBE6BEA5A /* Extensions.swift */,
+				9088F1CC91061D39C978978DEE062AF2 /* NibView.swift */,
+				767236CF0653D92C7F188EFF35F4037D /* Resources */,
+				91AE575E1DBE0126479D8A03BCAE6F92 /* Support Files */,
+			);
+			name = CountryPickerView;
+			path = CountryPickerView;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -562,26 +604,42 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
-				0F4FCD1CB02BEB49ECC38E78C21DBDCE /* Pods */,
-				26213746E9637B26B17BC9C11F1DBEAA /* Products */,
+				3607800415DBC8D79FC36AB123A6963F /* Pods */,
+				37D360E8A23609AD2086947E625E793F /* Products */,
 				F2E867391DE876772E54AEFC944494A4 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		E91BD18A385770BC0E32A6E76BFBA3F8 /* Support Files */ = {
+		D4C95DAD6AE0EE0B9B3657D12DF67D3C /* libPhoneNumberiOS */ = {
 			isa = PBXGroup;
 			children = (
-				88280BBFB9C26BC3314C318F7EB927B1 /* CountryPickerView.modulemap */,
-				629D20DE86BBB5305045047E3CBE5100 /* CountryPickerView-dummy.m */,
-				50FBBDEE0EA62D87D3D754A9BDE70FB0 /* CountryPickerView-Info.plist */,
-				9A74A90D05F8CE7CB2D206E29C898D27 /* CountryPickerView-prefix.pch */,
-				75ACDE24491F18C4F311103A9088F6D9 /* CountryPickerView-umbrella.h */,
-				0F87375BAFB9F13E8BB5B096C508A055 /* CountryPickerView.debug.xcconfig */,
-				D8154F55DA6BFF7CA993D0F8EFF0CE25 /* CountryPickerView.release.xcconfig */,
-				299AF1CC56B9646EBCACC4280C679B6A /* ResourceBundle-CountryPickerView_CountryPickerView-CountryPickerView-Info.plist */,
+				24D623E63D8D0E8D82C81C2970F12EF8 /* NBAsYouTypeFormatter.h */,
+				DA8B875905EC60CC0CCD634AD14D1250 /* NBAsYouTypeFormatter.m */,
+				7841C3E82E6EE69390C3614A43735C97 /* NBGeneratedPhoneNumberMetaData.h */,
+				FF0D81812A5A66728D3181B4C57EBDF9 /* NBMetadataHelper.h */,
+				2FDCED95A6FF65A8DC31B3BEA6219752 /* NBMetadataHelper.m */,
+				9141A0E3984D4E6ABE1C39C8FAABE68B /* NBNumberFormat.h */,
+				642FC29752DC56EC287894BC3996C582 /* NBNumberFormat.m */,
+				1A32BF1B7A3D02844123C4C43577DBA2 /* NBPhoneMetaData.h */,
+				3F9F22F170004A75D32702187AECC707 /* NBPhoneMetaData.m */,
+				FC8C1F6EF71368657FDD1E5DD5447227 /* NBPhoneNumber.h */,
+				115625F2B9856DFE664AD25848291683 /* NBPhoneNumber.m */,
+				177173139F48C2FC54AACC5CC87708A1 /* NBPhoneNumberDefines.h */,
+				8E58B404EDBFF023D9AF3400070F78BD /* NBPhoneNumberDefines.m */,
+				34FFF33F90270E1839644DB732B57FEE /* NBPhoneNumberDesc.h */,
+				F609C40E522ECA12521C7B4274000C4C /* NBPhoneNumberDesc.m */,
+				F82149D971D36564BDC56A10AF1ADEF6 /* NBPhoneNumberUtil.h */,
+				5F67273AC7F8794530B4704E490E61D4 /* NBPhoneNumberUtil.m */,
+				2F8B038C5B2B9C8E1A9386245B076C1B /* NBPhoneNumberUtil+ShortNumber.h */,
+				53B89217DF62EA287175BDA8968CE015 /* NBPhoneNumberUtil+ShortNumber.m */,
+				2D4A570160081A751F6F31262A77974A /* NBRegExMatcher.h */,
+				46413B3ED529028067E2A27CDB99AAB1 /* NBRegExMatcher.m */,
+				700A4488E42B06320F8F50FB93FE9059 /* NBRegularExpressionCache.h */,
+				FCA697A115ACCADBEEC7FD743FFE515C /* NBRegularExpressionCache.m */,
+				C0F80AE7560C50E36C1FDDA9CE1FC274 /* NSArray+NBAdditions.h */,
+				9BA9E74CC6BA6303B45B8A0E9037B65D /* NSArray+NBAdditions.m */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/CountryPickerView";
+			name = libPhoneNumberiOS;
 			sourceTree = "<group>";
 		};
 		F2E867391DE876772E54AEFC944494A4 /* Targets Support Files */ = {
@@ -606,6 +664,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		2F68AB1E8B169CD8B81692D6B434BA49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3441917A9B37B7D440C595427DE043 /* Pods-WhatsApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7208697923AC9999C788A09CCAE08F78 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -624,14 +690,6 @@
 				E5E266B61F07E7294FF8B56C7CDF2B19 /* NBRegExMatcher.h in Headers */,
 				DD0695954F7429D57107E63A3C90DED3 /* NBRegularExpressionCache.h in Headers */,
 				E6005A42CCB3ACA46906012F1FB26C31 /* NSArray+NBAdditions.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8B357E9BEFFD6EECACBF7B77A209A565 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C664A46F4D1768653DB866730431E230 /* Pods-WhatsApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,16 +724,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D087A26457365BBDA7BD3EB07F60565F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96743F67C99C55A4C64C32FF35731646 /* OTPTextField.h in Headers */,
+				A41F07C51847F3E279EEFD240C075004 /* OTPTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		05B2A835D60F78761395189914B88047 /* IQKeyboardManager-IQKeyboardManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 732475C079F27234FF556A13DB842314 /* Build configuration list for PBXNativeTarget "IQKeyboardManager-IQKeyboardManager" */;
+			buildConfigurationList = 3FBD1ADEC626A18498F328C16D83FA24 /* Build configuration list for PBXNativeTarget "IQKeyboardManager-IQKeyboardManager" */;
 			buildPhases = (
-				D2C92BD030AF4F244A6BBD94BA9C7DC7 /* Sources */,
-				4F436B7BF4AE20802C648D22234EB624 /* Frameworks */,
-				A747E7D021706E60400FB97499206810 /* Resources */,
+				2D4D592977F165738293B257ABE6A00B /* Sources */,
+				12721C60E7CD411EFA0C0179F5D123F1 /* Frameworks */,
+				075DFE70B0395BEB7D595B15377BEF4A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -688,19 +755,20 @@
 		};
 		2156A46B4824740F838E812956DD3734 /* Pods-WhatsApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE113328D3798B3062AC8BDAC32B772A /* Build configuration list for PBXNativeTarget "Pods-WhatsApp" */;
+			buildConfigurationList = 37535803D2AB0EFB78026F8A1C7F9AB8 /* Build configuration list for PBXNativeTarget "Pods-WhatsApp" */;
 			buildPhases = (
-				8B357E9BEFFD6EECACBF7B77A209A565 /* Headers */,
-				DE370D7BA9160FF0E928E0487EE91A21 /* Sources */,
-				B8E4218E705D4C74D204351D34DDE40F /* Frameworks */,
-				1FD74E0967E34B2EA98F7FBCB0A39741 /* Resources */,
+				2F68AB1E8B169CD8B81692D6B434BA49 /* Headers */,
+				F7D1872B7127FB5CD9056B6730A54F59 /* Sources */,
+				60EA15B9EB6579A094094CEDFE81346B /* Frameworks */,
+				92761CFDDF30121096C3DC4C19C70AC9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4BD1D9AAC2940A68AAA23A16CEC1A5E9 /* PBXTargetDependency */,
-				7E3E1624CD86F6356D5C9FF43DE9A869 /* PBXTargetDependency */,
-				C87ACEE4D2D2E24D6EF9EB4647FCB1C3 /* PBXTargetDependency */,
+				0E71247AE74EBC4038C0910AF3EB7D73 /* PBXTargetDependency */,
+				043EED8517F7F0838E3DDB7C13FC0E72 /* PBXTargetDependency */,
+				6D82FAA38950324A8812DEC060DD0F3A /* PBXTargetDependency */,
+				34364D84ADA583D10612BAD697EBD35E /* PBXTargetDependency */,
 			);
 			name = "Pods-WhatsApp";
 			productName = Pods_WhatsApp;
@@ -709,11 +777,11 @@
 		};
 		43E53E03FD1BE73C8433078A971781F1 /* CountryPickerView-CountryPickerView_CountryPickerView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9573C0CD2105BF7B25BA5948A76E7CC1 /* Build configuration list for PBXNativeTarget "CountryPickerView-CountryPickerView_CountryPickerView" */;
+			buildConfigurationList = C80D4706CB3C229EA645B07F088E3445 /* Build configuration list for PBXNativeTarget "CountryPickerView-CountryPickerView_CountryPickerView" */;
 			buildPhases = (
-				6B0CBBB7F42E4F5597A8875DBE1EF5D4 /* Sources */,
-				7069089D3CDDE6376689F4DBF7F0777B /* Frameworks */,
-				432046B9E13647FA279D2D7C42E4C75F /* Resources */,
+				E27AD5B4B863519B62269E3F95811965 /* Sources */,
+				7D081719F3436A588F113F8B4A2EB016 /* Frameworks */,
+				96AA8D39929EA1EA940C64F1E42CF12D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -736,7 +804,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C37BD23445F716C61DA5A8FEBF18F88A /* PBXTargetDependency */,
+				130DAB77218C0F77122C77B46D42423A /* PBXTargetDependency */,
 			);
 			name = CountryPickerView;
 			productName = CountryPickerView;
@@ -755,7 +823,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E52EADB9F18ABF543A63B68A4AF48CAD /* PBXTargetDependency */,
+				7C8696675B8A607F917A8C64E224481F /* PBXTargetDependency */,
 			);
 			name = FlagPhoneNumber;
 			productName = FlagPhoneNumber;
@@ -764,11 +832,11 @@
 		};
 		BE34A30F721FDBE1399B802E0A95F2C7 /* FlagPhoneNumber-FlagPhoneNumber */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC8C3D5059B8C89A36049127F9983F49 /* Build configuration list for PBXNativeTarget "FlagPhoneNumber-FlagPhoneNumber" */;
+			buildConfigurationList = 0E2D6C56EC4C5EE527C290BE2C309986 /* Build configuration list for PBXNativeTarget "FlagPhoneNumber-FlagPhoneNumber" */;
 			buildPhases = (
-				60DE49CB515E8E20F77538A7F57AE865 /* Sources */,
-				1533333456C679BEE0FE966D69CD4928 /* Frameworks */,
-				5561E14D8B24FB5C6E539F9AFEFE7B99 /* Resources */,
+				97FB3AA0C679D64D9E79B2BF1D548CC8 /* Sources */,
+				53A78CB99C04A74D69C15DDCAFBCF4AA /* Frameworks */,
+				6618EFC5E3AFA95089B63009BC110BC5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -778,6 +846,24 @@
 			productName = FlagPhoneNumber;
 			productReference = 371C108BF7353BAC24E9BF93EE2E499C /* FlagPhoneNumber-FlagPhoneNumber */;
 			productType = "com.apple.product-type.bundle";
+		};
+		EA60B2566ADC33112DEDA99A3BE0F7AD /* OTPTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81AD4E9E04A3AA6E50FE1DF16262344D /* Build configuration list for PBXNativeTarget "OTPTextField" */;
+			buildPhases = (
+				D087A26457365BBDA7BD3EB07F60565F /* Headers */,
+				625AE934C46B1BDD40899090596DCE8B /* Sources */,
+				C12C704F6D6388CB37EDCFE9D75D1C10 /* Frameworks */,
+				9A46013BF0A2782CFF738162B4C1AF48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OTPTextField;
+			productName = OTPTextField;
+			productReference = 24D23593F38526ED22AF8540D2A283AE /* OTPTextField */;
+			productType = "com.apple.product-type.framework";
 		};
 		FBA456CB50E371584C11231929A0971E /* IQKeyboardManager */ = {
 			isa = PBXNativeTarget;
@@ -791,7 +877,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B8D366B082AB788C94C2BAFE88757193 /* PBXTargetDependency */,
+				C1B0664322B30C7372F7A418F6A7AE00 /* PBXTargetDependency */,
 			);
 			name = IQKeyboardManager;
 			productName = IQKeyboardManager;
@@ -816,7 +902,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 26213746E9637B26B17BC9C11F1DBEAA /* Products */;
+			productRefGroup = 37D360E8A23609AD2086947E625E793F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -826,36 +912,18 @@
 				BE34A30F721FDBE1399B802E0A95F2C7 /* FlagPhoneNumber-FlagPhoneNumber */,
 				FBA456CB50E371584C11231929A0971E /* IQKeyboardManager */,
 				05B2A835D60F78761395189914B88047 /* IQKeyboardManager-IQKeyboardManager */,
+				EA60B2566ADC33112DEDA99A3BE0F7AD /* OTPTextField */,
 				2156A46B4824740F838E812956DD3734 /* Pods-WhatsApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1FD74E0967E34B2EA98F7FBCB0A39741 /* Resources */ = {
+		075DFE70B0395BEB7D595B15377BEF4A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		432046B9E13647FA279D2D7C42E4C75F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7E590628DC0665E96E360681A440CCE7 /* CountryPickerView.xib in Resources */,
-				BE7E885A14BDD5C6A2674241D20330CD /* Data in Resources */,
-				7085A7CD455216302F74525F066665C9 /* Images in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5561E14D8B24FB5C6E539F9AFEFE7B99 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A10D9C3BFF5548E082065AE59F923E10 /* countryCodes.json in Resources */,
-				CFC507DC1F25BA3618E4C49831C5E199 /* FlagKit.xcassets in Resources */,
-				4D926C48BB6F30E0377E125CBD4E6CFB /* FPNCountryView.xib in Resources */,
+				F59919FC881E6B019DF5667BDD53F522 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -867,11 +935,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A747E7D021706E60400FB97499206810 /* Resources */ = {
+		6618EFC5E3AFA95089B63009BC110BC5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				374C513A7B1D0CA1EC30CB219255924A /* PrivacyInfo.xcprivacy in Resources */,
+				F7EFFC85F7A8CCF1878AFA03D45B531A /* countryCodes.json in Resources */,
+				98E9C252097C29FF7328808D386829E0 /* FlagKit.xcassets in Resources */,
+				9841C2C65826B781F0ED973DF9139869 /* FPNCountryView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92761CFDDF30121096C3DC4C19C70AC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96AA8D39929EA1EA940C64F1E42CF12D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEAA32CC10E7F96D85796A1651A5381 /* CountryPickerView.xib in Resources */,
+				F4982BB3416E9CC1CF0A4E8771C646D5 /* Data in Resources */,
+				29C993BD9B155907CAE1CE5AED061ED0 /* Images in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A46013BF0A2782CFF738162B4C1AF48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -927,32 +1021,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60DE49CB515E8E20F77538A7F57AE865 /* Sources */ = {
+		2D4D592977F165738293B257ABE6A00B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B0CBBB7F42E4F5597A8875DBE1EF5D4 /* Sources */ = {
+		625AE934C46B1BDD40899090596DCE8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C8EB9674CCB8121351D9B946A2F4413 /* OTPTextField.m in Sources */,
+				676A3FDBA5D16D756912F0B1D5A98931 /* OTPTextField-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97FB3AA0C679D64D9E79B2BF1D548CC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2C92BD030AF4F244A6BBD94BA9C7DC7 /* Sources */ = {
+		E27AD5B4B863519B62269E3F95811965 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE370D7BA9160FF0E928E0487EE91A21 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3DE53F0AAF6AC0F1649F5557D005E94A /* Pods-WhatsApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -991,186 +1086,63 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7D1872B7127FB5CD9056B6730A54F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27717FCD2F8D39F45B2F6F021EB3EAB /* Pods-WhatsApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4BD1D9AAC2940A68AAA23A16CEC1A5E9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CountryPickerView;
-			target = 81AA88F2453B4A0E544BF0FB08E13D87 /* CountryPickerView */;
-			targetProxy = A6E50C9A507A380215FD2BAAB2D99A1C /* PBXContainerItemProxy */;
-		};
-		7E3E1624CD86F6356D5C9FF43DE9A869 /* PBXTargetDependency */ = {
+		043EED8517F7F0838E3DDB7C13FC0E72 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FlagPhoneNumber;
 			target = AB3438FA9F70920ABECB5EF04F606134 /* FlagPhoneNumber */;
-			targetProxy = 38ECBE2C05506B4014416771EF07C2BC /* PBXContainerItemProxy */;
+			targetProxy = 232390541928087D7BD1CC77C0A7E91D /* PBXContainerItemProxy */;
 		};
-		B8D366B082AB788C94C2BAFE88757193 /* PBXTargetDependency */ = {
+		0E71247AE74EBC4038C0910AF3EB7D73 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "IQKeyboardManager-IQKeyboardManager";
-			target = 05B2A835D60F78761395189914B88047 /* IQKeyboardManager-IQKeyboardManager */;
-			targetProxy = 5F8FD8D73D8FEE0EC5413D55E190E621 /* PBXContainerItemProxy */;
+			name = CountryPickerView;
+			target = 81AA88F2453B4A0E544BF0FB08E13D87 /* CountryPickerView */;
+			targetProxy = 8B0CB8ACEE5A74A215D8AD6396A46D06 /* PBXContainerItemProxy */;
 		};
-		C37BD23445F716C61DA5A8FEBF18F88A /* PBXTargetDependency */ = {
+		130DAB77218C0F77122C77B46D42423A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "CountryPickerView-CountryPickerView_CountryPickerView";
 			target = 43E53E03FD1BE73C8433078A971781F1 /* CountryPickerView-CountryPickerView_CountryPickerView */;
-			targetProxy = 7E098994DF4895A1C99DED26FD264762 /* PBXContainerItemProxy */;
+			targetProxy = FDC0FA32D77D3EC9AEB9049290F363A5 /* PBXContainerItemProxy */;
 		};
-		C87ACEE4D2D2E24D6EF9EB4647FCB1C3 /* PBXTargetDependency */ = {
+		34364D84ADA583D10612BAD697EBD35E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OTPTextField;
+			target = EA60B2566ADC33112DEDA99A3BE0F7AD /* OTPTextField */;
+			targetProxy = 8A6464415C2C1897A5C26C52DA6DE528 /* PBXContainerItemProxy */;
+		};
+		6D82FAA38950324A8812DEC060DD0F3A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = IQKeyboardManager;
 			target = FBA456CB50E371584C11231929A0971E /* IQKeyboardManager */;
-			targetProxy = 54EB0601AFFAC1DC6DDF26DC693B7AD9 /* PBXContainerItemProxy */;
+			targetProxy = 0CF737033FDAF3F9C65570713E676938 /* PBXContainerItemProxy */;
 		};
-		E52EADB9F18ABF543A63B68A4AF48CAD /* PBXTargetDependency */ = {
+		7C8696675B8A607F917A8C64E224481F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "FlagPhoneNumber-FlagPhoneNumber";
 			target = BE34A30F721FDBE1399B802E0A95F2C7 /* FlagPhoneNumber-FlagPhoneNumber */;
-			targetProxy = 9112B70EAEBF6E6E5CE37CA5E2B732E4 /* PBXContainerItemProxy */;
+			targetProxy = BB0455C21785AC160E6FA3A331986063 /* PBXContainerItemProxy */;
+		};
+		C1B0664322B30C7372F7A418F6A7AE00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "IQKeyboardManager-IQKeyboardManager";
+			target = 05B2A835D60F78761395189914B88047 /* IQKeyboardManager-IQKeyboardManager */;
+			targetProxy = 32A809300609E6097E897676E0C617C2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2248DC741F4BE6454D63FDCE9AB7E934 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C19D531363416BB015EBC93AF46F6088 /* FlagPhoneNumber.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FlagPhoneNumber/FlagPhoneNumber-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FlagPhoneNumber/FlagPhoneNumber-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/FlagPhoneNumber/FlagPhoneNumber.modulemap";
-				PRODUCT_MODULE_NAME = FlagPhoneNumber;
-				PRODUCT_NAME = FlagPhoneNumber;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2CF4A8064D89A719E60717A79A5F9B94 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A975EB3E981EE1672BBCF22C61D63BE1 /* IQKeyboardManager.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManager/IQKeyboardManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager.modulemap";
-				PRODUCT_MODULE_NAME = IQKeyboardManager;
-				PRODUCT_NAME = IQKeyboardManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2D04D8F890C8C29D484BE10CD8B77A9B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61A8C7AC5411BD844036595321AF8F8F /* FlagPhoneNumber.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FlagPhoneNumber/FlagPhoneNumber-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FlagPhoneNumber/FlagPhoneNumber-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/FlagPhoneNumber/FlagPhoneNumber.modulemap";
-				PRODUCT_MODULE_NAME = FlagPhoneNumber;
-				PRODUCT_NAME = FlagPhoneNumber;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		32C75ED6C6784D21AD5BB018984164F7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61A8C7AC5411BD844036595321AF8F8F /* FlagPhoneNumber.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FlagPhoneNumber";
-				IBSC_MODULE = FlagPhoneNumber;
-				INFOPLIST_FILE = "Target Support Files/FlagPhoneNumber/ResourceBundle-FlagPhoneNumber-FlagPhoneNumber-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = FlagPhoneNumber;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		394C906CFD8EE58891FD456AB192AAB9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C19D531363416BB015EBC93AF46F6088 /* FlagPhoneNumber.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FlagPhoneNumber";
-				IBSC_MODULE = FlagPhoneNumber;
-				INFOPLIST_FILE = "Target Support Files/FlagPhoneNumber/ResourceBundle-FlagPhoneNumber-FlagPhoneNumber-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = FlagPhoneNumber;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		3CEAA4C55C939DB53F33A4DB8357B15C /* Release */ = {
+		0AF73295835FC52E8C849F0D123F2A95 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2FAEBEE063AE6003B42B8D2298C4013A /* Pods-WhatsApp.release.xcconfig */;
 			buildSettings = {
@@ -1208,9 +1180,163 @@
 			};
 			name = Release;
 		};
+		2248DC741F4BE6454D63FDCE9AB7E934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7A446B64ECD87B3254FE3D71AD40277 /* FlagPhoneNumber.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlagPhoneNumber/FlagPhoneNumber-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlagPhoneNumber/FlagPhoneNumber-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FlagPhoneNumber/FlagPhoneNumber.modulemap";
+				PRODUCT_MODULE_NAME = FlagPhoneNumber;
+				PRODUCT_NAME = FlagPhoneNumber;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2CF4A8064D89A719E60717A79A5F9B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8164A1C8DD9306C09D752DEF465BD4A /* IQKeyboardManager.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManager/IQKeyboardManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManager;
+				PRODUCT_NAME = IQKeyboardManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2D04D8F890C8C29D484BE10CD8B77A9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2BBEBA84C3035C69AE7376030550464 /* FlagPhoneNumber.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlagPhoneNumber/FlagPhoneNumber-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlagPhoneNumber/FlagPhoneNumber-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FlagPhoneNumber/FlagPhoneNumber.modulemap";
+				PRODUCT_MODULE_NAME = FlagPhoneNumber;
+				PRODUCT_NAME = FlagPhoneNumber;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2D9F05E3117D00F08267AC4377DE6EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F94FF0B8FEADB67B31CADB902DE95AE0 /* OTPTextField.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OTPTextField/OTPTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OTPTextField/OTPTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OTPTextField/OTPTextField.modulemap";
+				PRODUCT_MODULE_NAME = OTPTextField;
+				PRODUCT_NAME = OTPTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		49F059F9AFD464AA6D17F208D5914436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17E31F3FA67BD9AA4F16D001FA5EB108 /* CountryPickerView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CountryPickerView";
+				IBSC_MODULE = CountryPickerView;
+				INFOPLIST_FILE = "Target Support Files/CountryPickerView/ResourceBundle-CountryPickerView_CountryPickerView-CountryPickerView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = CountryPickerView_CountryPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		575333D009FFAFAD55EBFCE4342F9B19 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4D7C50B1AEECA49B5C5CA3EEAFEC638 /* IQKeyboardManager.debug.xcconfig */;
+			baseConfigurationReference = 19E142EAFD4DDAB5D6DCEEEE8C7E72F3 /* IQKeyboardManager.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1243,33 +1369,16 @@
 			};
 			name = Debug;
 		};
-		714774747BA546D9C0BD715F76762174 /* Release */ = {
+		74F901431615C983A8798D9D1411AAB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A975EB3E981EE1672BBCF22C61D63BE1 /* IQKeyboardManager.release.xcconfig */;
+			baseConfigurationReference = E2BBEBA84C3035C69AE7376030550464 /* FlagPhoneNumber.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/IQKeyboardManager";
-				IBSC_MODULE = IQKeyboardManager;
-				INFOPLIST_FILE = "Target Support Files/IQKeyboardManager/ResourceBundle-IQKeyboardManager-IQKeyboardManager-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = IQKeyboardManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		76CDE07DDDD6ACD5396BA279DCA53F0C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F87375BAFB9F13E8BB5B096C508A055 /* CountryPickerView.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CountryPickerView";
-				IBSC_MODULE = CountryPickerView;
-				INFOPLIST_FILE = "Target Support Files/CountryPickerView/ResourceBundle-CountryPickerView_CountryPickerView-CountryPickerView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = CountryPickerView_CountryPickerView;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FlagPhoneNumber";
+				IBSC_MODULE = FlagPhoneNumber;
+				INFOPLIST_FILE = "Target Support Files/FlagPhoneNumber/ResourceBundle-FlagPhoneNumber-FlagPhoneNumber-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FlagPhoneNumber;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1343,23 +1452,6 @@
 			};
 			name = Debug;
 		};
-		9368AB13F9E540DB7428356528D1969E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8154F55DA6BFF7CA993D0F8EFF0CE25 /* CountryPickerView.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CountryPickerView";
-				IBSC_MODULE = CountryPickerView;
-				INFOPLIST_FILE = "Target Support Files/CountryPickerView/ResourceBundle-CountryPickerView_CountryPickerView-CountryPickerView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = CountryPickerView_CountryPickerView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1422,9 +1514,60 @@
 			};
 			name = Release;
 		};
+		A522717D0C1342B86A52EB23E8CE5279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5693474CCCD7279DB22330ECCC39198C /* CountryPickerView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CountryPickerView";
+				IBSC_MODULE = CountryPickerView;
+				INFOPLIST_FILE = "Target Support Files/CountryPickerView/ResourceBundle-CountryPickerView_CountryPickerView-CountryPickerView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = CountryPickerView_CountryPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		ACA8666A04E3CBAA2E11AD908634D112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19E142EAFD4DDAB5D6DCEEEE8C7E72F3 /* IQKeyboardManager.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/IQKeyboardManager";
+				IBSC_MODULE = IQKeyboardManager;
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManager/ResourceBundle-IQKeyboardManager-IQKeyboardManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = IQKeyboardManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C2DF43AA093DB5466049DE5524194D9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7A446B64ECD87B3254FE3D71AD40277 /* FlagPhoneNumber.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FlagPhoneNumber";
+				IBSC_MODULE = FlagPhoneNumber;
+				INFOPLIST_FILE = "Target Support Files/FlagPhoneNumber/ResourceBundle-FlagPhoneNumber-FlagPhoneNumber-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FlagPhoneNumber;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		C80F0AE4E4EE778C7AC673E1A9FE3140 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F87375BAFB9F13E8BB5B096C508A055 /* CountryPickerView.debug.xcconfig */;
+			baseConfigurationReference = 17E31F3FA67BD9AA4F16D001FA5EB108 /* CountryPickerView.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1455,7 +1598,93 @@
 			};
 			name = Debug;
 		};
-		CCF25B3C6311208DB7C02F3DA463E0F0 /* Debug */ = {
+		D27B903C02B6C0A86E29A87451CC0405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5693474CCCD7279DB22330ECCC39198C /* CountryPickerView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CountryPickerView/CountryPickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CountryPickerView/CountryPickerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CountryPickerView/CountryPickerView.modulemap";
+				PRODUCT_MODULE_NAME = CountryPickerView;
+				PRODUCT_NAME = CountryPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3B8629D6AC2EFFD02B7C119C16C3338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8164A1C8DD9306C09D752DEF465BD4A /* IQKeyboardManager.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/IQKeyboardManager";
+				IBSC_MODULE = IQKeyboardManager;
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManager/ResourceBundle-IQKeyboardManager-IQKeyboardManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = IQKeyboardManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D8D73CB534F4D1CCB186CDDBA0E146A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42339CDE0D622AABDD9CB0CED8DF2F1E /* OTPTextField.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OTPTextField/OTPTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OTPTextField/OTPTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OTPTextField/OTPTextField.modulemap";
+				PRODUCT_MODULE_NAME = OTPTextField;
+				PRODUCT_NAME = OTPTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF464A795730AABEE17603BB8A949CDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C85156710AFD2D50D5DADA2484AD1D5E /* Pods-WhatsApp.debug.xcconfig */;
 			buildSettings = {
@@ -1492,57 +1721,6 @@
 			};
 			name = Debug;
 		};
-		D27B903C02B6C0A86E29A87451CC0405 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8154F55DA6BFF7CA993D0F8EFF0CE25 /* CountryPickerView.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CountryPickerView/CountryPickerView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CountryPickerView/CountryPickerView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CountryPickerView/CountryPickerView.modulemap";
-				PRODUCT_MODULE_NAME = CountryPickerView;
-				PRODUCT_NAME = CountryPickerView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DAB64BF21543946714109109C493DF48 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4D7C50B1AEECA49B5C5CA3EEAFEC638 /* IQKeyboardManager.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/IQKeyboardManager";
-				IBSC_MODULE = IQKeyboardManager;
-				INFOPLIST_FILE = "Target Support Files/IQKeyboardManager/ResourceBundle-IQKeyboardManager-IQKeyboardManager-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = IQKeyboardManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1551,6 +1729,15 @@
 			buildConfigurations = (
 				C80F0AE4E4EE778C7AC673E1A9FE3140 /* Debug */,
 				D27B903C02B6C0A86E29A87451CC0405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E2D6C56EC4C5EE527C290BE2C309986 /* Build configuration list for PBXNativeTarget "FlagPhoneNumber-FlagPhoneNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F901431615C983A8798D9D1411AAB7 /* Debug */,
+				C2DF43AA093DB5466049DE5524194D9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1564,6 +1751,24 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		37535803D2AB0EFB78026F8A1C7F9AB8 /* Build configuration list for PBXNativeTarget "Pods-WhatsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF464A795730AABEE17603BB8A949CDC /* Debug */,
+				0AF73295835FC52E8C849F0D123F2A95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FBD1ADEC626A18498F328C16D83FA24 /* Build configuration list for PBXNativeTarget "IQKeyboardManager-IQKeyboardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA8666A04E3CBAA2E11AD908634D112 /* Debug */,
+				D3B8629D6AC2EFFD02B7C119C16C3338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1573,38 +1778,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		732475C079F27234FF556A13DB842314 /* Build configuration list for PBXNativeTarget "IQKeyboardManager-IQKeyboardManager" */ = {
+		81AD4E9E04A3AA6E50FE1DF16262344D /* Build configuration list for PBXNativeTarget "OTPTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DAB64BF21543946714109109C493DF48 /* Debug */,
-				714774747BA546D9C0BD715F76762174 /* Release */,
+				2D9F05E3117D00F08267AC4377DE6EBE /* Debug */,
+				D8D73CB534F4D1CCB186CDDBA0E146A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9573C0CD2105BF7B25BA5948A76E7CC1 /* Build configuration list for PBXNativeTarget "CountryPickerView-CountryPickerView_CountryPickerView" */ = {
+		C80D4706CB3C229EA645B07F088E3445 /* Build configuration list for PBXNativeTarget "CountryPickerView-CountryPickerView_CountryPickerView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				76CDE07DDDD6ACD5396BA279DCA53F0C /* Debug */,
-				9368AB13F9E540DB7428356528D1969E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CE113328D3798B3062AC8BDAC32B772A /* Build configuration list for PBXNativeTarget "Pods-WhatsApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CCF25B3C6311208DB7C02F3DA463E0F0 /* Debug */,
-				3CEAA4C55C939DB53F33A4DB8357B15C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EC8C3D5059B8C89A36049127F9983F49 /* Build configuration list for PBXNativeTarget "FlagPhoneNumber-FlagPhoneNumber" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				32C75ED6C6784D21AD5BB018984164F7 /* Debug */,
-				394C906CFD8EE58891FD456AB192AAB9 /* Release */,
+				49F059F9AFD464AA6D17F208D5914436 /* Debug */,
+				A522717D0C1342B86A52EB23E8CE5279 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
