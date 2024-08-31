@@ -15,6 +15,7 @@ class TermsAndServicesVC: UIViewController {
     super.viewDidLoad()
     
     self.navigationItem.setHidesBackButton(true, animated: true)
+    navigationController?.navigationBar.prefersLargeTitles = false
     setupLabel()
   }
   

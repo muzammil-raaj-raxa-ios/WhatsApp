@@ -31,6 +31,23 @@ class SettingsVC: UIViewController, UISearchBarDelegate {
     setupFourthSettingTblView()
   }
   
+  @IBAction func logoutBtn(_ sender: Any) {
+    let alert = UIAlertController(title: "Log Out", message: "Are you sure you want to Log out ?", preferredStyle: .alert)
+    alert.addAction(UIAlertAction(title: "No", style: .default, handler: nil))
+    alert.addAction(UIAlertAction(title: "Yes", style: .destructive, handler: { _ in
+      UserDefaults.standard.removeObject(forKey: "userName")
+      UserDefaults.standard.removeObject(forKey: "profileImage")
+      DispatchQueue.main.async {
+        let storyboard = UIStoryboard(name: "Main", bundle: .main)
+        if let vc = storyboard.instantiateViewController(withIdentifier: "TermsAndServicesVC") as? TermsAndServicesVC {
+          vc.hidesBottomBarWhenPushed = true
+          self.navigationController?.pushViewController(vc, animated: true)
+        }
+      }
+    }))
+    present(alert, animated: true)
+    print("logout")
+  }
   
   func setupProfile() {
     profileName.text = UserDefaults.standard.string(forKey: "userName")

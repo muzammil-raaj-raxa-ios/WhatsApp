@@ -8,10 +8,24 @@
 import UIKit
 
 class ChatCell: UITableViewCell {
+  
+  @IBOutlet weak var muteNotificationImg: UIImageView!
+  @IBOutlet weak var msgsCount: UILabel!
+  @IBOutlet weak var msgTimeorDate: UILabel!
+  @IBOutlet weak var lastMsg: UILabel!
+  @IBOutlet weak var profileName: UILabel!
+  @IBOutlet weak var profileImg: UIImageView!
+  
+  
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+      
+      profileImg.layer.cornerRadius = profileImg.frame.size.width / 2
+      profileImg.layer.masksToBounds = true
+      
+      profileImg.image = getProfileImg(forKey: "profileImage")
+      
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

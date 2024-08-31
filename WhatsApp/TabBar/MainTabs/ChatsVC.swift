@@ -9,6 +9,8 @@ import UIKit
 
 class ChatsVC: UIViewController, UISearchBarDelegate {
   
+  @IBOutlet weak var chatTblViewHeight: NSLayoutConstraint!
+  @IBOutlet weak var chatsTblView: UITableView!
   @IBOutlet weak var groupBtn: UIButton!
   @IBOutlet weak var favBtn: UIButton!
   @IBOutlet weak var unreadBtn: UIButton!
@@ -23,6 +25,7 @@ class ChatsVC: UIViewController, UISearchBarDelegate {
     
     setupThreeDotBtn()
     setupSearchBar()
+    setupChatTblView()
   }
   
   
@@ -88,4 +91,38 @@ class ChatsVC: UIViewController, UISearchBarDelegate {
     }
   }
   
+  func setupChatTblView() {
+    chatsTblView.delegate = self
+    chatsTblView.dataSource = self
+    chatsTblView.register(UINib(nibName: "ChatCell", bundle: .main), forCellReuseIdentifier: "ChatCell")
+    updateTblViewHeight()
+  }
+  
+  func updateTblViewHeight() {
+    let noOfRows = tableView(chatsTblView, numberOfRowsInSection: 10)
+    let height = CGFloat(noOfRows) * 100
+    chatTblViewHeight.constant = height
+  }
+  
+}
+
+
+extension ChatsVC: UITableViewDelegate, UITableViewDataSource {
+  func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    return 10
+  }
+  
+  func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    guard let cell = tableView.dequeueReusableCell(withIdentifier: "ChatCell", for: indexPath) as? ChatCell else{
+      return UITableViewCell()
+    }
+    
+    cell.separatorInset = UIEdgeInsets(top: 0, left: 80, bottom: 0, right: 0)
+    
+    return cell
+  }
+  
+  func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+    return 100
+  }
 }
