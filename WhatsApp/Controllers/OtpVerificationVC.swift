@@ -35,7 +35,6 @@ class OtpVerificationVC: UIViewController {
     resendSMSview.addBottomBorderView(color: UIColor.LIGHTGRAY)
     resendsmsBtn.setTitle("", for: .normal)
     callBtn.setTitle("", for: .normal)
-    print(phoneNo)
   }
   
   
@@ -51,13 +50,20 @@ class OtpVerificationVC: UIViewController {
   
   
   @IBAction func callBtn(_ sender: Any) {
+    print("tapped")
     let phoneNumber = phoneNo
-    if let url = URL(string: "tel://\(phoneNumber)") {
-      if UIApplication.shared.canOpenURL(url) {
-        UIApplication.shared.open(url)
-      } else {
-        alertMessage(message: "Invalid phone number")
+    var phone = phoneNumber.replacingOccurrences(of: " ", with: "")
+    let url = URL(string: "tel://\(phone)")
+    if UIApplication.shared.canOpenURL(url!) {
+      UIApplication.shared.open(url!, options: [:]) { success in
+        if success {
+          print("calling successfully")
+        } else {
+          print("unable to make call")
+        }
       }
+    } else {
+      alertMessage(message: "Invalid phone number")
     }
   }
   
@@ -99,12 +105,16 @@ class OtpVerificationVC: UIViewController {
   }
   
   func setupTimer() {
-    var runCount = 10
+    var remainingSeconds = 10
     timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true, block: { timer in
-      if runCount > 1 {
-        runCount -= 1
-        print(runCount)
-        self.timerLabel.text = "\(runCount)"
+      if remainingSeconds > 1 {
+        remainingSeconds -= 1
+        print(remainingSeconds)
+        let minutes = remainingSeconds / 60
+        let seconds = remainingSeconds % 60
+        let timeString = String(format: "%02d:%02d", minutes, seconds)
+        print(timeString)
+        self.timerLabel.text = timeString
         self.resendSmsLabel.layer.opacity = 0.5
         self.resendsmsBtn.isEnabled = false
       } else {
@@ -148,6 +158,7 @@ extension OtpVerificationVC: OTPTextFieldDelegate, UITextFieldDelegate {
       if otpCode == "000000" {
         let alert = UIAlertController(title: "WhatsApp", message: "OTP verified successfully", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { _ in
+          self.timer?.invalidate()
           DispatchQueue.main.async {
             let storyboard = UIStoryboard(name: "Main", bundle: .main)
             if let vc = storyboard.instantiateViewController(withIdentifier: "ProfileInfoVC") as? ProfileInfoVC {

@@ -1,0 +1,22 @@
+{
+  "images" : [
+    {
+      "filename" : "icons8-dots-25.png",
+      "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "icons8-ellipsis-dotted-menu-to-expand-sub-menu-25 (1).png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

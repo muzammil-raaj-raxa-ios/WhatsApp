@@ -17,32 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     Thread.sleep(forTimeInterval: 1.0)
     
-    let storyboard = UIStoryboard(name: "Main", bundle: nil)
-    let controller = storyboard.instantiateViewController(withIdentifier: String(describing: "OtpVerificationVC")) as? OtpVerificationVC
-    let navigation = UINavigationController(rootViewController: controller!)
-    self.window?.rootViewController = navigation
-    
     IQKeyboardManager.shared().isEnabled = true
     IQKeyboardManager.shared().shouldResignOnTouchOutside = true
-    
-    if #available(iOS 15, *) {
-      let navigationBarAppearance = UINavigationBarAppearance()
-      navigationBarAppearance.configureWithOpaqueBackground()
-      navigationBarAppearance.titleTextAttributes = [
-        NSAttributedString.Key.foregroundColor : UIColor.label
-      ]
-      navigationBarAppearance.backgroundColor = UIColor.BLACKWHITE
-      UINavigationBar.appearance().standardAppearance = navigationBarAppearance
-      UINavigationBar.appearance().compactAppearance = navigationBarAppearance
-      UINavigationBar.appearance().scrollEdgeAppearance = navigationBarAppearance
-      
-      // MARK: Tab bar appearance
-      //         let tabBarAppearance = UITabBarAppearance()
-      //         tabBarAppearance.configureWithOpaqueBackground()
-      //         tabBarAppearance.backgroundColor = UIColor.white
-      //         UITabBar.appearance().scrollEdgeAppearance = tabBarAppearance
-      //         UITabBar.appearance().standardAppearance = tabBarAppearance
-    }
     
     return true
   }

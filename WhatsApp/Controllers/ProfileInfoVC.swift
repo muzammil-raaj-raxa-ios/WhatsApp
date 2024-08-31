@@ -17,6 +17,7 @@ class ProfileInfoVC: UIViewController, UITextFieldDelegate {
   @IBOutlet weak var userProfileImg: UIImageView!
   @IBOutlet weak var defaultProfileImg: UIImageView!
   
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     
@@ -27,6 +28,7 @@ class ProfileInfoVC: UIViewController, UITextFieldDelegate {
     setupNameView()
   }
   
+  
   @IBAction func profileImgBtn(_ sender: Any) {
     let vc = UIImagePickerController()
     vc.delegate = self
@@ -34,6 +36,24 @@ class ProfileInfoVC: UIViewController, UITextFieldDelegate {
     vc.allowsEditing = true
     present(vc, animated: true)
   }
+  
+  @IBAction func nextBtn(_ sender: Any) {
+    guard let name = nameTF.text, !name.isEmpty else {
+      alertMessage(message: "Name cannot be empty.")
+      return
+    }
+    
+    if nameCharCountLabel.textColor == UIColor.red {
+      alertMessage(message: "Name must be under 25 characters.")
+    } else {
+      let storyboard = UIStoryboard(name: "TabBarVC", bundle: nil)
+      if let vc = storyboard.instantiateViewController(withIdentifier: "TabBarVC") as? TabBarVC {
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true, completion: nil)
+      }
+    }
+  }
+  
   
   func setupImg() {
     defaultProfileImg.layer.cornerRadius = defaultProfileImg.frame.size.width / 2
@@ -47,9 +67,11 @@ class ProfileInfoVC: UIViewController, UITextFieldDelegate {
     nameTF.delegate = self
     nameTF.addTarget(self, action: #selector(nameTextfieldDidChange(_:)), for: .editingChanged)
     setupNameTF()
+    UserDefaults.standard.setValue(nameTF.text, forKey: "userName")
   }
   
   func setupNameTF() {
+    nameTF.spellCheckingType = .no
     nameCharCountLabel.isHidden = (nameTF.text?.count ?? 0) < 1
     let count = 25 - (nameTF.text?.count ?? 0)
     nameCharCountLabel.text = "\(count)"
@@ -60,8 +82,15 @@ class ProfileInfoVC: UIViewController, UITextFieldDelegate {
         self.nameCharCountLabel.textColor = UIColor.LIGHTGRAY
       }
     }
-    
+    UserDefaults.standard.setValue(nameTF.text, forKey: "userName")
   }
+  
+  func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+    nameTF.resignFirstResponder()
+    nameCharCountLabel.isHidden = true
+    return true
+  }
+  
   
   @objc func nameTextfieldDidChange(_ textfield: UITextField) {
     setupNameTF()
@@ -76,6 +105,7 @@ extension ProfileInfoVC: UIImagePickerControllerDelegate, UINavigationController
       userProfileImg.isHidden = false
       defaultProfileImg.isHidden = true
       profileView.backgroundColor = .clear
+      setProfileImg(image, forKey: "profileImage")
     }
     picker.dismiss(animated: true, completion: nil)
   }

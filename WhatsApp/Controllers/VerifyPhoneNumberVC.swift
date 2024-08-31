@@ -27,6 +27,15 @@ class VerifyPhoneNumberVC: UIViewController {
     setupCountryPickerView()
     setupPhoneNoTF()
     countryPV.setCountryByCode("PK")
+    
+    if #available(iOS 13.0, *) {
+      let appearance = UINavigationBarAppearance()
+      appearance.configureWithOpaqueBackground()
+      appearance.backgroundColor = UIColor.BLACKWHITE
+      appearance.titleTextAttributes = [.foregroundColor: UIColor.label]
+      self.navigationController?.navigationBar.standardAppearance = appearance
+      self.navigationController?.navigationBar.scrollEdgeAppearance = appearance
+    }
   }
   
   

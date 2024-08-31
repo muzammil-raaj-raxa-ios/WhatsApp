@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		361462952C808CB2001D5DE4 /* ChatsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361462942C808CB2001D5DE4 /* ChatsVC.swift */; };
 		369224562C7A4F6800951AA2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369224552C7A4F6800951AA2 /* Constants.swift */; };
+		3694E4D22C81E0AD000FCFFF /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3694E4D02C81E0AD000FCFFF /* ChatCell.swift */; };
+		3694E4D32C81E0AD000FCFFF /* ChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3694E4D12C81E0AD000FCFFF /* ChatCell.xib */; };
 		369926782C79F29800A96177 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369926772C79F29800A96177 /* AppDelegate.swift */; };
 		3699267A2C79F29800A96177 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369926792C79F29800A96177 /* SceneDelegate.swift */; };
 		3699267C2C79F29800A96177 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3699267B2C79F29800A96177 /* ViewController.swift */; };
@@ -16,13 +19,22 @@
 		369926842C79F29A00A96177 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 369926832C79F29A00A96177 /* Base */; };
 		3699268C2C79FB6900A96177 /* TermsAndServicesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3699268B2C79FB6900A96177 /* TermsAndServicesVC.swift */; };
 		369926902C7A3D2D00A96177 /* VerifyPhoneNumberVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3699268F2C7A3D2D00A96177 /* VerifyPhoneNumberVC.swift */; };
+		3699B1AC2C7EF68700119C22 /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3699B1AA2C7EF68700119C22 /* SettingCell.swift */; };
+		3699B1AD2C7EF68700119C22 /* SettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3699B1AB2C7EF68700119C22 /* SettingCell.xib */; };
+		3699B1B12C7EFD3500119C22 /* SettingCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3699B1B02C7EFD3500119C22 /* SettingCellModel.swift */; };
 		369AE1112C7C97170034EFC4 /* ProfileInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369AE1102C7C97170034EFC4 /* ProfileInfoVC.swift */; };
+		36B4B3552C7DC05F00B9EDE3 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B4B3542C7DC05F00B9EDE3 /* TabBarVC.swift */; };
+		36B4B3572C7DD45D00B9EDE3 /* TabBarVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36B4B3562C7DD45D00B9EDE3 /* TabBarVC.storyboard */; };
+		36B4B35B2C7DDB4300B9EDE3 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B4B35A2C7DDB4300B9EDE3 /* SettingsVC.swift */; };
 		36B9C0032C7B15F000F71E99 /* OtpVerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B9C0022C7B15F000F71E99 /* OtpVerificationVC.swift */; };
 		551FC33DE16517EF9075D8E6 /* Pods_WhatsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75ABEC09B88C52B26B13BC1B /* Pods_WhatsApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		361462942C808CB2001D5DE4 /* ChatsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsVC.swift; sourceTree = "<group>"; };
 		369224552C7A4F6800951AA2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3694E4D02C81E0AD000FCFFF /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		3694E4D12C81E0AD000FCFFF /* ChatCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatCell.xib; sourceTree = "<group>"; };
 		369926742C79F29800A96177 /* WhatsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		369926772C79F29800A96177 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		369926792C79F29800A96177 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,7 +45,13 @@
 		369926852C79F29A00A96177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3699268B2C79FB6900A96177 /* TermsAndServicesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndServicesVC.swift; sourceTree = "<group>"; };
 		3699268F2C7A3D2D00A96177 /* VerifyPhoneNumberVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyPhoneNumberVC.swift; sourceTree = "<group>"; };
+		3699B1AA2C7EF68700119C22 /* SettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
+		3699B1AB2C7EF68700119C22 /* SettingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingCell.xib; sourceTree = "<group>"; };
+		3699B1B02C7EFD3500119C22 /* SettingCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCellModel.swift; sourceTree = "<group>"; };
 		369AE1102C7C97170034EFC4 /* ProfileInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoVC.swift; sourceTree = "<group>"; };
+		36B4B3542C7DC05F00B9EDE3 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		36B4B3562C7DD45D00B9EDE3 /* TabBarVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBarVC.storyboard; sourceTree = "<group>"; };
+		36B4B35A2C7DDB4300B9EDE3 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		36B9C0022C7B15F000F71E99 /* OtpVerificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpVerificationVC.swift; sourceTree = "<group>"; };
 		40490AE675ADE55622B30738 /* Pods-WhatsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsApp.release.xcconfig"; path = "Target Support Files/Pods-WhatsApp/Pods-WhatsApp.release.xcconfig"; sourceTree = "<group>"; };
 		75ABEC09B88C52B26B13BC1B /* Pods_WhatsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +78,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3694E4CF2C81E0A0000FCFFF /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+				3694E4D02C81E0AD000FCFFF /* ChatCell.swift */,
+				3694E4D12C81E0AD000FCFFF /* ChatCell.xib */,
+			);
+			path = Chats;
+			sourceTree = "<group>";
+		};
 		3699266B2C79F29800A96177 = {
 			isa = PBXGroup;
 			children = (
@@ -84,8 +111,11 @@
 				369926772C79F29800A96177 /* AppDelegate.swift */,
 				369926792C79F29800A96177 /* SceneDelegate.swift */,
 				369224552C7A4F6800951AA2 /* Constants.swift */,
+				3699B1A82C7EF65800119C22 /* Cell */,
 				3699268D2C79FB7200A96177 /* Controllers */,
+				36B4B3532C7DC02F00B9EDE3 /* TabBar */,
 				3699268E2C79FB7B00A96177 /* Views */,
+				3699B1AE2C7EFD1200119C22 /* Model */,
 				369926802C79F29A00A96177 /* Assets.xcassets */,
 				369926852C79F29A00A96177 /* Info.plist */,
 			);
@@ -107,10 +137,63 @@
 		3699268E2C79FB7B00A96177 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				3699267D2C79F29800A96177 /* Main.storyboard */,
 				369926822C79F29A00A96177 /* LaunchScreen.storyboard */,
+				3699267D2C79F29800A96177 /* Main.storyboard */,
+				36B4B3562C7DD45D00B9EDE3 /* TabBarVC.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		3699B1A82C7EF65800119C22 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3694E4CF2C81E0A0000FCFFF /* Chats */,
+				3699B1A92C7EF66200119C22 /* Settings */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		3699B1A92C7EF66200119C22 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3699B1AA2C7EF68700119C22 /* SettingCell.swift */,
+				3699B1AB2C7EF68700119C22 /* SettingCell.xib */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3699B1AE2C7EFD1200119C22 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3699B1AF2C7EFD1600119C22 /* Settings */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3699B1AF2C7EFD1600119C22 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3699B1B02C7EFD3500119C22 /* SettingCellModel.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		36B4B3532C7DC02F00B9EDE3 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				36B4B3542C7DC05F00B9EDE3 /* TabBarVC.swift */,
+				36B4B3582C7DDB1A00B9EDE3 /* MainTabs */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		36B4B3582C7DDB1A00B9EDE3 /* MainTabs */ = {
+			isa = PBXGroup;
+			children = (
+				36B4B35A2C7DDB4300B9EDE3 /* SettingsVC.swift */,
+				361462942C808CB2001D5DE4 /* ChatsVC.swift */,
+			);
+			path = MainTabs;
 			sourceTree = "<group>";
 		};
 		FA94727213A627239D07D76A /* Pods */ = {
@@ -183,8 +266,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				369926812C79F29A00A96177 /* Assets.xcassets in Resources */,
+				3694E4D32C81E0AD000FCFFF /* ChatCell.xib in Resources */,
+				3699B1AD2C7EF68700119C22 /* SettingCell.xib in Resources */,
 				369926842C79F29A00A96177 /* Base in Resources */,
 				3699267F2C79F29800A96177 /* Base in Resources */,
+				36B4B3572C7DD45D00B9EDE3 /* TabBarVC.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,14 +323,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				361462952C808CB2001D5DE4 /* ChatsVC.swift in Sources */,
+				3699B1B12C7EFD3500119C22 /* SettingCellModel.swift in Sources */,
 				369926902C7A3D2D00A96177 /* VerifyPhoneNumberVC.swift in Sources */,
 				369224562C7A4F6800951AA2 /* Constants.swift in Sources */,
 				3699267C2C79F29800A96177 /* ViewController.swift in Sources */,
 				369926782C79F29800A96177 /* AppDelegate.swift in Sources */,
+				3699B1AC2C7EF68700119C22 /* SettingCell.swift in Sources */,
+				36B4B3552C7DC05F00B9EDE3 /* TabBarVC.swift in Sources */,
 				369AE1112C7C97170034EFC4 /* ProfileInfoVC.swift in Sources */,
 				3699268C2C79FB6900A96177 /* TermsAndServicesVC.swift in Sources */,
 				36B9C0032C7B15F000F71E99 /* OtpVerificationVC.swift in Sources */,
+				3694E4D22C81E0AD000FCFFF /* ChatCell.swift in Sources */,
 				3699267A2C79F29800A96177 /* SceneDelegate.swift in Sources */,
+				36B4B35B2C7DDB4300B9EDE3 /* SettingsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
