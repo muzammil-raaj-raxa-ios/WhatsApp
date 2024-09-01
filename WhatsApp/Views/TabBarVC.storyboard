@@ -173,7 +173,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xK9-AP-dAO">
-                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <rect key="frame" x="0.0" y="118" width="375" height="500"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="g0Y-LJ-Icv">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1062"/>
@@ -587,7 +587,7 @@
                                 <rect key="frame" x="0.0" y="118" width="375" height="500"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="qAP-0w-cHN">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="620"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="410"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PPd-NI-7Rm" userLabel="SearchView">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
@@ -618,10 +618,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e96-PN-NXj" userLabel="MsgTypeView">
-                                                <rect key="frame" x="0.0" y="60" width="375" height="40"/>
+                                                <rect key="frame" x="0.0" y="60" width="375" height="30"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2kX-O8-4Cw">
-                                                        <rect key="frame" x="20" y="0.0" width="55" height="40"/>
+                                                        <rect key="frame" x="20" y="0.0" width="55" height="30"/>
                                                         <color key="backgroundColor" name="ChatGreenView"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="55" id="b8S-T4-gmD"/>
@@ -633,7 +633,7 @@
                                                         </buttonConfiguration>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="20"/>
+                                                                <integer key="value" value="15"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
@@ -641,7 +641,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cJK-zd-HJb">
-                                                        <rect key="frame" x="85" y="0.0" width="90" height="40"/>
+                                                        <rect key="frame" x="85" y="0.0" width="90" height="30"/>
                                                         <color key="backgroundColor" name="ChatGrayView"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="90" id="b8v-Y9-AOa"/>
@@ -653,7 +653,7 @@
                                                         </buttonConfiguration>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="20"/>
+                                                                <integer key="value" value="15"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
@@ -661,7 +661,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x8Z-hd-Ja6">
-                                                        <rect key="frame" x="185" y="0.0" width="100" height="40"/>
+                                                        <rect key="frame" x="185" y="0.0" width="100" height="30"/>
                                                         <color key="backgroundColor" name="ChatGrayView"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="100" id="iMS-sf-yej"/>
@@ -673,7 +673,7 @@
                                                         </buttonConfiguration>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="20"/>
+                                                                <integer key="value" value="15"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
@@ -681,7 +681,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nwr-cd-hhn">
-                                                        <rect key="frame" x="295" y="0.0" width="90" height="40"/>
+                                                        <rect key="frame" x="295" y="0.0" width="90" height="30"/>
                                                         <color key="backgroundColor" name="ChatGrayView"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="90" id="G1j-O7-Tvq"/>
@@ -693,7 +693,7 @@
                                                         </buttonConfiguration>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="20"/>
+                                                                <integer key="value" value="15"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
@@ -709,7 +709,7 @@
                                                     <constraint firstAttribute="bottom" secondItem="nwr-cd-hhn" secondAttribute="bottom" id="7Nc-hF-RDP"/>
                                                     <constraint firstItem="2kX-O8-4Cw" firstAttribute="leading" secondItem="e96-PN-NXj" secondAttribute="leading" constant="20" id="Cxb-7R-raV"/>
                                                     <constraint firstAttribute="bottom" secondItem="cJK-zd-HJb" secondAttribute="bottom" id="a9W-Fm-OxD"/>
-                                                    <constraint firstAttribute="height" constant="40" id="aRJ-dm-xJN"/>
+                                                    <constraint firstAttribute="height" constant="30" id="aRJ-dm-xJN"/>
                                                     <constraint firstItem="nwr-cd-hhn" firstAttribute="leading" secondItem="x8Z-hd-Ja6" secondAttribute="trailing" constant="10" id="fkO-5d-ASK"/>
                                                     <constraint firstAttribute="bottom" secondItem="x8Z-hd-Ja6" secondAttribute="bottom" id="gBG-f1-7Ng"/>
                                                     <constraint firstItem="nwr-cd-hhn" firstAttribute="top" secondItem="e96-PN-NXj" secondAttribute="top" id="hb8-YF-cTk"/>
@@ -719,20 +719,20 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xGj-YD-3x4" userLabel="Spacer">
-                                                <rect key="frame" x="0.0" y="100" width="375" height="10"/>
+                                                <rect key="frame" x="0.0" y="90" width="375" height="10"/>
                                                 <color key="backgroundColor" name="BLACKWHITE"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="10" id="H45-Qf-igz"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bnF-LF-Qnq">
-                                                <rect key="frame" x="0.0" y="110" width="375" height="500"/>
+                                                <rect key="frame" x="0.0" y="100" width="375" height="300"/>
                                                 <subviews>
-                                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="D39-ue-t8X">
-                                                        <rect key="frame" x="10" y="0.0" width="355" height="500"/>
+                                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="D39-ue-t8X">
+                                                        <rect key="frame" x="10" y="0.0" width="355" height="300"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="500" id="cnj-Lu-8OS"/>
+                                                            <constraint firstAttribute="height" constant="300" id="cnj-Lu-8OS"/>
                                                         </constraints>
                                                     </tableView>
                                                 </subviews>
@@ -745,7 +745,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ynN-BK-xY5" userLabel="Spacer">
-                                                <rect key="frame" x="0.0" y="610" width="375" height="10"/>
+                                                <rect key="frame" x="0.0" y="400" width="375" height="10"/>
                                                 <color key="backgroundColor" name="BLACKWHITE"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="10" id="7U2-Rd-wue"/>

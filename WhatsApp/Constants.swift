@@ -9,25 +9,25 @@ import Foundation
 import UIKit
 
 extension UIView {
-
+  
   func addBottomBorderView(color: UIColor) {
-   let bottomline = CALayer()
-   bottomline.frame = CGRect(x: 0, y: self.frame.size.height - 1, width: self.frame.size.width, height: 1)
+    let bottomline = CALayer()
+    bottomline.frame = CGRect(x: 0, y: self.frame.size.height - 1, width: self.frame.size.width, height: 1)
     bottomline.backgroundColor = color.cgColor
-   self.layer.addSublayer(bottomline)
- }
-
+    self.layer.addSublayer(bottomline)
+  }
+  
 }
 
 
 extension UITextField {
- func addBottomBorderTF() {
-   let bottomline = CALayer()
-   bottomline.frame = CGRect(x: 0, y: self.frame.size.height-1, width: self.frame.size.width, height: 1)
-   bottomline.backgroundColor = UIColor.GREEN.cgColor
-   self.borderStyle = .none
-   self.layer.addSublayer(bottomline)
- }
+  func addBottomBorderTF() {
+    let bottomline = CALayer()
+    bottomline.frame = CGRect(x: 0, y: self.frame.size.height-1, width: self.frame.size.width, height: 1)
+    bottomline.backgroundColor = UIColor.GREEN.cgColor
+    self.borderStyle = .none
+    self.layer.addSublayer(bottomline)
+  }
 }
 
 
@@ -88,3 +88,25 @@ func setupBtnGreyBgAndLabel(btn: UIButton) {
   btn.tintColor = UIColor.chatGrayLabel
   btn.backgroundColor = UIColor.chatGrayView
 }
+
+var chats: [ChatModel] = [
+  ChatModel(userImage: UIImage(named: "profile2") ?? UIImage(systemName: "person.circle.fill"), userName: "Raaj", userLastMsg: "Are you millionaire yet?", lastMsgTimeOrDate: "12:00 PM", isMute: false, unreadMsgCount: 2),
+  ChatModel(userImage: UIImage(named: "profile1") ?? UIImage(systemName: "person.circle.fill"), userName: "Ali", userLastMsg: "Ye meme dekh", lastMsgTimeOrDate: "Friday", isMute: false, unreadMsgCount: 0),
+  ChatModel(userImage: UIImage(named: "profile3") ?? UIImage(systemName: "person.circle.fill"), userName: "Usama", userLastMsg: "Wassup nigga?", lastMsgTimeOrDate: "2:00 PM", isMute: false, unreadMsgCount: 4),
+  ChatModel(userImage: UIImage(named: "profile4") ?? UIImage(systemName: "person.circle.fill"), userName: "Muteeb", userLastMsg: "Hommie aik naya idea aya hai.", lastMsgTimeOrDate: "9:36 AM", isMute: false, unreadMsgCount: 3),
+  ChatModel(userImage: UIImage(named: "profile5") ?? UIImage(systemName: "person.circle.fill"), userName: "Mustafa", userLastMsg: "Ye foreign scholarships aye huwe hain dekh or apply kr", lastMsgTimeOrDate: "Sunday", isMute: true, unreadMsgCount: 0),
+  ChatModel(userImage: UIImage(named: "profile2") ?? UIImage(systemName: "person.circle.fill"), userName: "Raaj", userLastMsg: "Are you millionaire yet?", lastMsgTimeOrDate: "12:00 PM", isMute: false, unreadMsgCount: 1),
+  ChatModel(userImage: UIImage(named: "profile1") ?? UIImage(systemName: "person.circle.fill"), userName: "Ali", userLastMsg: "Ye meme dekh", lastMsgTimeOrDate: "Friday", isMute: false, unreadMsgCount: 2),
+  ChatModel(userImage: UIImage(named: "profile3") ?? UIImage(systemName: "person.circle.fill"), userName: "Usama", userLastMsg: "Wassup nigga?", lastMsgTimeOrDate: "2:00 PM", isMute: false, unreadMsgCount: 3),
+  ChatModel(userImage: UIImage(named: "profile4") ?? UIImage(systemName: "person.circle.fill"), userName: "Muteeb", userLastMsg: "Hommie aik naya idea aya hai.", lastMsgTimeOrDate: "9:36 AM", isMute: false, unreadMsgCount: 0),
+  ChatModel(userImage: UIImage(named: "profile5") ?? UIImage(systemName: "person.circle.fill"), userName: "Mustafa", userLastMsg: "Ye foreign scholarships aye huwe hain dekh or apply kr", lastMsgTimeOrDate: "Sunday", isMute: true, unreadMsgCount: 4),
+  ChatModel(userImage: UIImage(named: "profile1") ?? UIImage(systemName: "person.circle.fill"), userName: "Ali", userLastMsg: "Ye meme dekh", lastMsgTimeOrDate: "Friday", isMute: false, unreadMsgCount: 0),
+  ChatModel(userImage: UIImage(named: "profile3") ?? UIImage(systemName: "person.circle.fill"), userName: "Usama", userLastMsg: "Wassup nigga?", lastMsgTimeOrDate: "2:00 PM", isMute: false, unreadMsgCount: 4),
+  ChatModel(userImage: UIImage(named: "profile4") ?? UIImage(systemName: "person.circle.fill"), userName: "Muteeb", userLastMsg: "Hommie aik naya idea aya hai.", lastMsgTimeOrDate: "9:36 AM", isMute: false, unreadMsgCount: 3),
+  ChatModel(userImage: UIImage(named: "profile5") ?? UIImage(systemName: "person.circle.fill"), userName: "Mustafa", userLastMsg: "Ye foreign scholarships aye huwe hain dekh or apply kr", lastMsgTimeOrDate: "Sunday", isMute: true, unreadMsgCount: 0),
+  ChatModel(userImage: UIImage(named: "profile2") ?? UIImage(systemName: "person.circle.fill"), userName: "Raaj", userLastMsg: "Are you millionaire yet?", lastMsgTimeOrDate: "12:00 PM", isMute: false, unreadMsgCount: 1),
+  ChatModel(userImage: UIImage(named: "profile1") ?? UIImage(systemName: "person.circle.fill"), userName: "Ali", userLastMsg: "Ye meme dekh", lastMsgTimeOrDate: "Friday", isMute: false, unreadMsgCount: 2),
+  ChatModel(userImage: UIImage(named: "profile3") ?? UIImage(systemName: "person.circle.fill"), userName: "Usama", userLastMsg: "Wassup nigga?", lastMsgTimeOrDate: "2:00 PM", isMute: false, unreadMsgCount: 3),
+  ChatModel(userImage: UIImage(named: "profile4") ?? UIImage(systemName: "person.circle.fill"), userName: "Muteeb", userLastMsg: "Hommie aik naya idea aya hai.", lastMsgTimeOrDate: "9:36 AM", isMute: false, unreadMsgCount: 0),
+  ChatModel(userImage: UIImage(named: "profile5") ?? UIImage(systemName: "person.circle.fill"), userName: "Mustafa", userLastMsg: "Ye foreign scholarships aye huwe hain dekh or apply kr", lastMsgTimeOrDate: "Sunday", isMute: true, unreadMsgCount: 4),
+]

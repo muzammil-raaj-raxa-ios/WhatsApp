@@ -4,12 +4,14 @@ PODS:
     - FlagPhoneNumber/libPhoneNumberiOS (= 0.8.0)
   - FlagPhoneNumber/libPhoneNumberiOS (0.8.0)
   - IQKeyboardManager (6.5.18)
+  - lottie-ios (4.4.3)
   - OTPTextField (1.1.5)
 
 DEPENDENCIES:
   - CountryPickerView
   - FlagPhoneNumber
   - IQKeyboardManager
+  - lottie-ios
   - OTPTextField
 
 SPEC REPOS:
@@ -17,14 +19,16 @@ SPEC REPOS:
     - CountryPickerView
     - FlagPhoneNumber
     - IQKeyboardManager
+    - lottie-ios
     - OTPTextField
 
 SPEC CHECKSUMS:
   CountryPickerView: 6322ada32a80b0cd721b0267282a5c24f406f263
   FlagPhoneNumber: 3712455b95f66cb0f2016fef7d9e34cddf8c7f9a
   IQKeyboardManager: 67f92bb29b650c094c40bd11c0545b47bdd25c5b
+  lottie-ios: fcb5e73e17ba4c983140b7d21095c834b3087418
   OTPTextField: 9d35010a6356972471298aea37bf8d6d5f9974f7
 
-PODFILE CHECKSUM: 86d16e913038d9aed781e5c1c17a0399dd4220f7
+PODFILE CHECKSUM: 31496574bd4cdc94e24e8ff8e3c836d3ca275bbf
 
 COCOAPODS: 1.15.2

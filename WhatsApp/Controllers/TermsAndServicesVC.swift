@@ -7,16 +7,20 @@
 
 import UIKit
 import SafariServices
+import Lottie
 
 class TermsAndServicesVC: UIViewController {
   
+  @IBOutlet weak var animationView: LottieAnimationView!
   @IBOutlet weak var policyServicesLabel: UITextView!
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     
     self.navigationItem.setHidesBackButton(true, animated: true)
     navigationController?.navigationBar.prefersLargeTitles = false
     setupLabel()
+    setupAnimationView()
   }
   
   
@@ -45,6 +49,13 @@ class TermsAndServicesVC: UIViewController {
     policyServicesLabel.font = UIFont.systemFont(ofSize: 18, weight: .medium)
     policyServicesLabel.dataDetectorTypes = []
     policyServicesLabel.delegate = self
+  }
+  
+  func setupAnimationView() {
+    animationView.contentMode = .scaleAspectFit
+    animationView.loopMode = .loop
+    animationView.animationSpeed = 0.4
+    animationView.play()
   }
 }
 

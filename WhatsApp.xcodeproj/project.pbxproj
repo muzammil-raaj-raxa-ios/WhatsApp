@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		361462952C808CB2001D5DE4 /* ChatsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361462942C808CB2001D5DE4 /* ChatsVC.swift */; };
+		3673BB192C845B6700AE163B /* whatsapp.json in Resources */ = {isa = PBXBuildFile; fileRef = 3673BB182C845B6700AE163B /* whatsapp.json */; };
+		3673BB1B2C84619100AE163B /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3673BB1A2C84619100AE163B /* ChatModel.swift */; };
 		369224562C7A4F6800951AA2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369224552C7A4F6800951AA2 /* Constants.swift */; };
 		3694E4D22C81E0AD000FCFFF /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3694E4D02C81E0AD000FCFFF /* ChatCell.swift */; };
 		3694E4D32C81E0AD000FCFFF /* ChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3694E4D12C81E0AD000FCFFF /* ChatCell.xib */; };
@@ -32,6 +34,8 @@
 
 /* Begin PBXFileReference section */
 		361462942C808CB2001D5DE4 /* ChatsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsVC.swift; sourceTree = "<group>"; };
+		3673BB182C845B6700AE163B /* whatsapp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = whatsapp.json; sourceTree = "<group>"; };
+		3673BB1A2C84619100AE163B /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
 		369224552C7A4F6800951AA2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3694E4D02C81E0AD000FCFFF /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
 		3694E4D12C81E0AD000FCFFF /* ChatCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatCell.xib; sourceTree = "<group>"; };
@@ -78,6 +82,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3673BB132C845B4B00AE163B /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				3673BB182C845B6700AE163B /* whatsapp.json */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
 		3694E4CF2C81E0A0000FCFFF /* Chats */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,11 +123,11 @@
 				369926772C79F29800A96177 /* AppDelegate.swift */,
 				369926792C79F29800A96177 /* SceneDelegate.swift */,
 				369224552C7A4F6800951AA2 /* Constants.swift */,
-				3699B1A82C7EF65800119C22 /* Cell */,
-				3699268D2C79FB7200A96177 /* Controllers */,
-				36B4B3532C7DC02F00B9EDE3 /* TabBar */,
 				3699268E2C79FB7B00A96177 /* Views */,
+				3699268D2C79FB7200A96177 /* Controllers */,
 				3699B1AE2C7EFD1200119C22 /* Model */,
+				3699B1A82C7EF65800119C22 /* Cell */,
+				3673BB132C845B4B00AE163B /* Animation */,
 				369926802C79F29A00A96177 /* Assets.xcassets */,
 				369926852C79F29A00A96177 /* Info.plist */,
 			);
@@ -130,6 +142,7 @@
 				3699268F2C7A3D2D00A96177 /* VerifyPhoneNumberVC.swift */,
 				36B9C0022C7B15F000F71E99 /* OtpVerificationVC.swift */,
 				369AE1102C7C97170034EFC4 /* ProfileInfoVC.swift */,
+				36B4B3532C7DC02F00B9EDE3 /* TabBar */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -166,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				3699B1AF2C7EFD1600119C22 /* Settings */,
+				3673BB1A2C84619100AE163B /* ChatModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -267,6 +281,7 @@
 			files = (
 				369926812C79F29A00A96177 /* Assets.xcassets in Resources */,
 				3694E4D32C81E0AD000FCFFF /* ChatCell.xib in Resources */,
+				3673BB192C845B6700AE163B /* whatsapp.json in Resources */,
 				3699B1AD2C7EF68700119C22 /* SettingCell.xib in Resources */,
 				369926842C79F29A00A96177 /* Base in Resources */,
 				3699267F2C79F29800A96177 /* Base in Resources */,
@@ -328,6 +343,7 @@
 				369926902C7A3D2D00A96177 /* VerifyPhoneNumberVC.swift in Sources */,
 				369224562C7A4F6800951AA2 /* Constants.swift in Sources */,
 				3699267C2C79F29800A96177 /* ViewController.swift in Sources */,
+				3673BB1B2C84619100AE163B /* ChatModel.swift in Sources */,
 				369926782C79F29800A96177 /* AppDelegate.swift in Sources */,
 				3699B1AC2C7EF68700119C22 /* SettingCell.swift in Sources */,
 				36B4B3552C7DC05F00B9EDE3 /* TabBarVC.swift in Sources */,

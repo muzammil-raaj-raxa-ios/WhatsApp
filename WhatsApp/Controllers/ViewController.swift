@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         let storyboard = UIStoryboard(name: "TabBarVC", bundle: nil)
         if let vc = storyboard.instantiateViewController(withIdentifier: "TabBarVC") as? TabBarVC {
           vc.modalPresentationStyle = .fullScreen
+          vc.modalTransitionStyle = .crossDissolve
           self.present(vc, animated: true, completion: nil)
         }
       } else {
@@ -25,7 +26,6 @@ class ViewController: UIViewController {
           self.navigationController?.pushViewController(vc, animated: false)
         }
       }
-      
     }
   }
   

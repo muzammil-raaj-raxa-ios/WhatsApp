@@ -9,6 +9,7 @@ pod 'CountryPickerView'
 pod 'FlagPhoneNumber'
 pod 'IQKeyboardManager'
 pod 'OTPTextField'
+pod 'lottie-ios'
 
   # Pods for WhatsApp
 
