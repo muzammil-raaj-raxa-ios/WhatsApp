@@ -19,7 +19,6 @@ extension UIView {
   
 }
 
-
 extension UITextField {
   func addBottomBorderTF() {
     let bottomline = CALayer()
@@ -30,7 +29,6 @@ extension UITextField {
   }
 }
 
-
 extension UIViewController {
   func alertMessage(message: String) {
     let alert = UIAlertController(title: "WhatsApp", message: message, preferredStyle: .alert)
@@ -38,7 +36,6 @@ extension UIViewController {
     present(alert, animated: true, completion: nil)
   }
 }
-
 
 func setProfileImg(_ image: UIImage, forKey key: String) {
   if let data = image.pngData() {
@@ -52,7 +49,6 @@ func getProfileImg(forKey key: String) -> UIImage? {
   }
   return UIImage(systemName: "person.fill")
 }
-
 
 let firstSettingTblViewItem = [
   SettingCellModel(image: UIImage(systemName: "heart") ?? UIImage(), name: "Favorites"),
@@ -110,3 +106,23 @@ var chats: [ChatModel] = [
   ChatModel(userImage: UIImage(named: "profile4") ?? UIImage(systemName: "person.circle.fill"), userName: "Muteeb", userLastMsg: "Hommie aik naya idea aya hai.", lastMsgTimeOrDate: "9:36 AM", isMute: false, unreadMsgCount: 0),
   ChatModel(userImage: UIImage(named: "profile5") ?? UIImage(systemName: "person.circle.fill"), userName: "Mustafa", userLastMsg: "Ye foreign scholarships aye huwe hain dekh or apply kr", lastMsgTimeOrDate: "Sunday", isMute: true, unreadMsgCount: 4),
 ]
+
+var calls: [CallModel] = [
+  CallModel(callerImage: UIImage(named: "profile1"), callerName: "raaj", callingStatusImg: UIImage(systemName: "phone.arrow.up.right.fill") ?? UIImage(), callingStatusName: "Outgoing", callTimeOrDate: "12:12 PM"),
+  CallModel(callerImage: UIImage(named: "profile2"), callerName: "manzar", callingStatusImg: UIImage(systemName: "phone.arrow.down.left.fill") ?? UIImage(), callingStatusName: "Missed", callTimeOrDate: "Yesterday"),
+  CallModel(callerImage: UIImage(named: "profile2"), callerName: "farhan", callingStatusImg: UIImage(systemName: "phone.arrow.down.left.fill") ?? UIImage(), callingStatusName: "Incoming", callTimeOrDate: "Yesterday"),
+  CallModel(callerImage: UIImage(named: "profile3"), callerName: "saad", callingStatusImg: UIImage(systemName: "arrow.up.right.video.fill") ?? UIImage(), callingStatusName: "Outgoing", callTimeOrDate: "12/06/2002"),
+  CallModel(callerImage: UIImage(named: "profile4"), callerName: "arslan", callingStatusImg: UIImage(systemName: "phone.arrow.down.left.fill") ?? UIImage(), callingStatusName: "Missed", callTimeOrDate: "Yesterday"),
+  CallModel(callerImage: UIImage(named: "profile2"), callerName: "hameed", callingStatusImg: UIImage(systemName: "phone.arrow.down.left.fill") ?? UIImage(), callingStatusName: "Incoming", callTimeOrDate: "Yesterday"),
+  CallModel(callerImage: UIImage(named: "profile3"), callerName: "tahir", callingStatusImg: UIImage(systemName: "arrow.up.right.video.fill") ?? UIImage(), callingStatusName: "Outgoing", callTimeOrDate: "12/06/2002"),
+  CallModel(callerImage: UIImage(named: "profile4"), callerName: "salman", callingStatusImg: UIImage(systemName: "phone.arrow.down.left.fill") ?? UIImage(), callingStatusName: "Missed", callTimeOrDate: "Yesterday"),
+  CallModel(callerImage: UIImage(named: "profile1"), callerName: "raaj", callingStatusImg: UIImage(systemName: "phone.arrow.up.right.fill") ?? UIImage(), callingStatusName: "Outgoing", callTimeOrDate: "12:12 PM"),
+  CallModel(callerImage: UIImage(named: "profile2"), callerName: "manzar", callingStatusImg: UIImage(systemName: "phone.arrow.down.left.fill") ?? UIImage(), callingStatusName: "Missed", callTimeOrDate: "Yesterday"),
+  CallModel(callerImage: UIImage(named: "profile2"), callerName: "farhan", callingStatusImg: UIImage(systemName: "phone.arrow.down.left.fill") ?? UIImage(), callingStatusName: "Incoming", callTimeOrDate: "Yesterday"),
+  CallModel(callerImage: UIImage(named: "profile3"), callerName: "saad", callingStatusImg: UIImage(systemName: "arrow.up.right.video.fill") ?? UIImage(), callingStatusName: "Outgoing", callTimeOrDate: "12/06/2002"),
+  CallModel(callerImage: UIImage(named: "profile4"), callerName: "arslan", callingStatusImg: UIImage(systemName: "phone.arrow.down.left.fill") ?? UIImage(), callingStatusName: "Missed", callTimeOrDate: "Yesterday"),
+  CallModel(callerImage: UIImage(named: "profile2"), callerName: "hameed", callingStatusImg: UIImage(systemName: "phone.arrow.down.left.fill") ?? UIImage(), callingStatusName: "Incoming", callTimeOrDate: "Yesterday"),
+  CallModel(callerImage: UIImage(named: "profile3"), callerName: "tahir", callingStatusImg: UIImage(systemName: "arrow.up.right.video.fill") ?? UIImage(), callingStatusName: "Outgoing", callTimeOrDate: "12/06/2002"),
+  CallModel(callerImage: UIImage(named: "profile4"), callerName: "salman", callingStatusImg: UIImage(systemName: "phone.arrow.down.left.fill") ?? UIImage(), callingStatusName: "Missed", callTimeOrDate: "Yesterday"),
+]
+

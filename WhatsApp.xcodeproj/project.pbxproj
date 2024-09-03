@@ -34,6 +34,9 @@
 		36DF514F2C86E8830047FAF4 /* CallsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DF514E2C86E8830047FAF4 /* CallsVC.swift */; };
 		36DF51522C86EFE90047FAF4 /* DialpadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DF51512C86EFE90047FAF4 /* DialpadVC.swift */; };
 		36DF51542C86F0080047FAF4 /* OtherVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36DF51532C86F0080047FAF4 /* OtherVC.storyboard */; };
+		36DF51572C8720660047FAF4 /* CallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DF51552C8720660047FAF4 /* CallCell.swift */; };
+		36DF51582C8720660047FAF4 /* CallCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36DF51562C8720660047FAF4 /* CallCell.xib */; };
+		36DF515D2C872FED0047FAF4 /* CallModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DF515C2C872FED0047FAF4 /* CallModel.swift */; };
 		551FC33DE16517EF9075D8E6 /* Pods_WhatsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75ABEC09B88C52B26B13BC1B /* Pods_WhatsApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +70,9 @@
 		36DF514E2C86E8830047FAF4 /* CallsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsVC.swift; sourceTree = "<group>"; };
 		36DF51512C86EFE90047FAF4 /* DialpadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialpadVC.swift; sourceTree = "<group>"; };
 		36DF51532C86F0080047FAF4 /* OtherVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OtherVC.storyboard; sourceTree = "<group>"; };
+		36DF51552C8720660047FAF4 /* CallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallCell.swift; sourceTree = "<group>"; };
+		36DF51562C8720660047FAF4 /* CallCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CallCell.xib; sourceTree = "<group>"; };
+		36DF515C2C872FED0047FAF4 /* CallModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallModel.swift; sourceTree = "<group>"; };
 		40490AE675ADE55622B30738 /* Pods-WhatsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsApp.release.xcconfig"; path = "Target Support Files/Pods-WhatsApp/Pods-WhatsApp.release.xcconfig"; sourceTree = "<group>"; };
 		75ABEC09B88C52B26B13BC1B /* Pods_WhatsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E43493F7CD0980344D7E18F0 /* Pods-WhatsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsApp.debug.xcconfig"; path = "Target Support Files/Pods-WhatsApp/Pods-WhatsApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -174,6 +180,7 @@
 			children = (
 				3694E4CF2C81E0A0000FCFFF /* Chats */,
 				3699B1A92C7EF66200119C22 /* Settings */,
+				36DF51592C87206C0047FAF4 /* Calls */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -190,8 +197,9 @@
 		3699B1AE2C7EFD1200119C22 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				36DF515B2C872FE00047FAF4 /* Calls */,
 				3699B1AF2C7EFD1600119C22 /* Settings */,
-				3673BB1A2C84619100AE163B /* ChatModel.swift */,
+				36DF515A2C872FDB0047FAF4 /* Chats */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -231,6 +239,31 @@
 				36DF51512C86EFE90047FAF4 /* DialpadVC.swift */,
 			);
 			path = OtherVC;
+			sourceTree = "<group>";
+		};
+		36DF51592C87206C0047FAF4 /* Calls */ = {
+			isa = PBXGroup;
+			children = (
+				36DF51552C8720660047FAF4 /* CallCell.swift */,
+				36DF51562C8720660047FAF4 /* CallCell.xib */,
+			);
+			path = Calls;
+			sourceTree = "<group>";
+		};
+		36DF515A2C872FDB0047FAF4 /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+				3673BB1A2C84619100AE163B /* ChatModel.swift */,
+			);
+			path = Chats;
+			sourceTree = "<group>";
+		};
+		36DF515B2C872FE00047FAF4 /* Calls */ = {
+			isa = PBXGroup;
+			children = (
+				36DF515C2C872FED0047FAF4 /* CallModel.swift */,
+			);
+			path = Calls;
 			sourceTree = "<group>";
 		};
 		FA94727213A627239D07D76A /* Pods */ = {
@@ -311,6 +344,7 @@
 				3699267F2C79F29800A96177 /* Base in Resources */,
 				36B4B3572C7DD45D00B9EDE3 /* TabBarVC.storyboard in Resources */,
 				36DF51542C86F0080047FAF4 /* OtherVC.storyboard in Resources */,
+				36DF51582C8720660047FAF4 /* CallCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				361462952C808CB2001D5DE4 /* ChatsVC.swift in Sources */,
+				36DF51572C8720660047FAF4 /* CallCell.swift in Sources */,
 				3699B1B12C7EFD3500119C22 /* SettingCellModel.swift in Sources */,
 				36DF514F2C86E8830047FAF4 /* CallsVC.swift in Sources */,
 				369926902C7A3D2D00A96177 /* VerifyPhoneNumberVC.swift in Sources */,
@@ -381,6 +416,7 @@
 				3694E4D22C81E0AD000FCFFF /* ChatCell.swift in Sources */,
 				3699267A2C79F29800A96177 /* SceneDelegate.swift in Sources */,
 				36B4B35B2C7DDB4300B9EDE3 /* SettingsVC.swift in Sources */,
+				36DF515D2C872FED0047FAF4 /* CallModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
