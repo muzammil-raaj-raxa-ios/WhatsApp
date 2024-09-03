@@ -12,7 +12,7 @@ class TabBarVC: UITabBarController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    selectedIndex = 3
+    selectedIndex = 1
     self.navigationItem.setHidesBackButton(true, animated: true)
   }
   
