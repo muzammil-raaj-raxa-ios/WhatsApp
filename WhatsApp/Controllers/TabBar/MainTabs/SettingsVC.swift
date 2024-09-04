@@ -46,6 +46,7 @@ class SettingsVC: UIViewController, UISearchBarDelegate {
       }
     }))
     present(alert, animated: true)
+    getHapticFeedback()
     print("logout")
   }
   

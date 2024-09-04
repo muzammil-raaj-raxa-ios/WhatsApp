@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		361462952C808CB2001D5DE4 /* ChatsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361462942C808CB2001D5DE4 /* ChatsVC.swift */; };
+		365116762C8867F0007E3850 /* StatusCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 365116752C8867F0007E3850 /* StatusCell.xib */; };
+		365116772C8867F0007E3850 /* StatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365116742C8867F0007E3850 /* StatusCell.swift */; };
+		366778B92C8879F30056BB33 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366778B82C8879F30056BB33 /* CircularProgressView.swift */; };
+		366778BC2C88805D0056BB33 /* StatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366778BB2C88805D0056BB33 /* StatusModel.swift */; };
 		3673BB192C845B6700AE163B /* whatsapp.json in Resources */ = {isa = PBXBuildFile; fileRef = 3673BB182C845B6700AE163B /* whatsapp.json */; };
 		3673BB1B2C84619100AE163B /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3673BB1A2C84619100AE163B /* ChatModel.swift */; };
 		369224562C7A4F6800951AA2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369224552C7A4F6800951AA2 /* Constants.swift */; };
@@ -29,6 +33,7 @@
 		36B4B3572C7DD45D00B9EDE3 /* TabBarVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36B4B3562C7DD45D00B9EDE3 /* TabBarVC.storyboard */; };
 		36B4B35B2C7DDB4300B9EDE3 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B4B35A2C7DDB4300B9EDE3 /* SettingsVC.swift */; };
 		36B9C0032C7B15F000F71E99 /* OtpVerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B9C0022C7B15F000F71E99 /* OtpVerificationVC.swift */; };
+		36CD732B2C8836EA00D432A7 /* UpdatesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CD732A2C8836EA00D432A7 /* UpdatesVC.swift */; };
 		36DF514B2C86CF840047FAF4 /* community.json in Resources */ = {isa = PBXBuildFile; fileRef = 36DF514A2C86CF840047FAF4 /* community.json */; };
 		36DF514D2C86D0410047FAF4 /* CommunityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DF514C2C86D0410047FAF4 /* CommunityVC.swift */; };
 		36DF514F2C86E8830047FAF4 /* CallsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DF514E2C86E8830047FAF4 /* CallsVC.swift */; };
@@ -42,6 +47,10 @@
 
 /* Begin PBXFileReference section */
 		361462942C808CB2001D5DE4 /* ChatsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsVC.swift; sourceTree = "<group>"; };
+		365116742C8867F0007E3850 /* StatusCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusCell.swift; sourceTree = "<group>"; };
+		365116752C8867F0007E3850 /* StatusCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatusCell.xib; sourceTree = "<group>"; };
+		366778B82C8879F30056BB33 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		366778BB2C88805D0056BB33 /* StatusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusModel.swift; sourceTree = "<group>"; };
 		3673BB182C845B6700AE163B /* whatsapp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = whatsapp.json; sourceTree = "<group>"; };
 		3673BB1A2C84619100AE163B /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
 		369224552C7A4F6800951AA2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -65,6 +74,7 @@
 		36B4B3562C7DD45D00B9EDE3 /* TabBarVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBarVC.storyboard; sourceTree = "<group>"; };
 		36B4B35A2C7DDB4300B9EDE3 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		36B9C0022C7B15F000F71E99 /* OtpVerificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpVerificationVC.swift; sourceTree = "<group>"; };
+		36CD732A2C8836EA00D432A7 /* UpdatesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatesVC.swift; sourceTree = "<group>"; };
 		36DF514A2C86CF840047FAF4 /* community.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = community.json; sourceTree = "<group>"; };
 		36DF514C2C86D0410047FAF4 /* CommunityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityVC.swift; sourceTree = "<group>"; };
 		36DF514E2C86E8830047FAF4 /* CallsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsVC.swift; sourceTree = "<group>"; };
@@ -96,6 +106,23 @@
 				75ABEC09B88C52B26B13BC1B /* Pods_WhatsApp.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		365116732C8867A7007E3850 /* Updates */ = {
+			isa = PBXGroup;
+			children = (
+				365116742C8867F0007E3850 /* StatusCell.swift */,
+				365116752C8867F0007E3850 /* StatusCell.xib */,
+			);
+			path = Updates;
+			sourceTree = "<group>";
+		};
+		366778BA2C8880520056BB33 /* Updates */ = {
+			isa = PBXGroup;
+			children = (
+				366778BB2C88805D0056BB33 /* StatusModel.swift */,
+			);
+			path = Updates;
 			sourceTree = "<group>";
 		};
 		3673BB132C845B4B00AE163B /* Animation */ = {
@@ -178,6 +205,7 @@
 		3699B1A82C7EF65800119C22 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				365116732C8867A7007E3850 /* Updates */,
 				3694E4CF2C81E0A0000FCFFF /* Chats */,
 				3699B1A92C7EF66200119C22 /* Settings */,
 				36DF51592C87206C0047FAF4 /* Calls */,
@@ -197,6 +225,7 @@
 		3699B1AE2C7EFD1200119C22 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				366778BA2C8880520056BB33 /* Updates */,
 				36DF515B2C872FE00047FAF4 /* Calls */,
 				3699B1AF2C7EFD1600119C22 /* Settings */,
 				36DF515A2C872FDB0047FAF4 /* Chats */,
@@ -229,6 +258,7 @@
 				361462942C808CB2001D5DE4 /* ChatsVC.swift */,
 				36DF514C2C86D0410047FAF4 /* CommunityVC.swift */,
 				36DF514E2C86E8830047FAF4 /* CallsVC.swift */,
+				36CD732A2C8836EA00D432A7 /* UpdatesVC.swift */,
 			);
 			path = MainTabs;
 			sourceTree = "<group>";
@@ -237,6 +267,7 @@
 			isa = PBXGroup;
 			children = (
 				36DF51512C86EFE90047FAF4 /* DialpadVC.swift */,
+				366778B82C8879F30056BB33 /* CircularProgressView.swift */,
 			);
 			path = OtherVC;
 			sourceTree = "<group>";
@@ -342,6 +373,7 @@
 				3699B1AD2C7EF68700119C22 /* SettingCell.xib in Resources */,
 				369926842C79F29A00A96177 /* Base in Resources */,
 				3699267F2C79F29800A96177 /* Base in Resources */,
+				365116762C8867F0007E3850 /* StatusCell.xib in Resources */,
 				36B4B3572C7DD45D00B9EDE3 /* TabBarVC.storyboard in Resources */,
 				36DF51542C86F0080047FAF4 /* OtherVC.storyboard in Resources */,
 				36DF51582C8720660047FAF4 /* CallCell.xib in Resources */,
@@ -406,13 +438,17 @@
 				3699267C2C79F29800A96177 /* ViewController.swift in Sources */,
 				3673BB1B2C84619100AE163B /* ChatModel.swift in Sources */,
 				369926782C79F29800A96177 /* AppDelegate.swift in Sources */,
+				366778BC2C88805D0056BB33 /* StatusModel.swift in Sources */,
 				3699B1AC2C7EF68700119C22 /* SettingCell.swift in Sources */,
 				36B4B3552C7DC05F00B9EDE3 /* TabBarVC.swift in Sources */,
 				369AE1112C7C97170034EFC4 /* ProfileInfoVC.swift in Sources */,
 				36DF514D2C86D0410047FAF4 /* CommunityVC.swift in Sources */,
+				366778B92C8879F30056BB33 /* CircularProgressView.swift in Sources */,
 				3699268C2C79FB6900A96177 /* TermsAndServicesVC.swift in Sources */,
 				36B9C0032C7B15F000F71E99 /* OtpVerificationVC.swift in Sources */,
+				365116772C8867F0007E3850 /* StatusCell.swift in Sources */,
 				36DF51522C86EFE90047FAF4 /* DialpadVC.swift in Sources */,
+				36CD732B2C8836EA00D432A7 /* UpdatesVC.swift in Sources */,
 				3694E4D22C81E0AD000FCFFF /* ChatCell.swift in Sources */,
 				3699267A2C79F29800A96177 /* SceneDelegate.swift in Sources */,
 				36B4B35B2C7DDB4300B9EDE3 /* SettingsVC.swift in Sources */,

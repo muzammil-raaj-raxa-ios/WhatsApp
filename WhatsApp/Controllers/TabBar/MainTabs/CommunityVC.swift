@@ -38,5 +38,4 @@ class CommunityVC: UIViewController {
     animationView.animationSpeed = 1.0
     animationView.play()
   }
-  
 }

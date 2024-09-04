@@ -20,6 +20,8 @@ class ChatsVC: UIViewController, UISearchBarDelegate {
   @IBOutlet weak var navPlusBtn: UIBarButtonItem!
   @IBOutlet weak var threeDotBtn: UIBarButtonItem!
   
+  var unreadMessageCount: Int = 0
+  
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -27,6 +29,7 @@ class ChatsVC: UIViewController, UISearchBarDelegate {
     setupThreeDotBtn()
     setupSearchBar()
     setupChatTblView()
+    refreshChats()
   }
   
   
@@ -86,6 +89,7 @@ class ChatsVC: UIViewController, UISearchBarDelegate {
       if button == selectedBtn {
         setupBtnGreenBgAndLabel(btn: button!)
         chatSearchBar.placeholder = "Search \(button?.currentTitle ?? "") chats"
+        getHapticFeedback()
       } else {
         setupBtnGreyBgAndLabel(btn: button!)
       }
@@ -105,6 +109,29 @@ class ChatsVC: UIViewController, UISearchBarDelegate {
     chatTblViewHeight.constant = height
   }
   
+  func calculateUnreadMessages() {
+    unreadMessageCount = chats.filter { $0.unreadMsgCount > 0 }.count
+  }
+  
+  func setupUnreadChatBadge() {
+    
+    self.tabBarController?.tabBar.items?[3].badgeValue = unreadMessageCount > 0 ? "\(unreadMessageCount)" : nil
+    
+    if #available(iOS 10.0, *) {
+        let tabBarAppearance = UITabBarAppearance()
+      tabBarAppearance.stackedLayoutAppearance.normal.badgeBackgroundColor = UIColor.GREEN
+      tabBarAppearance.stackedLayoutAppearance.normal.badgeTextAttributes = [.foregroundColor: UIColor.systemBackground]
+        tabBarController?.tabBar.standardAppearance = tabBarAppearance
+    }
+
+  }
+  
+  func refreshChats() {
+    chatsTblView.reloadData()
+    calculateUnreadMessages()
+    setupUnreadChatBadge()
+  }
+  
 }
 
 
@@ -114,7 +141,7 @@ extension ChatsVC: UITableViewDelegate, UITableViewDataSource {
   }
   
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    guard let cell = tableView.dequeueReusableCell(withIdentifier: "ChatCell", for: indexPath) as? ChatCell else{
+    guard let cell = tableView.dequeueReusableCell(withIdentifier: "ChatCell", for: indexPath) as? ChatCell else {
       return UITableViewCell()
     }
     
