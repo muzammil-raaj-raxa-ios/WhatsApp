@@ -42,6 +42,9 @@
 		36DF51572C8720660047FAF4 /* CallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DF51552C8720660047FAF4 /* CallCell.swift */; };
 		36DF51582C8720660047FAF4 /* CallCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36DF51562C8720660047FAF4 /* CallCell.xib */; };
 		36DF515D2C872FED0047FAF4 /* CallModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DF515C2C872FED0047FAF4 /* CallModel.swift */; };
+		36E02B302C899286007753A9 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 36E02B2F2C899286007753A9 /* data.json */; };
+		36E02B332C89C88D007753A9 /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E02B312C89C88D007753A9 /* ChannelCell.swift */; };
+		36E02B342C89C88D007753A9 /* ChannelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36E02B322C89C88D007753A9 /* ChannelCell.xib */; };
 		551FC33DE16517EF9075D8E6 /* Pods_WhatsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75ABEC09B88C52B26B13BC1B /* Pods_WhatsApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +86,9 @@
 		36DF51552C8720660047FAF4 /* CallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallCell.swift; sourceTree = "<group>"; };
 		36DF51562C8720660047FAF4 /* CallCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CallCell.xib; sourceTree = "<group>"; };
 		36DF515C2C872FED0047FAF4 /* CallModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallModel.swift; sourceTree = "<group>"; };
+		36E02B2F2C899286007753A9 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		36E02B312C89C88D007753A9 /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
+		36E02B322C89C88D007753A9 /* ChannelCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChannelCell.xib; sourceTree = "<group>"; };
 		40490AE675ADE55622B30738 /* Pods-WhatsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsApp.release.xcconfig"; path = "Target Support Files/Pods-WhatsApp/Pods-WhatsApp.release.xcconfig"; sourceTree = "<group>"; };
 		75ABEC09B88C52B26B13BC1B /* Pods_WhatsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E43493F7CD0980344D7E18F0 /* Pods-WhatsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsApp.debug.xcconfig"; path = "Target Support Files/Pods-WhatsApp/Pods-WhatsApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -113,6 +119,8 @@
 			children = (
 				365116742C8867F0007E3850 /* StatusCell.swift */,
 				365116752C8867F0007E3850 /* StatusCell.xib */,
+				36E02B312C89C88D007753A9 /* ChannelCell.swift */,
+				36E02B322C89C88D007753A9 /* ChannelCell.xib */,
 			);
 			path = Updates;
 			sourceTree = "<group>";
@@ -128,6 +136,7 @@
 		3673BB132C845B4B00AE163B /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				36E02B2F2C899286007753A9 /* data.json */,
 				36DF514A2C86CF840047FAF4 /* community.json */,
 				3673BB182C845B6700AE163B /* whatsapp.json */,
 			);
@@ -368,11 +377,13 @@
 			files = (
 				369926812C79F29A00A96177 /* Assets.xcassets in Resources */,
 				3694E4D32C81E0AD000FCFFF /* ChatCell.xib in Resources */,
+				36E02B342C89C88D007753A9 /* ChannelCell.xib in Resources */,
 				3673BB192C845B6700AE163B /* whatsapp.json in Resources */,
 				36DF514B2C86CF840047FAF4 /* community.json in Resources */,
 				3699B1AD2C7EF68700119C22 /* SettingCell.xib in Resources */,
 				369926842C79F29A00A96177 /* Base in Resources */,
 				3699267F2C79F29800A96177 /* Base in Resources */,
+				36E02B302C899286007753A9 /* data.json in Resources */,
 				365116762C8867F0007E3850 /* StatusCell.xib in Resources */,
 				36B4B3572C7DD45D00B9EDE3 /* TabBarVC.storyboard in Resources */,
 				36DF51542C86F0080047FAF4 /* OtherVC.storyboard in Resources */,
@@ -448,6 +459,7 @@
 				36B9C0032C7B15F000F71E99 /* OtpVerificationVC.swift in Sources */,
 				365116772C8867F0007E3850 /* StatusCell.swift in Sources */,
 				36DF51522C86EFE90047FAF4 /* DialpadVC.swift in Sources */,
+				36E02B332C89C88D007753A9 /* ChannelCell.swift in Sources */,
 				36CD732B2C8836EA00D432A7 /* UpdatesVC.swift in Sources */,
 				3694E4D22C81E0AD000FCFFF /* ChatCell.swift in Sources */,
 				3699267A2C79F29800A96177 /* SceneDelegate.swift in Sources */,

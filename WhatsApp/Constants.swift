@@ -136,20 +136,19 @@ var statuses: [StatusModel] = [
   StatusModel(statusImg: UIImage(named: "profile2")!, statusName: "Manzar", statusTime: "36m ago", newStatus: 1, totalStatus: 2),
   StatusModel(statusImg: UIImage(named: "profile3")!, statusName: "Saad", statusTime: "1h ago", newStatus: 2, totalStatus: 3),
   StatusModel(statusImg: UIImage(named: "profile4")!, statusName: "Farhan", statusTime: "3h ago", newStatus: 3, totalStatus: 4),
-  StatusModel(statusImg: UIImage(named: "profile5")!, statusName: "Arslan", statusTime: "7m ago", newStatus: 4, totalStatus: 5),
-  StatusModel(statusImg: UIImage(named: "profile1")!, statusName: "Hameed", statusTime: "16h ago", newStatus: 5, totalStatus: 6),
-  StatusModel(statusImg: UIImage(named: "profile2")!, statusName: "Manzar", statusTime: "36m ago", newStatus: 6, totalStatus: 7),
-  StatusModel(statusImg: UIImage(named: "profile3")!, statusName: "Saad", statusTime: "1h ago", newStatus: 7, totalStatus: 8),
-  StatusModel(statusImg: UIImage(named: "profile4")!, statusName: "Farhan", statusTime: "3h ago", newStatus: 8, totalStatus: 9),
-  StatusModel(statusImg: UIImage(named: "profile5")!, statusName: "Arslan", statusTime: "7m ago", newStatus: 9, totalStatus: 10),
+  StatusModel(statusImg: UIImage(named: "profile5")!, statusName: "Arslan", statusTime: "7m ago", newStatus: 4, totalStatus: 5),StatusModel(statusImg: UIImage(named: "profile2")!, statusName: "Manzar", statusTime: "36m ago", newStatus: 1, totalStatus: 2),
+  StatusModel(statusImg: UIImage(named: "profile3")!, statusName: "Saad", statusTime: "1h ago", newStatus: 2, totalStatus: 3),
+  StatusModel(statusImg: UIImage(named: "profile1")!, statusName: "Hameed", statusTime: "16h ago", newStatus: 1, totalStatus: 1),
+]
+
+var viewStatuses: [StatusModel] = []
+
+var mutedStatuses: [StatusModel] = [
   StatusModel(statusImg: UIImage(named: "profile1")!, statusName: "Hameed", statusTime: "16h ago", newStatus: 1, totalStatus: 1),
   StatusModel(statusImg: UIImage(named: "profile2")!, statusName: "Manzar", statusTime: "36m ago", newStatus: 1, totalStatus: 2),
   StatusModel(statusImg: UIImage(named: "profile3")!, statusName: "Saad", statusTime: "1h ago", newStatus: 2, totalStatus: 3),
   StatusModel(statusImg: UIImage(named: "profile4")!, statusName: "Farhan", statusTime: "3h ago", newStatus: 3, totalStatus: 4),
   StatusModel(statusImg: UIImage(named: "profile5")!, statusName: "Arslan", statusTime: "7m ago", newStatus: 4, totalStatus: 5),
-  StatusModel(statusImg: UIImage(named: "profile1")!, statusName: "Hameed", statusTime: "16h ago", newStatus: 5, totalStatus: 6),
-  StatusModel(statusImg: UIImage(named: "profile2")!, statusName: "Manzar", statusTime: "36m ago", newStatus: 6, totalStatus: 7),
-  StatusModel(statusImg: UIImage(named: "profile3")!, statusName: "Saad", statusTime: "1h ago", newStatus: 7, totalStatus: 8),
-  StatusModel(statusImg: UIImage(named: "profile4")!, statusName: "Farhan", statusTime: "3h ago", newStatus: 8, totalStatus: 9),
-  StatusModel(statusImg: UIImage(named: "profile5")!, statusName: "Arslan", statusTime: "7m ago", newStatus: 9, totalStatus: 10),
+  StatusModel(statusImg: UIImage(named: "profile1")!, statusName: "Hameed", statusTime: "16h ago", newStatus: 1, totalStatus: 1),
 ]
+

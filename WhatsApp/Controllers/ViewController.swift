@@ -12,7 +12,7 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+    DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
       if (UserDefaults.standard.value(forKey: "userName") != nil) {
         let storyboard = UIStoryboard(name: "TabBarVC", bundle: nil)
         if let vc = storyboard.instantiateViewController(withIdentifier: "TabBarVC") as? TabBarVC {
