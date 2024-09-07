@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		361462952C808CB2001D5DE4 /* ChatsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361462942C808CB2001D5DE4 /* ChatsVC.swift */; };
+		36160CDD2C8ADF2300106EAD /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36160CDC2C8ADF2300106EAD /* EditProfileVC.swift */; };
+		362E60802C8B12D20080FCDD /* ProfilePhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362E607F2C8B12D20080FCDD /* ProfilePhotoVC.swift */; };
 		365116762C8867F0007E3850 /* StatusCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 365116752C8867F0007E3850 /* StatusCell.xib */; };
 		365116772C8867F0007E3850 /* StatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365116742C8867F0007E3850 /* StatusCell.swift */; };
 		366778B92C8879F30056BB33 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366778B82C8879F30056BB33 /* CircularProgressView.swift */; };
@@ -29,6 +31,7 @@
 		3699B1AD2C7EF68700119C22 /* SettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3699B1AB2C7EF68700119C22 /* SettingCell.xib */; };
 		3699B1B12C7EFD3500119C22 /* SettingCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3699B1B02C7EFD3500119C22 /* SettingCellModel.swift */; };
 		369AE1112C7C97170034EFC4 /* ProfileInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369AE1102C7C97170034EFC4 /* ProfileInfoVC.swift */; };
+		369B8FFB2C8C95EE002ACA97 /* EditProfilePicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369B8FFA2C8C95EE002ACA97 /* EditProfilePicVC.swift */; };
 		36B4B3552C7DC05F00B9EDE3 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B4B3542C7DC05F00B9EDE3 /* TabBarVC.swift */; };
 		36B4B3572C7DD45D00B9EDE3 /* TabBarVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36B4B3562C7DD45D00B9EDE3 /* TabBarVC.storyboard */; };
 		36B4B35B2C7DDB4300B9EDE3 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B4B35A2C7DDB4300B9EDE3 /* SettingsVC.swift */; };
@@ -50,6 +53,8 @@
 
 /* Begin PBXFileReference section */
 		361462942C808CB2001D5DE4 /* ChatsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsVC.swift; sourceTree = "<group>"; };
+		36160CDC2C8ADF2300106EAD /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		362E607F2C8B12D20080FCDD /* ProfilePhotoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePhotoVC.swift; sourceTree = "<group>"; };
 		365116742C8867F0007E3850 /* StatusCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusCell.swift; sourceTree = "<group>"; };
 		365116752C8867F0007E3850 /* StatusCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatusCell.xib; sourceTree = "<group>"; };
 		366778B82C8879F30056BB33 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
@@ -73,6 +78,7 @@
 		3699B1AB2C7EF68700119C22 /* SettingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingCell.xib; sourceTree = "<group>"; };
 		3699B1B02C7EFD3500119C22 /* SettingCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCellModel.swift; sourceTree = "<group>"; };
 		369AE1102C7C97170034EFC4 /* ProfileInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoVC.swift; sourceTree = "<group>"; };
+		369B8FFA2C8C95EE002ACA97 /* EditProfilePicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfilePicVC.swift; sourceTree = "<group>"; };
 		36B4B3542C7DC05F00B9EDE3 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		36B4B3562C7DD45D00B9EDE3 /* TabBarVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBarVC.storyboard; sourceTree = "<group>"; };
 		36B4B35A2C7DDB4300B9EDE3 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
@@ -277,6 +283,9 @@
 			children = (
 				36DF51512C86EFE90047FAF4 /* DialpadVC.swift */,
 				366778B82C8879F30056BB33 /* CircularProgressView.swift */,
+				36160CDC2C8ADF2300106EAD /* EditProfileVC.swift */,
+				362E607F2C8B12D20080FCDD /* ProfilePhotoVC.swift */,
+				369B8FFA2C8C95EE002ACA97 /* EditProfilePicVC.swift */,
 			);
 			path = OtherVC;
 			sourceTree = "<group>";
@@ -449,9 +458,11 @@
 				3699267C2C79F29800A96177 /* ViewController.swift in Sources */,
 				3673BB1B2C84619100AE163B /* ChatModel.swift in Sources */,
 				369926782C79F29800A96177 /* AppDelegate.swift in Sources */,
+				362E60802C8B12D20080FCDD /* ProfilePhotoVC.swift in Sources */,
 				366778BC2C88805D0056BB33 /* StatusModel.swift in Sources */,
 				3699B1AC2C7EF68700119C22 /* SettingCell.swift in Sources */,
 				36B4B3552C7DC05F00B9EDE3 /* TabBarVC.swift in Sources */,
+				36160CDD2C8ADF2300106EAD /* EditProfileVC.swift in Sources */,
 				369AE1112C7C97170034EFC4 /* ProfileInfoVC.swift in Sources */,
 				36DF514D2C86D0410047FAF4 /* CommunityVC.swift in Sources */,
 				366778B92C8879F30056BB33 /* CircularProgressView.swift in Sources */,
@@ -459,6 +470,7 @@
 				36B9C0032C7B15F000F71E99 /* OtpVerificationVC.swift in Sources */,
 				365116772C8867F0007E3850 /* StatusCell.swift in Sources */,
 				36DF51522C86EFE90047FAF4 /* DialpadVC.swift in Sources */,
+				369B8FFB2C8C95EE002ACA97 /* EditProfilePicVC.swift in Sources */,
 				36E02B332C89C88D007753A9 /* ChannelCell.swift in Sources */,
 				36CD732B2C8836EA00D432A7 /* UpdatesVC.swift in Sources */,
 				3694E4D22C81E0AD000FCFFF /* ChatCell.swift in Sources */,

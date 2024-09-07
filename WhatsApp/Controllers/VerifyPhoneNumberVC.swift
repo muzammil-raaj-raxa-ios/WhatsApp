@@ -47,7 +47,7 @@ class VerifyPhoneNumberVC: UIViewController {
     
     let countryCode = phoneNoTF.selectedCountry?.phoneCode ?? ""
     let fullPhoneNO = "\(countryCode) \(phoneNO)"
-    
+    UserDefaults.standard.setValue(fullPhoneNO, forKey: "phoneNo")
     
     let storyboard = UIStoryboard(name: "Main", bundle: .main)
     if let vc = storyboard.instantiateViewController(withIdentifier: "OtpVerificationVC") as? OtpVerificationVC {

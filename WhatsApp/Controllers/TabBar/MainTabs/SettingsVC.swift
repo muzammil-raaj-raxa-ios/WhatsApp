@@ -29,6 +29,17 @@ class SettingsVC: UIViewController, UISearchBarDelegate {
     setupSecondSettingTblView()
     setupThirdSettingTblView()
     setupFourthSettingTblView()
+    navigationController?.navigationBar.prefersLargeTitles = true
+    navigationItem.largeTitleDisplayMode = .always
+  }
+  
+  override func viewWillAppear(_ animated: Bool) {
+    super.viewWillAppear(animated)
+    
+    navigationController?.navigationBar.prefersLargeTitles = true
+    navigationItem.largeTitleDisplayMode = .always
+    
+    setupProfile()
   }
   
   @IBAction func logoutBtn(_ sender: Any) {
@@ -48,6 +59,16 @@ class SettingsVC: UIViewController, UISearchBarDelegate {
     present(alert, animated: true)
     getHapticFeedback()
     print("logout")
+  }
+  
+  
+  @IBAction func editProfileBtn(_ sender: Any) {
+    let storyboard = UIStoryboard(name: "OtherVC", bundle: .main)
+    if let vc = storyboard.instantiateViewController(withIdentifier: "EditProfileVC") as? EditProfileVC {
+      vc.hidesBottomBarWhenPushed = false
+      self.navigationController?.pushViewController(vc, animated: true)
+    }
+    print("Edit profile tapped")
   }
   
   func setupProfile() {
@@ -99,7 +120,7 @@ extension SettingsVC: UITableViewDelegate, UITableViewDataSource {
     } else if tableView == fourthSettingTblView {
       return 2
     }
-  
+    
     return 0
   }
   

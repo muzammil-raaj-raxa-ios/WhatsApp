@@ -157,7 +157,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xK9-AP-dAO">
-                                <rect key="frame" x="0.0" y="146" width="414" height="667"/>
+                                <rect key="frame" x="0.0" y="92" width="414" height="721"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="g0Y-LJ-Icv">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1062"/>
@@ -248,6 +248,16 @@
                                                                     <constraint firstAttribute="height" constant="50" id="1Cc-XM-HcL"/>
                                                                 </constraints>
                                                             </stackView>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7wJ-TE-WSL">
+                                                                <rect key="frame" x="0.0" y="0.0" width="374" height="70"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                                <connections>
+                                                                    <action selector="editProfileBtn:" destination="P6U-7c-WPL" eventType="touchUpInside" id="VlY-Pv-WaB"/>
+                                                                </connections>
+                                                            </button>
                                                         </subviews>
                                                         <color key="backgroundColor" name="ViewBackground"/>
                                                         <constraints>
@@ -255,6 +265,10 @@
                                                             <constraint firstItem="w3c-2F-fqh" firstAttribute="centerY" secondItem="a6R-wF-B1G" secondAttribute="centerY" id="7Ka-rW-rL4"/>
                                                             <constraint firstItem="Ghp-nS-Jcc" firstAttribute="leading" secondItem="w3c-2F-fqh" secondAttribute="trailing" constant="15" id="LlM-mK-xpd"/>
                                                             <constraint firstAttribute="trailing" secondItem="Ghp-nS-Jcc" secondAttribute="trailing" constant="20" id="QeC-tz-JAZ"/>
+                                                            <constraint firstAttribute="bottom" secondItem="7wJ-TE-WSL" secondAttribute="bottom" id="UHf-tZ-dUp"/>
+                                                            <constraint firstItem="7wJ-TE-WSL" firstAttribute="leading" secondItem="a6R-wF-B1G" secondAttribute="leading" id="exX-3y-mBA"/>
+                                                            <constraint firstAttribute="trailing" secondItem="7wJ-TE-WSL" secondAttribute="trailing" id="miH-ff-0We"/>
+                                                            <constraint firstItem="7wJ-TE-WSL" firstAttribute="top" secondItem="a6R-wF-B1G" secondAttribute="top" id="va7-v9-6cl"/>
                                                             <constraint firstItem="Ghp-nS-Jcc" firstAttribute="centerY" secondItem="a6R-wF-B1G" secondAttribute="centerY" id="zB5-UH-WKy"/>
                                                         </constraints>
                                                         <userDefinedRuntimeAttributes>
@@ -428,9 +442,9 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Also from Raaj" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bhH-tB-AJ7">
-                                                        <rect key="frame" x="35" y="0.0" width="109.5" height="20.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <rect key="frame" x="35" y="0.0" width="119" height="21.5"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                                        <color key="textColor" name="ChatGrayLabel"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -557,7 +571,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FZ4-Rd-Xz1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="11392.799999999999" y="1607.9460269865069"/>
+            <point key="canvasLocation" x="11391.304347826088" y="1607.8125"/>
         </scene>
         <!--Chats-->
         <scene sceneID="H4E-zE-epw">
@@ -1904,9 +1918,6 @@
             <point key="canvasLocation" x="8030" y="1608"/>
         </scene>
     </scenes>
-    <designables>
-        <designable name="dMQ-Pm-jon"/>
-    </designables>
     <resources>
         <image name="camera.fill" catalog="system" width="128" height="93"/>
         <image name="chevron.down" catalog="system" width="128" height="70"/>
@@ -1925,8 +1936,8 @@
         <image name="person.3.fill" catalog="system" width="128" height="66"/>
         <image name="phone" catalog="system" width="128" height="115"/>
         <image name="phone.fill" catalog="system" width="128" height="114"/>
-        <image name="plus" catalog="system" width="128" height="113"/>
         <image name="plus" width="30" height="30"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
         <image name="profile1" width="736" height="736"/>
         <image name="threeDot" width="25" height="25"/>
         <namedColor name="BLACKWHITE">
