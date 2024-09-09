@@ -9,6 +9,9 @@ import UIKit
 
 class EditProfileVC: UIViewController, UITextFieldDelegate {
   
+  @IBOutlet weak var bioLabel: UILabel!
+  @IBOutlet weak var bioBtn: UIButton!
+  @IBOutlet weak var editProfileBtn: UIButton!
   @IBOutlet weak var phoneNoLabel: UILabel!
   @IBOutlet weak var doneBtn: UIBarButtonItem!
   @IBOutlet weak var nameCharCountLabel: UILabel!
@@ -28,6 +31,28 @@ class EditProfileVC: UIViewController, UITextFieldDelegate {
     setupNameView()
     nameCharCountLabel.isHidden = true
     phoneNoLabel.text = UserDefaults.standard.string(forKey: "phoneNo")
+    editProfileBtn.setTitle("", for: .normal)
+    bioBtn.setTitle("", for: .normal)
+    bioLabel.text = UserDefaults.standard.string(forKey: "userBio") ?? "Hey there! I am using Whatsapp"
+  }
+  
+  override func viewWillAppear(_ animated: Bool) {
+    super.viewWillAppear(animated)
+    
+    profileImg.image = getProfileImg(forKey: "profileImage")
+    if #available(iOS 16.0, *) {
+      doneBtn.isHidden = true
+    }
+    bioLabel.text = UserDefaults.standard.string(forKey: "userBio") ?? "Hey there! I am using Whatsapp"
+  }
+  
+  
+  @IBAction func bioBtn(_ sender: Any) {
+    let storyboard = UIStoryboard(name: "OtherVC", bundle: .main)
+    if let vc = storyboard.instantiateViewController(withIdentifier: "BioVC") as? BioVC {
+      vc.hidesBottomBarWhenPushed = true
+      self.navigationController?.pushViewController(vc, animated: true)
+    }
   }
   
   

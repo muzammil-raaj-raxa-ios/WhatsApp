@@ -472,6 +472,12 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4gM-Hk-ulY">
                                                         <rect key="frame" x="20" y="0.0" width="374" height="50"/>
                                                         <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Log out" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kBM-Lr-NeM">
+                                                                <rect key="frame" x="15" y="13.5" width="65.5" height="23"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="19"/>
+                                                                <color key="textColor" systemColor="systemRedColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pnS-EM-T1d">
                                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="50"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -482,12 +488,6 @@
                                                                     <action selector="logoutBtn:" destination="P6U-7c-WPL" eventType="touchUpInside" id="fhj-tM-f17"/>
                                                                 </connections>
                                                             </button>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Log out" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kBM-Lr-NeM">
-                                                                <rect key="frame" x="15" y="13.5" width="65.5" height="23"/>
-                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="19"/>
-                                                                <color key="textColor" systemColor="systemRedColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
                                                         </subviews>
                                                         <color key="backgroundColor" name="ViewBackground"/>
                                                         <constraints>
@@ -559,8 +559,10 @@
                     </view>
                     <navigationItem key="navigationItem" title="Settings" id="x1b-vh-kPd"/>
                     <connections>
+                        <outlet property="bioLabel" destination="g5Y-Qa-HnW" id="OQ8-pa-fYt"/>
                         <outlet property="firstSettingTblView" destination="hbn-WE-is9" id="9nK-Vh-FCV"/>
                         <outlet property="fourthSettingTblView" destination="QX1-Jw-IOt" id="3t6-qn-5Ad"/>
+                        <outlet property="logoutBtn" destination="pnS-EM-T1d" id="IVc-J0-Rrx"/>
                         <outlet property="profileBio" destination="g5Y-Qa-HnW" id="cNM-KT-1rj"/>
                         <outlet property="profileImage" destination="w3c-2F-fqh" id="hka-cn-SWy"/>
                         <outlet property="profileName" destination="fYb-KR-Qil" id="kGl-dT-GQu"/>
@@ -1918,6 +1920,9 @@
             <point key="canvasLocation" x="8030" y="1608"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="dMQ-Pm-jon"/>
+    </designables>
     <resources>
         <image name="camera.fill" catalog="system" width="128" height="93"/>
         <image name="chevron.down" catalog="system" width="128" height="70"/>

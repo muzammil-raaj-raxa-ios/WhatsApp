@@ -36,6 +36,10 @@
 		36B4B3572C7DD45D00B9EDE3 /* TabBarVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36B4B3562C7DD45D00B9EDE3 /* TabBarVC.storyboard */; };
 		36B4B35B2C7DDB4300B9EDE3 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B4B35A2C7DDB4300B9EDE3 /* SettingsVC.swift */; };
 		36B9C0032C7B15F000F71E99 /* OtpVerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B9C0022C7B15F000F71E99 /* OtpVerificationVC.swift */; };
+		36CA2ACD2C8EE03600B5AE6D /* BioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CA2ACC2C8EE03600B5AE6D /* BioVC.swift */; };
+		36CA2AD02C8EE5DC00B5AE6D /* BioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CA2ACE2C8EE5DC00B5AE6D /* BioCell.swift */; };
+		36CA2AD12C8EE5DC00B5AE6D /* BioCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36CA2ACF2C8EE5DC00B5AE6D /* BioCell.xib */; };
+		36CA2AD32C8EE87800B5AE6D /* BiosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CA2AD22C8EE87800B5AE6D /* BiosModel.swift */; };
 		36CD732B2C8836EA00D432A7 /* UpdatesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CD732A2C8836EA00D432A7 /* UpdatesVC.swift */; };
 		36DF514B2C86CF840047FAF4 /* community.json in Resources */ = {isa = PBXBuildFile; fileRef = 36DF514A2C86CF840047FAF4 /* community.json */; };
 		36DF514D2C86D0410047FAF4 /* CommunityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DF514C2C86D0410047FAF4 /* CommunityVC.swift */; };
@@ -83,6 +87,10 @@
 		36B4B3562C7DD45D00B9EDE3 /* TabBarVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBarVC.storyboard; sourceTree = "<group>"; };
 		36B4B35A2C7DDB4300B9EDE3 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		36B9C0022C7B15F000F71E99 /* OtpVerificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpVerificationVC.swift; sourceTree = "<group>"; };
+		36CA2ACC2C8EE03600B5AE6D /* BioVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioVC.swift; sourceTree = "<group>"; };
+		36CA2ACE2C8EE5DC00B5AE6D /* BioCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioCell.swift; sourceTree = "<group>"; };
+		36CA2ACF2C8EE5DC00B5AE6D /* BioCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BioCell.xib; sourceTree = "<group>"; };
+		36CA2AD22C8EE87800B5AE6D /* BiosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiosModel.swift; sourceTree = "<group>"; };
 		36CD732A2C8836EA00D432A7 /* UpdatesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatesVC.swift; sourceTree = "<group>"; };
 		36DF514A2C86CF840047FAF4 /* community.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = community.json; sourceTree = "<group>"; };
 		36DF514C2C86D0410047FAF4 /* CommunityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityVC.swift; sourceTree = "<group>"; };
@@ -233,6 +241,8 @@
 			children = (
 				3699B1AA2C7EF68700119C22 /* SettingCell.swift */,
 				3699B1AB2C7EF68700119C22 /* SettingCell.xib */,
+				36CA2ACE2C8EE5DC00B5AE6D /* BioCell.swift */,
+				36CA2ACF2C8EE5DC00B5AE6D /* BioCell.xib */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -252,6 +262,7 @@
 			isa = PBXGroup;
 			children = (
 				3699B1B02C7EFD3500119C22 /* SettingCellModel.swift */,
+				36CA2AD22C8EE87800B5AE6D /* BiosModel.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -286,6 +297,7 @@
 				36160CDC2C8ADF2300106EAD /* EditProfileVC.swift */,
 				362E607F2C8B12D20080FCDD /* ProfilePhotoVC.swift */,
 				369B8FFA2C8C95EE002ACA97 /* EditProfilePicVC.swift */,
+				36CA2ACC2C8EE03600B5AE6D /* BioVC.swift */,
 			);
 			path = OtherVC;
 			sourceTree = "<group>";
@@ -386,6 +398,7 @@
 			files = (
 				369926812C79F29A00A96177 /* Assets.xcassets in Resources */,
 				3694E4D32C81E0AD000FCFFF /* ChatCell.xib in Resources */,
+				36CA2AD12C8EE5DC00B5AE6D /* BioCell.xib in Resources */,
 				36E02B342C89C88D007753A9 /* ChannelCell.xib in Resources */,
 				3673BB192C845B6700AE163B /* whatsapp.json in Resources */,
 				36DF514B2C86CF840047FAF4 /* community.json in Resources */,
@@ -455,6 +468,7 @@
 				36DF514F2C86E8830047FAF4 /* CallsVC.swift in Sources */,
 				369926902C7A3D2D00A96177 /* VerifyPhoneNumberVC.swift in Sources */,
 				369224562C7A4F6800951AA2 /* Constants.swift in Sources */,
+				36CA2AD32C8EE87800B5AE6D /* BiosModel.swift in Sources */,
 				3699267C2C79F29800A96177 /* ViewController.swift in Sources */,
 				3673BB1B2C84619100AE163B /* ChatModel.swift in Sources */,
 				369926782C79F29800A96177 /* AppDelegate.swift in Sources */,
@@ -465,6 +479,7 @@
 				36160CDD2C8ADF2300106EAD /* EditProfileVC.swift in Sources */,
 				369AE1112C7C97170034EFC4 /* ProfileInfoVC.swift in Sources */,
 				36DF514D2C86D0410047FAF4 /* CommunityVC.swift in Sources */,
+				36CA2AD02C8EE5DC00B5AE6D /* BioCell.swift in Sources */,
 				366778B92C8879F30056BB33 /* CircularProgressView.swift in Sources */,
 				3699268C2C79FB6900A96177 /* TermsAndServicesVC.swift in Sources */,
 				36B9C0032C7B15F000F71E99 /* OtpVerificationVC.swift in Sources */,
@@ -475,6 +490,7 @@
 				36CD732B2C8836EA00D432A7 /* UpdatesVC.swift in Sources */,
 				3694E4D22C81E0AD000FCFFF /* ChatCell.swift in Sources */,
 				3699267A2C79F29800A96177 /* SceneDelegate.swift in Sources */,
+				36CA2ACD2C8EE03600B5AE6D /* BioVC.swift in Sources */,
 				36B4B35B2C7DDB4300B9EDE3 /* SettingsVC.swift in Sources */,
 				36DF515D2C872FED0047FAF4 /* CallModel.swift in Sources */,
 			);

@@ -49,7 +49,7 @@ func getProfileImg(forKey key: String) -> UIImage? {
   if let data = UserDefaults.standard.value(forKey: key) {
     return UIImage(data: data as! Data)
   }
-  return UIImage(systemName: "person.fill")
+  return UIImage(named: "person")
 }
 
 let firstSettingTblViewItem = [

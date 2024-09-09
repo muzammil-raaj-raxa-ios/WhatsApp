@@ -9,6 +9,8 @@ import UIKit
 
 class SettingsVC: UIViewController, UISearchBarDelegate {
   
+  @IBOutlet weak var logoutBtn: UIButton!
+  @IBOutlet weak var bioLabel: UILabel!
   @IBOutlet weak var fourthSettingTblView: UITableView!
   @IBOutlet weak var thirdSettingTblView: UITableView!
   @IBOutlet weak var secondSettingTblView: UITableView!
@@ -31,6 +33,8 @@ class SettingsVC: UIViewController, UISearchBarDelegate {
     setupFourthSettingTblView()
     navigationController?.navigationBar.prefersLargeTitles = true
     navigationItem.largeTitleDisplayMode = .always
+    bioLabel.text = UserDefaults.standard.string(forKey: "userBio") ?? "Hey there! I am using Whatsapp"
+    logoutBtn.setTitle("", for: .normal)
   }
   
   override func viewWillAppear(_ animated: Bool) {
@@ -40,6 +44,7 @@ class SettingsVC: UIViewController, UISearchBarDelegate {
     navigationItem.largeTitleDisplayMode = .always
     
     setupProfile()
+    bioLabel.text = UserDefaults.standard.string(forKey: "userBio") ?? "Hey there! I am using Whatsapp"
   }
   
   @IBAction func logoutBtn(_ sender: Any) {
@@ -48,6 +53,7 @@ class SettingsVC: UIViewController, UISearchBarDelegate {
     alert.addAction(UIAlertAction(title: "Yes", style: .destructive, handler: { _ in
       UserDefaults.standard.removeObject(forKey: "userName")
       UserDefaults.standard.removeObject(forKey: "profileImage")
+      UserDefaults.standard.removeObject(forKey: "userBio")
       DispatchQueue.main.async {
         let storyboard = UIStoryboard(name: "Main", bundle: .main)
         if let vc = storyboard.instantiateViewController(withIdentifier: "TermsAndServicesVC") as? TermsAndServicesVC {
