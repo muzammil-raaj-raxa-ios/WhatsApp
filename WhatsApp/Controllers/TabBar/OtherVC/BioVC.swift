@@ -11,6 +11,7 @@ class BioVC: UIViewController, UIGestureRecognizerDelegate {
   
   @IBOutlet weak var bioTableView: UITableView!
   @IBOutlet weak var currentBioLabel: UILabel!
+  @IBOutlet weak var customBioBtn: UIButton!
   
   var selectedIndexPath: IndexPath?
   
@@ -34,10 +35,20 @@ class BioVC: UIViewController, UIGestureRecognizerDelegate {
     
     setupBioTableView()
     setupIndexPath()
+    customBioBtn.setTitle("", for: .normal)
   }
   
   @IBAction func backBtn(_ sender: Any) {
     navigationController?.popViewController(animated: true)
+  }
+  
+  @IBAction func customBioBtn(_ sender: Any) {
+    let storyboard = UIStoryboard(name: "OtherVC", bundle: .main)
+    if let vc = storyboard.instantiateViewController(withIdentifier: "CustomBioVC") as? CustomBioVC {
+      vc.hidesBottomBarWhenPushed = true
+      vc.modalPresentationStyle = .formSheet
+      present(vc, animated: true)
+    }
   }
   
   func setupBioTableView() {

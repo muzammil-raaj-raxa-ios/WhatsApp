@@ -1113,7 +1113,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain"/>
                                         <connections>
-                                            <action selector="bioBtn:" destination="yac-tq-ikN" eventType="touchUpInside" id="aTk-s6-fFc"/>
+                                            <action selector="customBioBtn:" destination="6wc-01-mVg" eventType="touchUpInside" id="bF1-rx-t6d"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -1192,11 +1192,118 @@
                     <connections>
                         <outlet property="bioTableView" destination="Yfy-1g-xfX" id="JFV-cZ-Lvj"/>
                         <outlet property="currentBioLabel" destination="BkB-TV-hOj" id="g7b-3c-wf5"/>
+                        <outlet property="customBioBtn" destination="ORa-mC-Izk" id="eT5-xA-Jat"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mbg-ej-1BJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="6432.8000000000002" y="-28.335832083958024"/>
+        </scene>
+        <!--Bio(139)-->
+        <scene sceneID="p2K-fp-yfM">
+            <objects>
+                <viewController storyboardIdentifier="CustomBioVC" id="ozU-dw-CMg" customClass="CustomBioVC" customModule="WhatsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9xO-VE-lH9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f1A-Dv-N8y" userLabel="TopView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bio (139)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6NA-hW-Eye">
+                                        <rect key="frame" x="150" y="14.5" width="75" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LrG-u3-x2d">
+                                        <rect key="frame" x="10" y="9" width="71.5" height="32"/>
+                                        <color key="tintColor" systemColor="labelColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Cancel">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="15"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="cancelBtn:" destination="ozU-dw-CMg" eventType="touchUpInside" id="Z53-Xi-YtL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hXP-Y0-4Ic">
+                                        <rect key="frame" x="305" y="8.5" width="60" height="33.5"/>
+                                        <color key="tintColor" systemColor="labelColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Save">
+                                            <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="16"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="saveBtn:" destination="ozU-dw-CMg" eventType="touchUpInside" id="aFb-Hn-CH9"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" name="ChatGrayView"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="QX3-mt-V78"/>
+                                    <constraint firstItem="hXP-Y0-4Ic" firstAttribute="centerY" secondItem="f1A-Dv-N8y" secondAttribute="centerY" id="SG0-PQ-hQk"/>
+                                    <constraint firstItem="LrG-u3-x2d" firstAttribute="leading" secondItem="f1A-Dv-N8y" secondAttribute="leading" constant="10" id="T7I-dw-dy2"/>
+                                    <constraint firstItem="LrG-u3-x2d" firstAttribute="centerY" secondItem="f1A-Dv-N8y" secondAttribute="centerY" id="Ueb-An-ToE"/>
+                                    <constraint firstItem="6NA-hW-Eye" firstAttribute="centerY" secondItem="f1A-Dv-N8y" secondAttribute="centerY" id="Ybq-U6-lgH"/>
+                                    <constraint firstAttribute="trailing" secondItem="hXP-Y0-4Ic" secondAttribute="trailing" constant="10" id="nLJ-Yg-vBK"/>
+                                    <constraint firstItem="6NA-hW-Eye" firstAttribute="centerX" secondItem="f1A-Dv-N8y" secondAttribute="centerX" id="xvi-2c-xA2"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5mK-HY-hep">
+                                <rect key="frame" x="20" y="70" width="335" height="577"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VXC-fP-RX6">
+                                        <rect key="frame" x="15" y="20" width="305" height="537"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" name="GREEN"/>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" name="ViewBackground"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="VXC-fP-RX6" secondAttribute="bottom" constant="20" id="LBT-bd-OoV"/>
+                                    <constraint firstItem="VXC-fP-RX6" firstAttribute="leading" secondItem="5mK-HY-hep" secondAttribute="leading" constant="15" id="OFK-BZ-tcC"/>
+                                    <constraint firstAttribute="trailing" secondItem="VXC-fP-RX6" secondAttribute="trailing" constant="15" id="e3B-1i-R8A"/>
+                                    <constraint firstItem="VXC-fP-RX6" firstAttribute="top" secondItem="5mK-HY-hep" secondAttribute="top" constant="20" id="zH6-dl-gJ4"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="DQ0-rc-dp4"/>
+                        <color key="backgroundColor" name="SettingBG"/>
+                        <constraints>
+                            <constraint firstItem="f1A-Dv-N8y" firstAttribute="leading" secondItem="DQ0-rc-dp4" secondAttribute="leading" id="0z2-g8-0oU"/>
+                            <constraint firstItem="DQ0-rc-dp4" firstAttribute="trailing" secondItem="f1A-Dv-N8y" secondAttribute="trailing" id="1Og-gC-DQ9"/>
+                            <constraint firstItem="f1A-Dv-N8y" firstAttribute="top" secondItem="9xO-VE-lH9" secondAttribute="top" id="3DJ-Aj-zIY"/>
+                            <constraint firstItem="DQ0-rc-dp4" firstAttribute="trailing" secondItem="5mK-HY-hep" secondAttribute="trailing" constant="20" id="QKM-Cu-Gc6"/>
+                            <constraint firstItem="5mK-HY-hep" firstAttribute="leading" secondItem="DQ0-rc-dp4" secondAttribute="leading" constant="20" id="UcX-di-Bfg"/>
+                            <constraint firstItem="DQ0-rc-dp4" firstAttribute="bottom" secondItem="5mK-HY-hep" secondAttribute="bottom" constant="20" id="dQQ-U8-eVm"/>
+                            <constraint firstItem="5mK-HY-hep" firstAttribute="top" secondItem="f1A-Dv-N8y" secondAttribute="bottom" constant="20" id="er5-Np-WjN"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Bio(139)" id="gkr-4r-ojd">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="5mN-Vi-ffz">
+                            <color key="tintColor" systemColor="labelColor"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="n6v-dU-CXo">
+                            <color key="tintColor" systemColor="labelColor"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="bioTextview" destination="VXC-fP-RX6" id="lDM-qC-f1D"/>
+                        <outlet property="titleLabel" destination="6NA-hW-Eye" id="61J-J4-eXU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gUs-9z-FfW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8279.2000000000007" y="-29.23538230884558"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="a7A-ch-aUr">
@@ -1261,6 +1368,21 @@
             </objects>
             <point key="canvasLocation" x="5493.6000000000004" y="-28.335832083958024"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="J1l-uL-mqw">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gHC-S5-rgE" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Jx9-AF-Rgi">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6mV-mg-RKM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7340" y="-29.23538230884558"/>
+        </scene>
     </scenes>
     <resources>
         <image name="camera" catalog="system" width="128" height="93"/>
@@ -1298,13 +1420,13 @@
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="opaqueSeparatorColor">
-            <color red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGray5Color">
-            <color red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
