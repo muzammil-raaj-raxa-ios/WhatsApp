@@ -22,6 +22,7 @@ class EditProfileVC: UIViewController, UITextFieldDelegate {
   override func viewDidLoad() {
     super.viewDidLoad()
     
+    self.title = "Edit Profile"
     navigationController?.navigationBar.prefersLargeTitles = false
     profileImg.layer.cornerRadius = profileImg.frame.height / 2
     profileImg.image = getProfileImg(forKey: "profileImage")

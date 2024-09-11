@@ -7,12 +7,17 @@
 
 import UIKit
 
+protocol NewlyAddedBioDelegate: AnyObject {
+  func newBio(_ bio: String)
+}
+
 class CustomBioVC: UIViewController, UITextViewDelegate {
   
   @IBOutlet weak var titleLabel: UILabel!
   @IBOutlet weak var bioTextview: UITextView!
   
   let maxBioLength = 139
+  weak var delegate: NewlyAddedBioDelegate?
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -31,6 +36,7 @@ class CustomBioVC: UIViewController, UITextViewDelegate {
   
   @IBAction func saveBtn(_ sender: Any) {
     UserDefaults.standard.setValue(bioTextview.text, forKey: "userBio")
+    delegate?.newBio(bioTextview.text)
     dismiss(animated: true)
   }
   
@@ -53,7 +59,6 @@ class CustomBioVC: UIViewController, UITextViewDelegate {
   func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
     let currentText = bioTextview.text!
     let newlyAddedBio = (currentText as NSString).replacingCharacters(in: range, with: text)
-    bioTextview.textColor = UIColor.secondaryLabel.withAlphaComponent(0.1)
     
     return newlyAddedBio.count <= maxBioLength
   }
@@ -71,5 +76,5 @@ class CustomBioVC: UIViewController, UITextViewDelegate {
     NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillHideNotification, object: nil)
   }
   
-    
+  
 }

@@ -111,6 +111,34 @@ class SettingsVC: UIViewController, UISearchBarDelegate {
   
   func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
     settingSearchBar.resignFirstResponder()
+    
+    guard let searchText = searchBar.text?.lowercased() else {return}
+    
+    searchBar.text = ""
+    
+    print(searchText)
+    switch searchText.lowercased() {
+    case "profilephoto", "photo", "userphoto", "pic", "dp":
+      let storyboard = UIStoryboard(name: "OtherVC", bundle: .main)
+      if let vc = storyboard.instantiateViewController(withIdentifier: "ProfilePhotoVC") as? ProfilePhotoVC {
+        vc.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(vc, animated: true)
+      }
+    case "name", "username", "profilename":
+      let storyboard = UIStoryboard(name: "OtherVC", bundle: .main)
+      if let vc = storyboard.instantiateViewController(withIdentifier: "EditProfileVC") as? EditProfileVC {
+        vc.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(vc, animated: true)
+      }
+    case "bio", "about", "currentbio", "currentabout":
+      let storyboard = UIStoryboard(name: "OtherVC", bundle: .main)
+      if let vc = storyboard.instantiateViewController(withIdentifier: "BioVC") as? BioVC {
+        vc.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(vc, animated: true)
+      }
+    default:
+      alertMessage(message: "No such thing as \(searchText)")
+    }
   }
   
 }

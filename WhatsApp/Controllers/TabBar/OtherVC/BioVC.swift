@@ -7,13 +7,14 @@
 
 import UIKit
 
-class BioVC: UIViewController, UIGestureRecognizerDelegate {
+class BioVC: UIViewController, UIGestureRecognizerDelegate, NewlyAddedBioDelegate {
   
   @IBOutlet weak var bioTableView: UITableView!
   @IBOutlet weak var currentBioLabel: UILabel!
   @IBOutlet weak var customBioBtn: UIButton!
   
   var selectedIndexPath: IndexPath?
+  var newlyAddedBio: String?
   
   var bios: [BiosModel] = [
     BiosModel(bioText: "Hey there! I am using WhatsApp"),
@@ -33,6 +34,9 @@ class BioVC: UIViewController, UIGestureRecognizerDelegate {
   override func viewDidLoad() {
     super.viewDidLoad()
     
+    self.title = "Bio"
+    navigationController?.navigationBar.prefersLargeTitles = false
+    loadBiosFromUserDefaults()
     setupBioTableView()
     setupIndexPath()
     customBioBtn.setTitle("", for: .normal)
@@ -47,6 +51,7 @@ class BioVC: UIViewController, UIGestureRecognizerDelegate {
     if let vc = storyboard.instantiateViewController(withIdentifier: "CustomBioVC") as? CustomBioVC {
       vc.hidesBottomBarWhenPushed = true
       vc.modalPresentationStyle = .formSheet
+      vc.delegate = self
       present(vc, animated: true)
     }
   }
@@ -86,6 +91,53 @@ class BioVC: UIViewController, UIGestureRecognizerDelegate {
     }
     
   }
+  
+  func newBio(_ bio: String) {
+    print(bio)
+    newlyAddedBio = bio
+    currentBioLabel.text = bio
+    UserDefaults.standard.setValue(bio, forKey: "userBio")
+    
+    let newBio = BiosModel(bioText: bio)
+    bios.insert(newBio, at: 0)
+    
+    selectedIndexPath = IndexPath(row: 0, section: 0)
+    savedBiosToUserDefault()
+    
+    UserDefaults.standard.setValue(0, forKey: "selectedRow")
+    UserDefaults.standard.setValue(0, forKey: "selectedSection")
+    
+    
+    bioTableView.reloadData()
+  }
+  
+  func savedBiosToUserDefault() {
+    let newBios = bios.map { $0.bioText }
+    print(newBios)
+    UserDefaults.standard.set(newBios, forKey: "savedBios")
+  }
+  
+  func loadBiosFromUserDefaults() {
+    if let savedBios = UserDefaults.standard.stringArray(forKey: "savedBios") {
+      bios = savedBios.map { BiosModel(bioText: $0) }
+    } else {
+      bios = [
+        BiosModel(bioText: "Hey there! I am using WhatsApp"),
+        BiosModel(bioText: "Available"),
+        BiosModel(bioText: "Busy"),
+        BiosModel(bioText: "At school"),
+        BiosModel(bioText: "At the movies"),
+        BiosModel(bioText: "At work"),
+        BiosModel(bioText: "Battery about to die"),
+        BiosModel(bioText: "Can't talk, WhatsApp only"),
+        BiosModel(bioText: "In a meeting"),
+        BiosModel(bioText: "At the gym"),
+        BiosModel(bioText: "Sleeping"),
+        BiosModel(bioText: "Urgent calls only"),
+      ]
+    }
+  }
+  
   
 }
 

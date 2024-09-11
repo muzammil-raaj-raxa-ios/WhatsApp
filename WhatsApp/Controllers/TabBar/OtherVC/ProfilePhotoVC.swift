@@ -18,6 +18,7 @@ class ProfilePhotoVC: UIViewController, UIScrollViewDelegate {
     
     setupProfileImg()
     shareBtn.setTitle("", for: .normal)
+    self.title = ""
   }
   
   override func viewWillAppear(_ animated: Bool) {
