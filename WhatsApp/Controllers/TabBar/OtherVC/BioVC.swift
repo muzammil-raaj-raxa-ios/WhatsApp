@@ -9,6 +9,7 @@ import UIKit
 
 class BioVC: UIViewController, UIGestureRecognizerDelegate, NewlyAddedBioDelegate {
   
+  @IBOutlet weak var bioTblViewHeight: NSLayoutConstraint!
   @IBOutlet weak var bioTableView: UITableView!
   @IBOutlet weak var currentBioLabel: UILabel!
   @IBOutlet weak var customBioBtn: UIButton!
@@ -60,6 +61,13 @@ class BioVC: UIViewController, UIGestureRecognizerDelegate, NewlyAddedBioDelegat
     bioTableView.delegate = self
     bioTableView.dataSource = self
     bioTableView.register(UINib(nibName: "BioCell", bundle: .main), forCellReuseIdentifier: "BioCell")
+    updateBioTblViewHeight()
+  }
+  
+  func updateBioTblViewHeight() {
+    let noOfRows = tableView(bioTableView, numberOfRowsInSection: bios.count)
+    let height = CGFloat(noOfRows) * 50
+    bioTblViewHeight.constant = height
   }
   
   func setupIndexPath() {

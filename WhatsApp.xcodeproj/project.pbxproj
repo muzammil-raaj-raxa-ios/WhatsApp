@@ -10,6 +10,7 @@
 		361462952C808CB2001D5DE4 /* ChatsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361462942C808CB2001D5DE4 /* ChatsVC.swift */; };
 		36160CDD2C8ADF2300106EAD /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36160CDC2C8ADF2300106EAD /* EditProfileVC.swift */; };
 		362E60802C8B12D20080FCDD /* ProfilePhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362E607F2C8B12D20080FCDD /* ProfilePhotoVC.swift */; };
+		363142EA2C942669007F9F2F /* UserChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363142E92C942669007F9F2F /* UserChatVC.swift */; };
 		365116762C8867F0007E3850 /* StatusCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 365116752C8867F0007E3850 /* StatusCell.xib */; };
 		365116772C8867F0007E3850 /* StatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365116742C8867F0007E3850 /* StatusCell.swift */; };
 		366778B92C8879F30056BB33 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366778B82C8879F30056BB33 /* CircularProgressView.swift */; };
@@ -60,6 +61,7 @@
 		361462942C808CB2001D5DE4 /* ChatsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsVC.swift; sourceTree = "<group>"; };
 		36160CDC2C8ADF2300106EAD /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
 		362E607F2C8B12D20080FCDD /* ProfilePhotoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePhotoVC.swift; sourceTree = "<group>"; };
+		363142E92C942669007F9F2F /* UserChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserChatVC.swift; sourceTree = "<group>"; };
 		365116742C8867F0007E3850 /* StatusCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusCell.swift; sourceTree = "<group>"; };
 		365116752C8867F0007E3850 /* StatusCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatusCell.xib; sourceTree = "<group>"; };
 		366778B82C8879F30056BB33 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
@@ -301,6 +303,7 @@
 				369B8FFA2C8C95EE002ACA97 /* EditProfilePicVC.swift */,
 				36CA2ACC2C8EE03600B5AE6D /* BioVC.swift */,
 				36AA01902C900F3B0073D026 /* CustomBioVC.swift */,
+				363142E92C942669007F9F2F /* UserChatVC.swift */,
 			);
 			path = OtherVC;
 			sourceTree = "<group>";
@@ -495,6 +498,7 @@
 				3694E4D22C81E0AD000FCFFF /* ChatCell.swift in Sources */,
 				3699267A2C79F29800A96177 /* SceneDelegate.swift in Sources */,
 				36CA2ACD2C8EE03600B5AE6D /* BioVC.swift in Sources */,
+				363142EA2C942669007F9F2F /* UserChatVC.swift in Sources */,
 				36B4B35B2C7DDB4300B9EDE3 /* SettingsVC.swift in Sources */,
 				36DF515D2C872FED0047FAF4 /* CallModel.swift in Sources */,
 			);
@@ -653,11 +657,13 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WhatsApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to take pictures.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need access to your photo library to save images.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -684,11 +690,13 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WhatsApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to take pictures.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need access to your photo library to save images.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

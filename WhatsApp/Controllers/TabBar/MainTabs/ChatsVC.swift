@@ -120,10 +120,11 @@ class ChatsVC: UIViewController, UISearchBarDelegate {
     if #available(iOS 10.0, *) {
         let tabBarAppearance = UITabBarAppearance()
       tabBarAppearance.stackedLayoutAppearance.normal.badgeBackgroundColor = UIColor.GREEN
+      tabBarAppearance.inlineLayoutAppearance.normal.badgeBackgroundColor = UIColor.GREEN
       tabBarAppearance.stackedLayoutAppearance.normal.badgeTextAttributes = [.foregroundColor: UIColor.systemBackground]
+      tabBarAppearance.inlineLayoutAppearance.normal.badgeTextAttributes = [.foregroundColor: UIColor.systemBackground]
         tabBarController?.tabBar.standardAppearance = tabBarAppearance
     }
-
   }
   
   func refreshChats() {
@@ -166,11 +167,16 @@ extension ChatsVC: UITableViewDelegate, UITableViewDataSource {
       cell.msgsCount.text = "\(item.unreadMsgCount)"
     }
     
-    
-    
     cell.separatorInset = UIEdgeInsets(top: 0, left: 80, bottom: 0, right: 0)
     
     return cell
+  }
+  
+  func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    let storyboard = UIStoryboard(name: "OtherVC", bundle: nil)
+    if let vc = storyboard.instantiateViewController(withIdentifier: "UserChatVC") as? UserChatVC {
+      self.navigationController?.pushViewController(vc, animated: true)
+    }
   }
   
   func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

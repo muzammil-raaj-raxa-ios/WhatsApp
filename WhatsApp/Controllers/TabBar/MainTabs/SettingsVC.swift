@@ -49,7 +49,7 @@ class SettingsVC: UIViewController, UISearchBarDelegate {
   
   @IBAction func logoutBtn(_ sender: Any) {
     let alert = UIAlertController(title: "Log Out", message: "Are you sure you want to Log out ?", preferredStyle: .actionSheet)
-    alert.addAction(UIAlertAction(title: "No", style: .default, handler: nil))
+    alert.addAction(UIAlertAction(title: "No", style: .cancel, handler: nil))
     alert.addAction(UIAlertAction(title: "Yes", style: .destructive, handler: { _ in
       UserDefaults.standard.removeObject(forKey: "userName")
       UserDefaults.standard.removeObject(forKey: "profileImage")
@@ -62,6 +62,14 @@ class SettingsVC: UIViewController, UISearchBarDelegate {
         }
       }
     }))
+    
+    // Check if the device is iPad and set the source for the popoverPresentationController
+    if let popoverController = alert.popoverPresentationController {
+      popoverController.sourceView = self.view // or sender (e.g., UIButton)
+      popoverController.sourceRect = CGRect(x: self.view.bounds.midX, y: self.view.bounds.midY, width: 0, height: 0)
+      popoverController.permittedArrowDirections = []
+    }
+    
     present(alert, animated: true)
     getHapticFeedback()
     print("logout")
